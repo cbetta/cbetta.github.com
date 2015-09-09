@@ -1,0 +1,34 @@
+.bio {
+}
+
+.bio__summary {
+  text-align: center;
+}
+
+.bio__name {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.bio__avatar {
+  display: inline-block;
+  width: 40%;
+  border: 1px solid #403A48;
+  padding: 5px;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+
+.bio__summary p {
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  .bio__avatar {
+      width: 80%;
+  }
+
+  .bio__name {
+    text-align: left;
+  }
+}

@@ -1,0 +1,24 @@
+.article {
+  font-size: 1em;
+  margin-bottom: 5em;
+}
+
+.article__title a {
+  font-size: 1.1em;
+  font-family: 'Cutive Mono', Courier;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.article__date {
+  font-weight: bold;
+  font-family: 'Cutive Mono', Courier;
+  position: relative;
+  top: -0.5em;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.article p {
+  line-height: 1.6em;
+}
