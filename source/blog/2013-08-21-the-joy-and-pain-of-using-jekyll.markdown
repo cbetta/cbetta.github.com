@@ -10,6 +10,8 @@ I've been tempted to write a bit about Static Site Generators (SSGs) for a while
 
 But they have also pained me, and after reading ["The joy and pain of using a static site generator for private and client work"](http://screamingatmyscreen.com/2013/8/the-joy-and-pain-of-using-a-static-site-generator-for-private-and-client-work/) I thought I'd add in my own few observations from a Jekyll perspective.
 
+<!-- more -->
+
 ## The joys
 
 Why would I talk about Jekyll specifically? It has a lot of pros that make it
@@ -58,4 +60,3 @@ In short, I think a few suggestions for the further improvements of Jekyll, Gith
 4. Markdown should support some basic classes and indexes, allowing easier application of CSS and JS.
 
 Alternatively I highly recommend using [Middleman](http://middlemanapp.com/), another SSG that seems to solve some of the pain points described above.
-

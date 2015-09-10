@@ -2,7 +2,7 @@
 title: "Ruby on a Plane!"
 date: 2015-08-30 12:00
 comments: true
-tags: login ruby
+tags: login, ruby
 published: false
 ---
 

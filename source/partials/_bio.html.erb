@@ -1,23 +1,43 @@
 <div class="bio row">
+  <% if current_page.data.stack_bio %>
   <div class="bio__summary
-              col-sm-8 col-sm-offset-2
-              col-md-6 col-md-offset-3
-              col-lg-4 col-lg-offset-4">
-    <%= image_tag 'cbetta.jpg', class: 'bio__avatar' %>
+            col-sm-8 col-sm-offset-2
+            col-md-6 col-md-offset-3
+            col-lg-6 col-lg-offset-3">
+  <% else  %>
+  <div class="bio__summary
+              col-xs-12">
+  <% end %>
 
-    <h1 class="bio__name">
-      Cristiano Betta
-    </h1>
+    <div class="row">
+      <% if current_page.data.stack_bio %>
+      <div class="col-xs-12">
+      <% else %>
+      <div class="col-xs-12 col-md-4 col-md-offset-2">
+      <% end %>
+        <%= image_tag 'cbetta.jpg', class: 'bio__avatar' %>
+      </div>
 
-    <p>
-      Senior Developer Advocate at <a href="http://braintreepayments.com">
-      Braintree</a>, event organiser at <a href="http://geeksoflondon.com">
-      Geeks of London</a>. Board certified geek.
-    </p>
+      <% if current_page.data.stack_bio %>
+      <div class="col-xs-12">
+      <% else %>
+      <div class="col-md-12 col-md-4">
+      <% end %>
+        <h1 class="bio__name">
+          Cristiano Betta
+        </h1>
 
-    <p>
-      Loves to code in Ruby, Rails &amp; JS. Appreciates web standards,
-      continuous integration, distributed version control systems, test driven development, and coffee.
-    </p>
+        <p>
+          Senior Developer Advocate at <a href="http://braintreepayments.com">
+          Braintree</a>, event organiser at <a href="http://geeksoflondon.com">
+          Geeks of London</a>. Board certified geek.
+        </p>
+
+        <p>
+          Loves to code in Ruby, Rails &amp; JS. Appreciates web standards,
+          continuous integration, distributed version control systems, test driven development, and coffee.
+        </p>
+      </div>
+    </div>
   </div>
 </div>

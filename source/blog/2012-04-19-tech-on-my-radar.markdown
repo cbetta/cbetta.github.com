@@ -3,12 +3,15 @@
 title: "Tech on my radar"
 date: 2012-04-19 23:19
 comments: true
-tags: information ruby
+tags: information, ruby
 ---
 
 Here are just some interesting gems and other software that have caught my attention recently:
 
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) makes it easy to use zshell as a replacement for bash on OS X. It is very easy to install and comes with a whole bunch of useful plugins. I've only really dived half into it but already feel like it's been making my console better. I personally love how it shows the Git branch I'm working on at the moment.
+
+<!-- more -->
+
 * [Bloom Filters](http://en.wikipedia.org/wiki/Bloom_filter) are a very cool way of doing a quick and space efficient lookup if an item exists in a set. It's used by databases and caches, and Google uses it for their Save Browsing service. There's some cool [ruby gems](https://github.com/igrigorik/bloomfilter-rb) that make it easy to use them and I already have an idea where to deploy them next.
 * [How Github uses Github](http://zachholman.com/talk/how-github-uses-github-to-build-github) is pretty much how we use Github at EmberAds. The more we do it the more I see the benefits especially:
   * We work asynchronously

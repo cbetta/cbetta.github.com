@@ -13,22 +13,34 @@
 .bio__avatar {
   display: inline-block;
   width: 40%;
-  border: 1px solid #403A48;
+  border: 1px solid #2E58A1;
   padding: 5px;
   border-radius: 50%;
   margin-bottom: 2em;
+}
+
+.col-md-4 .bio__avatar {
+  width: 80%;
+  max-width: 300px;
 }
 
 .bio__summary p {
   text-align: left;
 }
 
+@media (min-width: 992px) {
+  .col-md-4 .bio__name {
+    text-align: left;
+  }
+}
+
 @media (max-width: 500px) {
   .bio__avatar {
-      width: 80%;
+     width: 80%;
   }
 
   .bio__name {
+    font-size: 1.5em;
     text-align: left;
   }
 }

@@ -1,0 +1,26 @@
+.pagination {
+  display: block;
+  overflow: auto;
+  margin-bottom: 7em;
+}
+
+.pagination a {
+  padding: 0.5em 0.2em;
+  font-family: 'Cutive Mono', Courier;
+  text-decoration: none;
+  background-color: #f5f5f5;
+  width: 50%;
+
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.pagination__next {
+  float: right;
+  text-align: right;
+}
+
+.pagination__prev {
+  float: left;
+}

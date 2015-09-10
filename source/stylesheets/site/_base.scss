@@ -1,16 +1,17 @@
-*, body {
-  font-family: 'Martel', serif;
-  font-weight: 200;
-  font-size: 16px;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cutive Mono', Courier;
+  font-weight: bold;
 }
 
 .container {
-  padding-top: 7em;
-  padding-bottom: 7em;
+  padding-top: 8em;
+  padding-bottom: 8em;
   position: relative;
 }
 

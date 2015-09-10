@@ -6,8 +6,12 @@
 }
 
 .navigation__brand {
+  display: block;
+  text-align: center;
   color: black;
   font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
   font-family: 'Cutive Mono', Courier;
 }
 
@@ -27,12 +31,10 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
   .navigation__links {
-    text-align: left;
-
-    a:first-child {
-      padding-left: 0;
+    li a {
+      padding: 0 0.5em;
     }
   }
 }

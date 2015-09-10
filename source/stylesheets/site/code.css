@@ -1,0 +1,10 @@
+.highlight {
+  margin: 2em 0;
+  overflow: scroll;
+}
+
+.highlight code {
+  font-family: 'Cutive Mono', Courier;
+  line-height: 1.5em;
+  font-size: 14px;
+}

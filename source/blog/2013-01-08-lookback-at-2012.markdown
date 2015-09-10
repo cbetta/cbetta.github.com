@@ -3,12 +3,14 @@
 title: "A look back at 2012"
 date: 2013-01-08 22:10
 comments: true
-tags: information ruby rails
+tags: information, ruby, rails
 ---
 
 With all the new years resolutions out of the way I want to share what (programming) skills I learned or revisited in 2012.
 
 This will be more positive than looking back in a year and counting the things I promised but didn't do.
+
+<!-- more -->
 
 ## Programming skills
 
@@ -27,8 +29,6 @@ I don't remember who said this but it really has started to ring truth to me in 
 Learning to write tests has always been at the top of my list of things to learn but I somehow never got to it. Luckily Caius and Baz wouldn't allow any code to go untested and it soon became a much loved practice. It is a hard skill to master though so I don't blame my past self.
 
 I think it's a skill best learned by example and from a colleague. I still feel like I'm learning more and more about the intricate aspects though as it's relatively easy to write a test that tests too much or too little. We'll see where I am at the end of 2013.
-
-<!-- more -->
 
 #### Server deployment with Puppet
 
@@ -73,6 +73,3 @@ Sadly I hurt my knee just after being able to hit a regular 5km. I now changed m
 After years of postponing I finally did it and got my license. Sadly driving is really expensive for a new driver in London, and driving a rental isn't an option either.
 
 The plan is to sell the current car in August and move on to something like ZipCar. I did the math and it's quite simple: my usage is so low that I can even rent quite a nice car for a week every so often to head to The Netherlands, and still come out with money saved.
-
-
-

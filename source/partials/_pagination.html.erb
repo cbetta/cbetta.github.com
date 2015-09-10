@@ -1,0 +1,9 @@
+<div class="pagination">
+    <% if next_page %>
+      <%= link_to '< older', next_page, class: "pagination__prev" %>
+    <% end %>
+
+    <% if prev_page %>
+      <%= link_to 'newer >', prev_page, class: "pagination__next" %>
+    <% end %>
+</div>

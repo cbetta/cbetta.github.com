@@ -25,6 +25,8 @@ end
 
 page "/atom.xml", layout: false
 
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 ###
 # Helpers
@@ -35,6 +37,7 @@ page "/atom.xml", layout: false
 
 activate :livereload
 activate :directory_indexes
+activate :syntax
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'

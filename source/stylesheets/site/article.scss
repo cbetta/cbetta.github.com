@@ -1,24 +1,90 @@
 .article {
   font-size: 1em;
+  padding-bottom: 5em;
+  color: #3E3C42;
+}
+
+.article--delimited {
+  border-bottom: 1px solid #ddd;
   margin-bottom: 5em;
 }
 
+.article__title {
+  color: #2E58A1;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  margin-top: 0;
+}
+
 .article__title a {
-  font-size: 1.1em;
+  font-size: 1em;
   font-family: 'Cutive Mono', Courier;
   line-height: 1.2em;
   font-weight: bold;
 }
 
 .article__date {
-  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+  opacity: 0.5;
+  display: block;
+}
+
+.article__tags {
   font-family: 'Cutive Mono', Courier;
-  position: relative;
-  top: -0.5em;
   display: block;
   margin-bottom: 1em;
+  font-size: 0.8em;
 }
 
 .article p {
-  line-height: 1.6em;
+  line-height: 1.8em;
+  margin-bottom: 1em;
+}
+
+.article p a {
+  font-weight: 600;
+}
+
+.article {
+  h2 {
+    margin-top: 2em;
+  }
+
+  .article__date + h2,
+  .article__date + h3 {
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #444;
+  }
+}
+
+.article ul li, .article ol li {
+  margin-bottom: 0.5em;
+}
+
+.article img {
+  max-width: 100%;
+  border: 0.5em solid #DDD;
+  margin: 1em 0;
+}
+
+.article .article__more {
+  font-family: 'Cutive Mono', Courier;
+  display: block;
+  background-color: #F5F5F5;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.6;
+    text-decoration: none;
+  }
 }
