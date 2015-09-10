@@ -6,6 +6,7 @@ gem "middleman-livereload", "~> 3.4.3"
 gem "middleman-syntax"
 gem "builder", "~> 3.0"
 gem "redcarpet"
+gem "middleman-disqus"
 
 source "https://rails-assets.org" do
   gem "rails-assets-bootstrap"

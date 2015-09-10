@@ -38,6 +38,9 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 activate :livereload
 activate :directory_indexes
 activate :syntax
+activate :disqus do |d|
+  d.shortname = 'bettacoding'
+end
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'

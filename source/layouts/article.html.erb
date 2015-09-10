@@ -5,6 +5,7 @@
     <div class="article article--delimited">
       <%= partial 'partials/article-title', locals: { article: current_page } %>
       <%= yield %>
+      <%= disqus %>
     </div>
   </div>
 </div>
