@@ -1,13 +1,7 @@
 <% wrap_layout :default do %>
-
-<div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    <div class="article article--delimited">
-      <%= partial 'partials/article-title', locals: { article: current_page } %>
-      <%= yield %>
-      <%= disqus %>
-    </div>
+  <div class="article article--delimited">
+    <%= partial 'partials/article-title', locals: { article: current_page } %>
+    <%= yield %>
+    <%= disqus %>
   </div>
-</div>
-
 <% end %>

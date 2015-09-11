@@ -3,25 +3,18 @@ pageable: true
 per_page: 5
 layout: blog
 ---
-<div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    <% page_articles.each_with_index do |article, i| %>
-      <div class="article">
-        <%= partial 'partials/article-title', locals: { article: article } %>
 
-        <%= article.summary %>
+<% page_articles.each_with_index do |article, i| %>
+  <div class="article">
+    <%= partial 'partials/article-title', locals: { article: article } %>
 
-        <p>
-          <%= link_to "...", article, class: 'article__more' %>
-        </p>
-      </div>
-    <% end %>
+    <%= article.summary %>
 
-
-    <%= partial 'partials/pagination', locals: { prev_page: prev_page, next_page: next_page } %>
-
+    <p>
+      <%= link_to "...", article, class: 'article__more' %>
+    </p>
   </div>
+<% end %>
 
 
-
-</div>
+<%= partial 'partials/pagination', locals: { prev_page: prev_page, next_page: next_page } %>
