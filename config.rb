@@ -46,7 +46,7 @@ end
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.remote = "origin"
-  deploy.branch = "master"
+  deploy.branch = "gh-pages"
   deploy.strategy = :force_push
   deploy.build_before = true
 end
