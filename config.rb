@@ -43,6 +43,12 @@ activate :disqus do |d|
   d.shortname = 'bettacoding'
 end
 
+activate :cloudfront do |cf|
+  cf.access_key_id = 'AKIAJ23SPLRICBEYI62A'
+  cf.secret_access_key = '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'
+  cf.distribution_id = 'E1MEX2ODNT3S93'
+end
+
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.remote = "origin"

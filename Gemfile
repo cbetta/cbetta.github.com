@@ -9,6 +9,7 @@ gem "builder", "~> 3.0"
 gem "middleman-disqus"
 gem "middleman-deploy"
 gem "turbolinks", require: false
+gem "middleman-cloudfront"
 
 source "https://rails-assets.org" do
   gem "rails-assets-bootstrap"
