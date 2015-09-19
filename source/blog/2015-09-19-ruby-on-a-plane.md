@@ -9,6 +9,8 @@ In the past few years I've spent an awful lot of time at airports, on airplanes,
 
 I've learned some tricks to keep me going in these situations, working on new and existing Ruby/Rails apps in airport lounges, hotel lobbies, and on airplanes.
 
+<!-- more -->
+
 ## Prerequisites
 
 Most of the tips below assume that you mostly use the same stack in every project. I know I do and I try to keep my projects up to the latest Rails version as much as I can. In all reality though, the tips below should even work in more complex situations.
