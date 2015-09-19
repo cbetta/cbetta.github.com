@@ -1,5 +1,5 @@
 <span class='article__date'>
-  <%= article.date.strftime('%A %B %e, %Y') %>
+  <%= link_to article.date.strftime('%A %B %e, %Y'), blog_month_path(article.date.year, article.date.month) %>
 </span>
 <h1 class='article__title'>
   <%= link_to article.title, article %>
