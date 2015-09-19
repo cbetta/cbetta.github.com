@@ -35,7 +35,10 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-activate :livereload
+configure :development do
+  activate :livereload
+end
+
 activate :directory_indexes
 activate :syntax
 
