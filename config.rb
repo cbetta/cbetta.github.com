@@ -35,10 +35,7 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-configure :development do
-  activate :livereload
-end
-
+activate :livereload
 activate :directory_indexes
 activate :syntax
 
@@ -49,7 +46,7 @@ end
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.remote = "origin"
-  deploy.branch = "gh-pages"
+  deploy.branch = "master"
   deploy.strategy = :force_push
   deploy.build_before = true
 end
