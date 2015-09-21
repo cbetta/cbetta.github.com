@@ -9,12 +9,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-.container {
-  padding-top: 8em;
-  padding-bottom: 8em;
-  position: relative;
-}
 
 a {
   color: #2E58A1;
+}
+
+.navigation__links {
+  list-style: none;
+  padding: 0;
+
 }

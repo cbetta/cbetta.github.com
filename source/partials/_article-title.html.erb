@@ -6,6 +6,6 @@
 </h2>
 <span class='article__tags'>
   <% article.tags.each do |tag| %>
-    <%= link_to "&lt#{tag}/&gt", tag_path(tag) %>
+    <%= link_to tag, tag_path(tag) %>
   <% end %>
 </span>

@@ -42,6 +42,14 @@ h1 + .article {
   font-size: 0.8em;
 }
 
+.article__tags a:before {
+  content: "<";
+}
+
+.article__tags a:after {
+  content: "/>";
+}
+
 .article p {
   line-height: 1.9em;
   margin-bottom: 1em;
