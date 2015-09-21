@@ -20,13 +20,8 @@ a {
 
 }
 
-.container {
-  padding-top: 8em;
-  padding-bottom: 8em;
-  position: relative;
-}
-
-.index .container {
+.container__content {
   padding-top: 3em;
-
+  padding-bottom: 3em;
+  position: relative;
 }

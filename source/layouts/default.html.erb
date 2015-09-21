@@ -15,9 +15,16 @@
   </head>
   <body class="<%= page_classes %>">
     <div class="container">
-      <%= partial "partials/navigation" unless root? %>
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
+          <%= partial "partials/navigation" unless root? %>
+        </div>
+      </div>
+    </div>
+    <div class="container container__content">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
           <%= yield %>
         </div>
       </div>
