@@ -8,7 +8,6 @@ gem "middleman-syntax"
 gem "builder", "~> 3.0"
 gem "middleman-disqus"
 gem "middleman-deploy"
-gem "turbolinks", require: false
 gem "middleman-cloudfront"
 gem "middleman-google-analytics"
 gem 'middleman-inliner'

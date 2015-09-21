@@ -7,10 +7,8 @@
     <meta name="description" content="<%= description %>">
     <meta name="keywords" content="<%= current_page.data.tags + ", " if current_page.data.tags %>cristiano, betta, paypal, braintree, ruby, rails, payments, developer, advocate">
 
-    <style media="screen">
-      <%= File.read( File.expand_path("source/stylesheets/base.css") ) %>
-    </style>
-    <%= javascript_include_tag  "all", async: true %>
+    <%= stylesheet_link_tag "all" %>
+    <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:400,400italic,300,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
     <%= feed_tag :atom, "/atom.xml", title: "Atom Feed" %>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -26,6 +24,5 @@
       <%= partial "partials/bio" %>
     </div>
     <%= google_analytics_tag %>
-    <%= partial 'partials/defer_css' %>
   </body>
 </html>
