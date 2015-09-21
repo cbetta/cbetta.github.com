@@ -25,3 +25,8 @@ a {
   padding-bottom: 8em;
   position: relative;
 }
+
+.index .container {
+  padding-top: 3em;
+
+}

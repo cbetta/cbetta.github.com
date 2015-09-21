@@ -44,6 +44,10 @@ helpers do
       "Cristiano Betta - Senior Developer Advocate @ Braintree and PayPal"
     end
   end
+
+  def root?
+    current_page.path == 'index.html'
+  end
 end
 
 # Automatic image dimensions on image_tag helper

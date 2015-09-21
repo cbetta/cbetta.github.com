@@ -11,7 +11,6 @@
 
 .navigation__brand {
   display: block;
-  text-align: center;
   color: black;
   font-weight: bold;
   font-size: 0.7em;
@@ -22,7 +21,6 @@
 .navigation__links {
   width: 100%;
   display: block;
-  text-align: center;
 
   li {
     display: inline;
@@ -31,6 +29,19 @@
       font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
     }
   }
+
+  li:first-child a {
+    padding-left: 0;
+  }
+
+  li:last-child a {
+    padding-right: 0;
+  }
+}
+
+.bio .navigation__links {
+  margin: 0 0 2em 0;
+  text-align: center;
 }
 
 @media (max-width: 500px) {

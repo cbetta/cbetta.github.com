@@ -3,7 +3,7 @@ h1 + .article {
 }
 
 .article {
-  font-size: 1em;
+  font-size: 0.9em;
   padding-bottom: 5em;
   color: #3E3C42;
 }
@@ -18,6 +18,8 @@ h1 + .article {
   font-weight: bold;
   margin-bottom: 0.2em;
   margin-top: 0;
+  font-size: 2em;
+  padding: 0 2em 0 0;
 }
 
 .article__title a {
@@ -38,7 +40,7 @@ h1 + .article {
 .article__tags {
   font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
   display: block;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   font-size: 0.8em;
 }
 
@@ -60,18 +62,17 @@ h1 + .article {
 }
 
 .article {
-  h2 {
-    margin-top: 2em;
+  h3 {
+    margin: 2em 0 1em 0;
+    text-align: center;
+    font-size: 1.8em;
   }
 
-  .article__date + h2,
-  .article__date + h3 {
+  .article__date + h3,
+  .article__date + h4 {
     margin-top: 0;
   }
 
-  h2 {
-    font-size: 2em;
-  }
 
   strong {
     font-weight: 600;
