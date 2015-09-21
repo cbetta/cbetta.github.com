@@ -4,7 +4,7 @@
 }
 
 .highlight code {
-  font-family: 'Cutive Mono', Courier;
+  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
   line-height: 1.5em;
   font-size: 14px;
 }

@@ -16,7 +16,7 @@
   font-weight: bold;
   font-size: 0.7em;
   padding-top: 0em !important;
-  font-family: 'Cutive Mono', Courier;
+  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
 }
 
 .navigation__links {
@@ -30,7 +30,7 @@
     display: inline;
     a {
       padding: 0 1em;
-      font-family: 'Cutive Mono', Courier;
+      font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
     }
   }
 }

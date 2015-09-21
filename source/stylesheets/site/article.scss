@@ -22,7 +22,7 @@ h1 + .article {
 
 .article__title a {
   font-size: 1em;
-  font-family: 'Cutive Mono', Courier;
+  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
   line-height: 1.2em;
   font-weight: bold;
 }
@@ -36,7 +36,7 @@ h1 + .article {
 }
 
 .article__tags {
-  font-family: 'Cutive Mono', Courier;
+  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
   display: block;
   margin-bottom: 1em;
   font-size: 0.8em;
@@ -82,7 +82,7 @@ h1 + .article {
 }
 
 .article .article__more {
-  font-family: 'Cutive Mono', Courier;
+  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
   display: block;
   background-color: #F5F5F5;
   text-align: center;
