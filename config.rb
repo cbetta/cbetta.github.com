@@ -52,6 +52,7 @@ end
 activate :livereload
 activate :directory_indexes
 activate :syntax
+activate :inliner
 
 activate :disqus do |d|
   d.shortname = 'bettacoding'

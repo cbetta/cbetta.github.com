@@ -6,9 +6,10 @@
     <title><%= current_article.title + ' - ' unless current_article.nil? %> Cristiano Betta - Senior Developer Advocate @ Braintree and PayPal</title>
     <meta name="description" content="<%= description %>">
     <meta name="keywords" content="<%= current_page.data.tags + ", " if current_page.data.tags %>cristiano, betta, paypal, braintree, ruby, rails, payments, developer, advocate">
-    <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:400,400italic,300,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
-    <%= stylesheet_link_tag "base" %>
+    <style media="screen">
+      <%= File.read( File.expand_path("source/stylesheets/base.css") ) %>
+    </style>
     <%= javascript_include_tag  "all", async: true %>
 
     <%= feed_tag :atom, "/atom.xml", title: "Atom Feed" %>
@@ -25,7 +26,6 @@
       <%= partial "partials/bio" %>
     </div>
     <%= google_analytics_tag %>
-    <noscript><%= stylesheet_link_tag "all" %></noscript>
-    <%= javascript_include_tag  "css", async: true %>
+    <%= partial 'partials/defer_css' %>
   </body>
 </html>

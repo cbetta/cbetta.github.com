@@ -11,6 +11,7 @@ gem "middleman-deploy"
 gem "turbolinks", require: false
 gem "middleman-cloudfront"
 gem "middleman-google-analytics"
+gem 'middleman-inliner'
 
 source "https://rails-assets.org" do
   gem "rails-assets-bootstrap"
