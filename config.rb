@@ -32,6 +32,20 @@ set :markdown, :fenced_code_blocks => true, :smartypants => true
 # Helpers
 ###
 
+helpers do
+  def description
+    if current_page.data.description
+      current_page.data.description
+    elsif current_page.try(:summary)
+      Nokogiri::HTML(current_page.summary).text.split(" ").join(" ")
+    elsif !current_page.data.default_description
+      Nokogiri::HTML(page_articles.first.summary).text.split(" ").join(" ")
+    else
+      "Cristiano Betta - Senior Developer Advocate @ Braintree and PayPal"
+    end
+  end
+end
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 

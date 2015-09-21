@@ -14,13 +14,13 @@ I found the installation rather tedious and as this was a hackathon I decided to
 
 <!-- more -->
 
-## Introducing Dokkufy
+### Introducing Dokkufy
 
 [Dokkufy](https://github.com/cbetta/dokkufy) is a Ruby gem that makes it super simple to set up your own mini-Heroku on your own server.
 
 Simply install with a swift `gem install dokkufy` and you're ready to "dokkufy" both your server and your app.
 
-### Part 1: Dokkufying your server
+#### Part 1: Dokkufying your server
 
 Dokku only works with Ubuntu 12.04 and 14.04 server, so go get one of those images and boot up a server.
 
@@ -40,7 +40,7 @@ Open up your server's domain or IP in a browser and voila!
 
 ![Nginx](/images/blog/2014/nginx.png)
 
-### Part 2a: Dokkufying your app
+#### Part 2a: Dokkufying your app
 
 Now that we have a Dokku server ready to go it's time to prepare your app.
 
@@ -98,7 +98,7 @@ git push dokku master
 
 Dokku will automatically create your project for you on first push and deploy your app to a subdomain of your chosen domain. In this case we deployed our app to [http://node-js-sample.ppd.io](http://node-js-sample.ppd.io).
 
-### Part 2b: Controlling Dokku
+#### Part 2b: Controlling Dokku
 
 When you install Dokku on your server it gives you some handy commands. Sadly to run those from your local machine you need to perform some ssh-fu.
 

@@ -12,15 +12,15 @@ Some of the issues highlighted here are taken from [Ben Smith's enlightening (bu
 
 <!-- more -->
 
-## Disclaimer
+### Disclaimer
 
 I am not a security expert. I am just a Ruby developer and a gem author that is worried about the current state of the Ruby gems ecosystem. I also am worried that the next negative news around Ruby will involve the problems described below.
 
-## What are Ruby gems and what is Rubygems.org?
+### What are Ruby gems and what is Rubygems.org?
 
 For those not familiar, [Rubygems.org](http://rubygems.org) is the most popular repository of "gems" for the [Ruby language](http://rubylang.org). Gems are libraries made up out of Ruby (and optionally C) code and can be uploaded by anyone who registered for an account. Rubygems.org currently hosts 50,685 gems which have been downloaded 1,259,533,358 times since July 2009. Ruby gems are not only hosted on Rubygems.org, anyone can run their own repository but Rubygems.org is definitely the most used one.
 
-## Current state
+### Current state
 
 Some parts of the current infrastructure are worrying.
 
@@ -34,7 +34,7 @@ Some parts of the current infrastructure are worrying.
 
 * **Gems can run code on install.** This is probably the most interesting attack vector in the foreseeable future. It seems this feature was relatively unintentional as it involves tying into the fact that Ruby gems can contain C code. Running code on install will mean that gems can steal the unencrypted Rubygems.org credentials which can then be used to modify the compromised user's gems and spread the malicious code further.
 
-## Proposals for change
+### Proposals for change
 
 * **Notify gem owners of newly published gems.** Adding a simple email notification to the gem owner will at least allow for easier detection of compromised gems. Sadly at this point the gem is already compromised and possibly already spread over any mirrors and downloaded by users.
 
@@ -48,11 +48,11 @@ Some parts of the current infrastructure are worrying.
 
 * **Notify gem users of unsigned/insecure gems.** The rubygem binary (together with tools like [Bundler](http://gembundler.com/)) should be updated to allow for verification of signatures which will allow it to notify gem users of unsigned or compromised gems.
 
-## How can I help?
+### How can I help?
 
 * **Code:** [rubygems](https://github.com/rubygems), [rubygems-trust](https://github.com/rubygems-trust)(fork for implementing a signed approach)
 * **Discussion:** #rubygems and #rubygems-trust on Freenode
 
-## Did I miss anything?
+### Did I miss anything?
 
 Please let me know and I'll add it to the list.

@@ -19,11 +19,11 @@ All the code for this tutorial is available on [Github](https://github.com/cbett
 
 <!-- more -->
 
-## Acquiring credentials
+### Acquiring credentials
 
 **Log In With PayPal** uses OAuth 2.0/OpenID Connect 1.0 and the full documentation can be found on the [PayPal developer portal](https://developer.paypal.com/). Because it's based on OAuth 2.0 we're going to have to get some OAuth credentials that we can use in our app.
 
-### Creating an application profile
+#### Creating an application profile
 
 The developer portal doubles as the sandbox and application control panel. Head over and login to get yourself some fresh credentials.
 
@@ -35,7 +35,7 @@ The developer portal doubles as the sandbox and application control panel. Head 
 
 Your app is now created and you can find your credentials under **Application Details**. Please note that there are 2 sets of credentials. Your live credentials can be used for actual payments and actual logins with real PayPal accounts. Your test credentials are there for using **sandbox accounts** (read fake/mock accounts) when in development.
 
-### Enabling Log In With PayPal
+#### Enabling Log In With PayPal
 
 We are going to have to enable Log In With PayPal for our app.
 
@@ -48,7 +48,7 @@ We are going to have to enable Log In With PayPal for our app.
 
 Optionally you can now toggle **Accept Payments** to off if you don't intend to take payments with this app.
 
-### Test accounts
+#### Test accounts
 
 If you want to run Log In With PayPal in sandbox (a.k.a. test) mode you will need to create some fake test accounts.
 
@@ -63,11 +63,11 @@ If you want to run Log In With PayPal in sandbox (a.k.a. test) mode you will nee
 
 Using sandbox account for Log In With PayPal is very useful as it allows you to login as different users. At no point should you be sharing your live PayPal username and password with other developers for testing.
 
-## Integration
+### Integration
 
 Assuming a plain Rails app adding Log In With PayPal is now pretty straightforward.
 
-### Add omniauth
+#### Add omniauth
 
 Add the omniauth gem to your `Gemfile` and bundle.
 
@@ -85,7 +85,7 @@ end
 
 Replace the `"AZj...yjx"` and `"EL4...Q3s"` with own API Client ID and Secret respectively. Also make sure to set the sandbox value to `false` when using your Live API credentials.
 
-### Handle login
+#### Handle login
 
 Now that your app is setup and running visit `http://127.0.0.1:3000/auth/paypal` to start the login. Go try it and use that test account you just set up!
 
@@ -140,11 +140,11 @@ class SessionsController < ApplicationController
 end
 ```
 
-## Advanced
+### Advanced
 
 That's it! Most of my code can be seen on [Github](https://github.com/cbetta/login-with-paypal-demo-rails) and it includes a full login and logout. I want to highlight a few extra things though that are available to you that are pretty useful.
 
-### More user details
+#### More user details
 
 Getting the user's UID is fun but rather limiting. Luckily Log In With PayPal allows for a whole lot of [extra attributes](https://developer.paypal.com/webapps/developer/docs/integration/direct/log-in-with-paypal/detailed/#attributes) to be requested. By default you have access to all attributes in the `openid` [scope](https://developer.paypal.com/webapps/developer/docs/integration/direct/log-in-with-paypal/detailed/#attributes).
 
@@ -186,7 +186,7 @@ class SessionsController < ApplicationController
 end
 ```
 
-### Omniauth test mode
+#### Omniauth test mode
 
 Omniauth can be slow and especially in tests this can be frustrating. Luckily Omniauth has a **test mode** that allows you to skip the PayPal flow and just "pretend" like a user has logged in.
 
@@ -207,6 +207,6 @@ OmniAuth.config.mock_auth[:paypal] =  OmniAuth::AuthHash.new({
 
 Your app will now skip the PayPal servers and login with the details from above. I use this a lot in my automatic tests.
 
-## Next
+### Next
 
 That's it for now but I will soon be doing a few more of these. I'm planning at least an overview of how to do this in Sinatra and I also want to demo how to use [Seamless Checkout](https://developer.paypal.com/webapps/developer/docs/integration/direct/log-in-with-paypal/detailed/#seamlesscheckout) on top of this tutorial.

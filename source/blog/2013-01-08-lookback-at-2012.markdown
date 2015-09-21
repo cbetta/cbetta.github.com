@@ -12,7 +12,7 @@ This will be more positive than looking back in a year and counting the things I
 
 <!-- more -->
 
-## Programming skills
+### Programming skills
 
 #### Advanced Ruby
 
@@ -60,7 +60,7 @@ One of the more subtle but definitely biggest changes last year was working in a
 
 [Campfire](http://campfirenow.com/), [Github](http://github.com), and [DropBox](http://dropbox.com) have been our big friends in 2012.
 
-## Non programming skills
+### Non programming skills
 
 #### Running
 

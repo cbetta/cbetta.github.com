@@ -5,13 +5,17 @@
   line-height: 1.6em;
 }
 
+.navigation h1 {
+  margin-top: 0;
+}
+
 .navigation__brand {
   display: block;
   text-align: center;
   color: black;
   font-weight: bold;
-  font-size: 1.3em;
-  margin-bottom: 0.5em;
+  font-size: 0.7em;
+  padding-top: 0em !important;
   font-family: 'Cutive Mono', Courier;
 }
 

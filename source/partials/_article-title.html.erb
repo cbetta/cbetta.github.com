@@ -1,9 +1,9 @@
 <span class='article__date'>
   <%= link_to article.date.strftime('%A %B %e, %Y'), blog_month_path(article.date.year, article.date.month) %>
 </span>
-<h1 class='article__title'>
+<h2 class='article__title'>
   <%= link_to article.title, article %>
-</h1>
+</h2>
 <span class='article__tags'>
   <% article.tags.each do |tag| %>
     <%= link_to "&lt#{tag}/&gt", tag_path(tag) %>
