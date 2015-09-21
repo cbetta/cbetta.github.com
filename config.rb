@@ -57,6 +57,10 @@ activate :cloudfront do |cf|
   cf.distribution_id = 'E1MEX2ODNT3S93'
 end
 
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-2925354-7'
+end
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'

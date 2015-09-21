@@ -10,6 +10,7 @@ gem "middleman-disqus"
 gem "middleman-deploy"
 gem "turbolinks", require: false
 gem "middleman-cloudfront"
+gem "middleman-google-analytics"
 
 source "https://rails-assets.org" do
   gem "rails-assets-bootstrap"
