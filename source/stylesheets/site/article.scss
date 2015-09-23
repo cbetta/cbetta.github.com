@@ -19,13 +19,15 @@ h1 + .article {
   margin-bottom: 0.2em;
   margin-top: 0;
   font-size: 2em;
-  padding: 0 2em 0 0;
+  padding: 0 2em 0 2em;
 }
 
 .article__title a {
   font-size: 1em;
   font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
   line-height: 1.2em;
+  text-align: center;
+  display: block;
   font-weight: bold;
 }
 
@@ -35,6 +37,7 @@ h1 + .article {
   font-size: 0.8em;
   opacity: 0.5;
   display: block;
+  text-align: center;
 }
 
 .article__tags {
@@ -42,6 +45,7 @@ h1 + .article {
   display: block;
   margin-bottom: 2em;
   font-size: 0.8em;
+  text-align: center;
 }
 
 .article__tags a:before {
@@ -99,5 +103,15 @@ h1 + .article {
   &:hover {
     opacity: 0.6;
     text-decoration: none;
+  }
+}
+
+@media (max-width: 500px){
+  .article__title {
+    padding: 0;
+
+    a {
+      font-size: 0.7em;
+    }
   }
 }

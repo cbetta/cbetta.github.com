@@ -20,8 +20,21 @@ a {
 
 }
 
-.container__content {
-  padding-top: 3em;
+.container--content {
+  padding-top: 8em;
   padding-bottom: 3em;
   position: relative;
+}
+
+.container--fixed {
+  position: fixed;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  z-index: 10;
+  width: 100%;
+  overflow: auto;
+  -webkit-box-shadow: 10px 0.5em 4em #fff;
+  -moz-box-shadow: 10px 0.5em 4em #fff;
+  box-shadow: 10px 0.5em 4em #fff;
 }
