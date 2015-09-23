@@ -37,7 +37,7 @@ helpers do
     if current_page.data.description
       current_page.data.description
     elsif current_page.try(:summary)
-      Nokogiri::HTML(current_page.summary).text.split(" ").join(" ")
+      Nokogiri::HTML(current_page.summary).text.split(" ").join(" ")[0..140]+'...'
     elsif !current_page.data.default_description
       Nokogiri::HTML(page_articles.first.summary).text.split(" ").join(" ")
     else
