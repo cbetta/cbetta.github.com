@@ -53,9 +53,9 @@ helpers do
 
   def image
     if current_page.data.image
-      "#{url_root}/images/#{current_page.data.image}"
+      url_root+image_path(current_page.data.image)
     else
-      "#{url_root}/images/cbetta.jpg"
+      url_root+image_path('cbetta.jpg')
     end
   end
 
