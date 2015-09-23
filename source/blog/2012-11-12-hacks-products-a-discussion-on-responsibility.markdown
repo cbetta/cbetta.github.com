@@ -1,6 +1,6 @@
 ---
 
-title: "Hacks/Products - A discussion on responsibility"
+title: "Hacks / Products - A discussion on responsibility"
 date: 2012-11-12 17:35
 comments: true
 tags: hackdays, events
