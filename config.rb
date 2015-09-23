@@ -1,6 +1,7 @@
 Time.zone = "UTC"
 
 set :url_root, 'https://betta.io'
+set :site_title, 'Cristiano Betta - Senior Developer Advocate @ Braintree and PayPal'
 
 activate :blog do |blog|
   blog.prefix = "blog"
@@ -41,7 +42,7 @@ helpers do
     elsif !current_page.data.default_description
       Nokogiri::HTML(page_articles.first.summary).text.split(" ").join(" ")
     else
-      "Cristiano Betta - Senior Developer Advocate @ Braintree and PayPal"
+      site_title
     end
   end
 
