@@ -19,12 +19,12 @@
     <meta property="fb:app_id" content="416450921881127" />
     <meta property="og:type" content="<%= current_article.nil? ? "website" : "article" %>" />
     <meta property="og:image" content="<%= image %>" />
-    <meta property="og:url" content="<%= url_root %>" />
+    <meta property="og:url" content="<%= url_root + current_page.url %>" />
 
     <% unless current_article.nil?  %>
     <meta property="article:author" content="https://www.facebook.com/cbetta" />
     <% end %>
-    
+
     <%= stylesheet_link_tag "all" %>
     <link href='https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:400,400italic,300,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
