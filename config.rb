@@ -1,5 +1,7 @@
 Time.zone = "UTC"
 
+set :url_root, 'https://betta.io'
+
 activate :blog do |blog|
   blog.prefix = "blog"
 
@@ -28,9 +30,7 @@ page "/atom.xml", layout: false
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
-###
-# Helpers
-###
+activate :search_engine_sitemap
 
 helpers do
   def description

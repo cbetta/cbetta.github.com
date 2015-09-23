@@ -10,7 +10,7 @@ gem "middleman-disqus"
 gem "middleman-deploy"
 gem "middleman-cloudfront"
 gem "middleman-google-analytics"
-gem 'middleman-inliner'
+gem 'middleman-search_engine_sitemap'
 
 source "https://rails-assets.org" do
   gem "rails-assets-bootstrap"
