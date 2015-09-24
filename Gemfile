@@ -7,7 +7,7 @@ gem "redcarpet"
 gem "middleman-syntax"
 gem "builder", "~> 3.0"
 gem "middleman-disqus"
-gem "middleman-deploy"
+gem 'middleman-s3_sync'
 gem "middleman-cloudfront"
 gem "middleman-google-analytics"
 gem 'middleman-search_engine_sitemap'

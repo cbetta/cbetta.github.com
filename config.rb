@@ -77,17 +77,17 @@ activate :disqus do |d|
   d.shortname = 'bettacoding'
 end
 
-activate :deploy do |deploy|
-  deploy.method = :git
-  deploy.remote = "origin"
-  deploy.branch = "master"
-  deploy.strategy = :force_push
-  deploy.build_before = true
+
+activate :s3_sync do |s3_sync|
+  s3_sync.bucket                     = 'bettaio'
+  s3_sync.region                     = 'eu-central-1'
+  s3_sync.aws_access_key_id          = 'AKIAI7MLWZX43LYE2ILA'
+  s3_sync.aws_secret_access_key      = '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'
 end
 
 activate :cloudfront do |cf|
-  cf.access_key_id = 'AKIAJ23SPLRICBEYI62A'
-  cf.secret_access_key = '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'
+  cf.access_key_id = 'AKIAI7MLWZX43LYE2ILA'
+  cf.secret_access_key = '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'
   cf.distribution_id = 'E1MEX2ODNT3S93'
 end
 
