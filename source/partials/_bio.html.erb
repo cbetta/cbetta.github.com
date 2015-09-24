@@ -1,3 +1,4 @@
+<% unless current_page.data.hide_bio %>
 <div class="bio row">
   <% if current_page.data.stack_bio %>
   <div class="bio__summary
@@ -43,3 +44,4 @@
     </div>
   </div>
 </div>
+<% end %>
