@@ -70,7 +70,7 @@ end
 
 activate :livereload
 activate :directory_indexes
-activate :syntax
+activate :syntax, line_numbers: true
 activate :inliner
 
 activate :disqus do |d|
