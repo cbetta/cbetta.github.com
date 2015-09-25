@@ -91,6 +91,9 @@ activate :cloudfront do |cf|
   cf.distribution_id = 'E1MEX2ODNT3S93'
 end
 
+caching_policy 'text/html', max_age: 0, must_revalidate: true
+default_caching_policy max_age:(60 * 60 * 24 * 365)
+
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-2925354-7'
 end
