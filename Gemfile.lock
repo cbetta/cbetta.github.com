@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/cbetta/middleman-livereload.git
+  revision: 2422d12b0e4e888ca8f79e0934f147329419e9c3
+  branch: js_host_and_port
+  specs:
+    middleman-livereload (3.4.3)
+      em-websocket (~> 0.5.1)
+      middleman-core (>= 3.3)
+      rack-livereload (~> 0.3.15)
+
 GEM
   remote: http://rubygems.org/
   remote: https://rails-assets.org/
@@ -195,10 +205,6 @@ GEM
     middleman-google-analytics (1.1.0)
       middleman-core (~> 3.2)
       uglifier (>= 2.1, < 3.0)
-    middleman-livereload (3.4.3)
-      em-websocket (~> 0.5.1)
-      middleman-core (>= 3.3)
-      rack-livereload (~> 0.3.15)
     middleman-s3_sync (3.0.47)
       ansi (~> 1.5.0)
       fog-aws (>= 0.1.1)
@@ -284,7 +290,7 @@ DEPENDENCIES
   middleman-cloudfront
   middleman-disqus
   middleman-google-analytics
-  middleman-livereload (~> 3.4.3)
+  middleman-livereload!
   middleman-s3_sync
   middleman-search_engine_sitemap
   middleman-syntax

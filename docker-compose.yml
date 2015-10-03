@@ -1,0 +1,8 @@
+app:
+  build: .
+  command: middleman server --force-polling
+  volumes:
+    - .:/app
+  ports:
+    - "4567:4567"
+    - "35729:35729"

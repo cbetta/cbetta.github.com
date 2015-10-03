@@ -68,10 +68,9 @@ end
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-activate :livereload
+activate :livereload, js_host: "192.168.99.100"
 activate :directory_indexes
 activate :syntax, line_numbers: true
-activate :inliner
 
 activate :disqus do |d|
   d.shortname = 'bettacoding'

@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem "middleman", "~> 3.4.0"
 gem "middleman-blog", "~> 3.5.3"
-gem "middleman-livereload", "~> 3.4.3"
+gem "middleman-livereload", github: "cbetta/middleman-livereload", branch: "js_host_and_port"
 gem "redcarpet"
 gem "middleman-syntax"
 gem "builder", "~> 3.0"
