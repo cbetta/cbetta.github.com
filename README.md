@@ -1,6 +1,13 @@
 # Middleman site
 
-## Development
+## Development on local machine
+
+* `bundle install`
+* `middleman`
+* Visit [127.0.0.1:4567](http://127/0.0.0.1:4567)
+
+
+## Development on Docker
 
 ### Requirement
 
@@ -10,5 +17,6 @@
 
 ### Running
 
+* Build the docker instance with `docker-compose build`
 * Run `docker-compose up`
 * Visit [127.0.0.1:4567](http://127/0.0.0.1:4567) to visit site (or `DOCKER_HOST` IP if on Mac)
