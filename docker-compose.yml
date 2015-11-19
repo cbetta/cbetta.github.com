@@ -1,4 +1,5 @@
 app:
+  container_name: 'betta-io-site'
   build: .
   command: middleman server --force-polling
   volumes:
