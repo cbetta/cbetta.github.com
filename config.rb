@@ -68,7 +68,7 @@ end
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-activate :livereload, js_host: "192.168.99.100"
+activate :livereload, js_host: ENV['JS_HOST']
 activate :directory_indexes
 activate :syntax, line_numbers: true
 
@@ -78,16 +78,16 @@ end
 
 
 activate :s3_sync do |s3_sync|
-  s3_sync.bucket                     = 'bettaio'
-  s3_sync.region                     = 'eu-central-1'
-  s3_sync.aws_access_key_id          = 'AKIAI7MLWZX43LYE2ILA'
-  s3_sync.aws_secret_access_key      = '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'
+  s3_sync.bucket                     = ENV['AWS_S3_BUCKET_NAME']
+  s3_sync.region                     = ENV['AWS_S3_BUCKET_REGION']
+  s3_sync.aws_access_key_id          = ENV['AWS_ACCESS_KEY']
+  s3_sync.aws_secret_access_key      = ENV['AWS_ACCESS_SECRET']
 end
 
 activate :cloudfront do |cf|
-  cf.access_key_id = 'AKIAI7MLWZX43LYE2ILA'
-  cf.secret_access_key = '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'
-  cf.distribution_id = 'E1MEX2ODNT3S93'
+  cf.access_key_id = ENV['AWS_ACCESS_KEY']
+  cf.secret_access_key = ENV['AWS_ACCESS_SECRET']
+  cf.distribution_id = ENV['AWS_CF_DISTRIBUTION_ID']
 end
 
 caching_policy 'text/html', max_age: 0, must_revalidate: true
