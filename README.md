@@ -8,4 +8,4 @@
 
 ## Deployment
 
-* `middleman s3_sync`
+* `middleman build && middleman s3_sync`
