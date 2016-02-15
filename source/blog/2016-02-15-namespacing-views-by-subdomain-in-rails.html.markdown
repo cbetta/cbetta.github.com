@@ -4,7 +4,7 @@ date: 2016-02-15 10:36 UTC
 tags: ruby, rails
 ---
 
-Yesterday I wrote about [namespacing and scoping a Rails](2016/02/14/namespacing-and-scoping-your-rails-monolith/) app to separate concerns and today I want to extend this to subdomains.
+Yesterday I wrote about [namespacing and scoping a Rails](/blog/2016/02/14/namespacing-and-scoping-your-rails-monolith/) app to separate concerns and today I want to extend this to subdomains.
 
 On the BattleHack site we serve every year from the same app (e.g. [2014](https://2014.battlehack.org) and [2015](https://2015.battlehack.org)) while displaying different layouts. To do this we use the same controllers for each year (every one of them inheriting from `controllers/app/base_controller.rb`).
 
