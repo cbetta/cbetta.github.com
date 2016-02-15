@@ -1,7 +1,7 @@
 ---
 title: Namespacing views by subdomain in Rails
-date: 2016-02-15 09:27 UTC
-tags:
+date: 2016-02-15 10:36 UTC
+tags: ruby, rails
 ---
 
 Yesterday I wrote about [namespacing and scoping a Rails](2016/02/14/namespacing-and-scoping-your-rails-monolith/) app to separate concerns and today I want to extend this to subdomains.
