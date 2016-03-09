@@ -1,7 +1,7 @@
 Time.zone = "UTC"
 
 set :url_root, 'https://betta.io'
-set :site_title, 'Cristiano Betta - Senior Developer Advocate @ Braintree and PayPal'
+set :site_title, 'Cristiano Betta - Ruby Developer, Developer Advocate, ex-PayPal'
 
 activate :blog do |blog|
   blog.prefix = "blog"

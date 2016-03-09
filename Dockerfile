@@ -4,7 +4,7 @@
 # https://github.com/cbetta/docker-middleman
 #
 
-FROM ruby:latest
+FROM ruby:2.3.0
 
 MAINTAINER Cristiano Betta <cbetta@gmail.com>
 
