@@ -17,6 +17,8 @@ The nice thing about the [Anker portable chargers](http://amzn.to/1Wi6TKS) is th
 
 Anker sells just about every variation available, which means you can pick your ideal balance of capacity and size. Additionally they now also have portable chargers that support Quick Charge (for those of you with Android phones).
 
+<!-- more -->
+
 #### [Wall chargers](http://amzn.to/1S7M0Sy)
 
 [![Anker Charger](/images/blog/2016/anker-charger.jpg)](http://amzn.to/1S7M0Sy)
