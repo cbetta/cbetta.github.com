@@ -1,7 +1,7 @@
 ---
 title: The Hack Code of Conduct
 date: 2015-11-20 12:00 UTC
-tags: code of conduct, braintree
+tags: code of conduct, devrel
 image: blog/2015/hack-code-of-conduct-1.png
 ---
 > This post was originally first posted on
