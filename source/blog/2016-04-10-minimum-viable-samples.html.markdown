@@ -1,5 +1,5 @@
 ---
-title: Minimum Viable Sample
+title: Minimum Viable Samples
 date: 2016-04-10 08:00 UTC
 tags: devrel
 ---
