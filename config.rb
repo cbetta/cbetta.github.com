@@ -1,7 +1,6 @@
 Time.zone = "UTC"
 
 set :url_root, 'https://betta.io'
-set :site_title, 'Cristiano Betta - Ruby Developer, Developer Advocate, ex-PayPal'
 
 activate :blog do |blog|
   blog.prefix = "blog"
@@ -42,7 +41,7 @@ helpers do
     elsif !current_page.data.default_description
       Nokogiri::HTML(page_articles.first.summary).text.split(" ").join(" ")
     else
-      site_title
+      data.site.title
     end
   end
 
@@ -54,9 +53,9 @@ helpers do
 
   def image
     if current_page.data.image
-      url_root+image_path(current_page.data.image)
+      data.site.root+image_path(current_page.data.image)
     else
-      url_root+image_path('cbetta.jpg')
+      data.site.root+image_path('cbetta.jpg')
     end
   end
 
@@ -67,6 +66,7 @@ end
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
+activate :sprockets
 
 activate :livereload, js_host: ENV['JS_HOST']
 activate :directory_indexes
