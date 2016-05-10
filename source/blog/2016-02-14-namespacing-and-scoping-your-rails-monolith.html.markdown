@@ -26,7 +26,7 @@ end
 root "app/pages#index"
 ```
 
-<!-- more -->
+[MORE]
 
 Notice that the admin user has its own controller namespace (e.g. `Admin::UsersController`) and route subpath (e.g. `/admin/users`), while the regular users are scoped to their own namespaced controllers (e.g. `App::UsersController`) but their path remains the same (e.g. `/users`).
 

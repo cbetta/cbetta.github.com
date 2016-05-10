@@ -10,7 +10,7 @@ I've been tempted to write a bit about Static Site Generators (SSGs) for a while
 
 But they have also pained me, and after reading ["The joy and pain of using a static site generator for private and client work"](http://screamingatmyscreen.com/2013/8/the-joy-and-pain-of-using-a-static-site-generator-for-private-and-client-work/) I thought I'd add in my own few observations from a Jekyll perspective.
 
-<!-- more -->
+[MORE]
 
 ### The joys
 

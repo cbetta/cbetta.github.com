@@ -9,7 +9,7 @@ activate :blog do |blog|
   # Matcher for blog source files
   blog.taglink = "categories/{tag}.html"
   blog.layout = "article"
-  blog.summary_separator = /<!-- more -->/
+  blog.summary_separator = /\[MORE\]/
   blog.summary_length = 250
   blog.year_link = "{year}.html"
   blog.month_link = "{year}/{month}.html"

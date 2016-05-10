@@ -10,7 +10,7 @@ I've been playing with [Puppet](http://puppetlabs.com/) recently in order to fin
 
 I can't show any of my code because it contains some stuff I'd rather not open up, but here are some of my global notes on Puppet that I wanted to share.
 
-<!-- more -->
+[MORE]
 
 ### The good
 

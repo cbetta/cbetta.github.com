@@ -10,7 +10,7 @@ tags: hackdays, events
 
 Who is responsible for developing a hack beyond a hack day? Is it just the developer or should the sponsors and organisers be setting a right framework? If Open Sourcing a hack is not enough, what then? What do you think? Let me know in the comments.
 
-<!-- more -->
+[MORE]
 
 ### The problem
 

@@ -7,7 +7,7 @@ tags: information
 
 It has been a while since I last blogged, and to be fair I've been kinda busy, but I also was frustrated with my old blog. It was bloated and heavy to load, all mainly due to Wordpress and Site5's shared hosting. Wordpress started as a nice blogging platform but lately it has been pissing me off (more on this), and I realised that running a whole PHP script for pages that barely ever change is stupid.
 
-<!-- more -->
+[MORE]
 
 So here is the new blog. The old one is still available [here](http://blog.cristianobetta.com/) as a static HTML archive (hence why it loads so fast).
 

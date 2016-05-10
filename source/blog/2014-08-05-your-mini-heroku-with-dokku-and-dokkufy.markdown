@@ -12,7 +12,7 @@ So this weekend at [LeedsHack](http://leedshack.org) I started to look into [Dok
 
 I found the installation rather tedious and as this was a hackathon I decided to create something simpler.
 
-<!-- more -->
+[MORE]
 
 ### Introducing Dokkufy
 

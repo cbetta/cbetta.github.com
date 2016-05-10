@@ -10,7 +10,7 @@ So last weekend I was at [Over The Air 2012](http://overtheair.org/) - on of my 
 
 Seeing as I don't want to have to redo the app for every platform I decided to try out one of the more famous cross platform development frameworks: [PhoneGap](http://phonegap.com/).
 
-<!-- more -->
+[MORE]
 
 Here are some of the things I discovered during the weekend:
 

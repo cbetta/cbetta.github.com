@@ -10,7 +10,7 @@ In the light of the recent [Rubygems.org](http://rubygems.org) security compromi
 
 Some of the issues highlighted here are taken from [Ben Smith's enlightening (but scary) talk at Aloha Ruby Conference](http://www.youtube.com/watch?v=z-5bO0Q1J9s).
 
-<!-- more -->
+[MORE]
 
 ### Disclaimer
 

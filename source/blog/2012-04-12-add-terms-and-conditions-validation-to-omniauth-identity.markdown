@@ -13,7 +13,7 @@ registration form and this is what I came up with.
 For this example I assume you already have a Omniauth Identity setup much
 like explained in [this Railscast](http://railscasts.com/episodes/304-omniauth-identity).
 
-<!-- more -->
+[MORE]
 
 ### Step 1 - app/views/identities/new.html.erb
 

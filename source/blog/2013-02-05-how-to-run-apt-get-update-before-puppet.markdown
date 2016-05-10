@@ -23,4 +23,4 @@ class { 'apt_get_update':
   stage => preinstall
 }
 ```
-<!-- more -->
+[MORE]

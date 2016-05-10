@@ -17,7 +17,7 @@ Earlier this year PayPal launched the new [Log In with PayPal](https://developer
 
 All the code for this tutorial is available on [Github](https://github.com/cbetta/login-with-paypal-demo-rails).
 
-<!-- more -->
+[MORE]
 
 ### Acquiring credentials
 

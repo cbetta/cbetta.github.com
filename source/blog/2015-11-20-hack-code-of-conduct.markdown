@@ -11,7 +11,7 @@ A little more than a year ago we launched the [Hack Code of Conduct](http://hack
 
 It’s been a year since its release and we’ve gotten a lot of positive feedback. It’s been an eye-opening experience to see how many people (including myself) have come to grips with the concept of a code of conduct as a necessity, not just an option, at an event.
 
-<!-- more -->
+[MORE]
 
 ### Scratching an itch
 

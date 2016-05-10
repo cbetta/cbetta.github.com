@@ -12,7 +12,7 @@ This post is the first of a series where I will be detailing how to provide user
 
 Ever since we launched our v.zero SDK with the [Drop-in UI](https://www.braintreepayments.com/features/drop-in) in July last year, I’ve been in love with all the little user experience tweaks that our design team incorporated into our credit card forms. As a speaker at dev conferences, I have a lot of fun referencing these small tweaks by highlighting how bad a credit card form UX is without them. If you’re not yet familiar, here is a little example of our Drop-in in action:
 
-<!-- more -->
+[MORE]
 
 ![Braintree v.zero Drop-in UI](blog/2015/vzero-card-type.gif)
 

@@ -8,13 +8,13 @@ tags: events, hackdays
 
 I've been attending HackDays since 2007 when I travelled to Alexandra Palace for the first [HackDay organised by Yahoo and the BBC](http://upcoming.yahoo.com/event/173371/LONDON/London/Yahoo-BBC-Hackday-2007/Alexandra-Palace/). I was a n00b at that time (some might say I still am, #shakesfist) and I had no idea what to build. At the time I was trying to learn how to use web frameworks and at the HackDay I got my first exposures to APIs, Django, Rails, OpenID and much more. I don't think I made anything that weekend, but damn did I learn a lot!
 
-<!-- more -->
+[MORE]
 
 Since then we've come a long way; HackDays are no longer just organised by big organisations. There's pretty much one happening every weekend (sometimes more), and they are more often than not focussed around a topic. I attended at least 20 HackDays since, and I even helped organise [not 1 but 2 HackCamps](http://www.hackcamp.org.uk/) with [GeeksOfLondon](http://geeksoflondon.com).
 
 But lately I've been noticing a little trend. I was at [GameHack](http://www.gamehack.co.uk/) yesterday and I had come to have a fun weekend to play with some APIs, maybe play with some WebGL libraries, and get an idea of how game development works. I am not a game developer and don't intend to be one, but I always enjoy learning new things.
 
-<!-- more -->
+[MORE]
 
 Much like the most recent [MusicHackDay](http://musichackday.org/) London though, GameHack was a lot more serious than I had anticipated. Where the first MusicHackDay was mainly web developers trying to explore music APIs, the latest one mainly had people from the (online) music industry participating in teams, working with APIs and technologies they were already well practiced in.
 

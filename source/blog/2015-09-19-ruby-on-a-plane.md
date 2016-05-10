@@ -9,7 +9,7 @@ In the past few years I've spent an awful lot of time at airports, on airplanes,
 
 I've learned some tricks to keep me going in these situations, working on new and existing Ruby/Rails apps in airport lounges, hotel lobbies, and on airplanes.
 
-<!-- more -->
+[MORE]
 
 ### Prerequisites
 

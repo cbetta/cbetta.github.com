@@ -26,7 +26,7 @@ def selected_year
 end
 ```
 
-<!-- more -->
+[MORE]
 
 A few things to note here:
 

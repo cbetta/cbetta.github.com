@@ -16,7 +16,7 @@ The purpose of a good code sample is to allow a developer to see a fully integra
 
 Additionally samples also allow developers to get a full context for  your documentation. Often tutorials or documentation can skip important details that seem obvious to the experts but can confuse a beginner.
 
-<!-- more -->
+[MORE]
 
 ### The sample flow
 

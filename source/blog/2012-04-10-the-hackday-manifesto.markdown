@@ -14,4 +14,4 @@ It's already signed by quite a few hackday organisers including the GeeksOfLondo
 
 {% img center /images/blog/2012/thehackdaymanifesto.png %}
 
-<!-- more -->
+[MORE]

@@ -12,7 +12,7 @@ I want to run a new kind of event: **OpenCodeCamp** (working title). OpenCodeCam
 
 Read the full post and leave a comment if you want to get involved.
 
-<!-- more -->
+[MORE]
 
 ### Where did this come from?
 
