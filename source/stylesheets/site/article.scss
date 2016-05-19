@@ -71,7 +71,7 @@ h1 + .article {
   h3 {
     margin: 2em 0 1em 0;
     text-align: left;
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 
   h4 {
@@ -120,5 +120,9 @@ h1 + .article {
     a {
       font-size: 0.7em;
     }
+  }
+
+  .article h3 {
+    font-size: 1.3em;
   }
 }

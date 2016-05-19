@@ -13,3 +13,7 @@
   border: 0;
   background-color: #f8f8f8;
 }
+
+.code h3 {
+  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
+}
