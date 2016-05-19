@@ -1,14 +1,22 @@
 <ul class='navigation__links'>
+  <% unless root? %>
   <li>
-    <%= link_to 'Blog', '/blog/index.html' %>
+    <a href="/" class='brand'>
+      <strong>Cristiano</strong> Betta
+    </a>
+  </li>
+  <% end %>
+  <li>
+    <%= link_to '&#9776;&nbsp;Blog', '/blog/index.html' %>
   </li>
   <li>
-    <%= link_to 'Code', '/code.html' %>
+    <%= link_to '&#9778;&nbsp;Hire Me', '/code.html' %>
   </li>
   <li>
-    <a href="https://linkedin.com/in/cbetta">Resume</a>
+    <a class='collapse' href="https://linkedin.com/in/cbetta">&#9781;&nbsp;LinkedIn</a>
   </li>
   <li>
-    <a href="mailto:cristiano@betta.io">Contact</a>
+    <a class='collapse' href="mailto:cristiano@betta.io">&#9783;&nbsp;Email</a>
   </li>
+
 </ul>

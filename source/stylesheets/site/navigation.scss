@@ -15,7 +15,7 @@
   font-weight: bold;
   font-size: 0.6em;
   padding-top: 0em !important;
-  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
+  font-family: 'exolight', "Lucida Console", Monaco, monospace;
 }
 
 .navigation__links {
@@ -26,21 +26,54 @@
   li {
     display: inline;
     a {
-      padding: 0 1em;
-      font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
+      display: inline;
+      padding: 0 2em 0 0;
+      font-family: 'exolight', "Lucida Console", Monaco, monospace;
+    }
+
+    a.brand {
+      color: black;
+      font-family: 'exolight', "Lucida Console", Monaco, monospace;
+
+      strong {
+        font-family: 'exobold', "Lucida Console", Monaco, monospace;
+      }
     }
   }
 
-  li:first-child a {
-    padding-left: 0;
-  }
-
-  li:last-child a {
-    padding-right: 0;
-  }
 }
 
 .bio .navigation__links {
   margin: 0 0 2em 0;
-  text-align: center;
+  text-align: left;
+}
+
+.blog .navigation__links a:not(.brand) {
+  font-size: 0.8em;
+}
+
+@media (max-width: 1200px){
+  .blog, .code {
+    .navigation__links a:not(.brand) {
+      font-size: 0.7em;
+    }
+  }
+
+  .index .navigation__links a:not(.brand) {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 610px){
+  .blog, .code {
+    .navigation__links a:not(.brand) {
+      padding: 0 0.5em 0 0;
+    }
+  }
+
+  .blog, .code {
+    .navigation__links .collapse {
+      display: none;
+    }
+  }
 }

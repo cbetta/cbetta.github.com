@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,20 +20,18 @@ a {
 }
 
 .container--content {
-  padding-top: 8em;
+  padding-top: 3em;
   padding-bottom: 3em;
   position: relative;
 }
 
 .container--fixed {
-  position: fixed;
-  text-align: center;
+  font-size: 1.2em;
   background-color: white;
-  border: 1px solid #ddd;
-  z-index: 10;
-  width: 100%;
-  overflow: auto;
-  -webkit-box-shadow: 10px 0.5em 4em #fff;
-  -moz-box-shadow: 10px 0.5em 4em #fff;
-  box-shadow: 10px 0.5em 4em #fff;
+  border-bottom: 1px solid #ddd;
+  padding-top: 1em;
+}
+
+body.index .container--content {
+  padding-top: 1em;
 }

@@ -6,8 +6,13 @@
 }
 
 .bio__name {
-  text-align: center;
+  font-family: 'exothin', "Lucida Console", Monaco, monospace;
+  text-align: left;
   margin-bottom: 1em;
+
+  strong {
+    font-family: 'exobold', "Lucida Console", Monaco, monospace;
+  }
 }
 
 .bio__avatar {

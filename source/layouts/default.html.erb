@@ -50,22 +50,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   </head>
   <body class="<%= page_classes %>">
+    <% unless root? %>
     <div class="container container--fixed">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-          <%= partial "partials/navigation" unless root? %>
+          <%= partial "partials/navigation"  %>
         </div>
       </div>
     </div>
+    <% end %>
     <div class="container container--content">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
-
           <%= yield %>
         </div>
       </div>
-      <%= partial "partials/bio" %>
+      <%= partial "partials/bio" if root?  %>
     </div>
+
     <%= google_analytics_tag %>
   </body>
 </html>
