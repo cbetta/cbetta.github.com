@@ -1,128 +1,17 @@
-h1 + .article {
-  margin-top: 5em;
+.article-icon {
+  margin-top: 3em !important;
 }
 
-.article {
-  font-size: 0.9em;
-  padding-bottom: 5em;
-  color: #3E3C42;
+.article-info {
+  margin-bottom: 3em !important;
 }
 
-.article--delimited {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 5em;
+blockquote {
+  margin-left: 0;
+  padding-left: 2em;
+  border-left: 3px solid #ddd;
 }
 
-.article__title {
-  color: #2E58A1;
-  font-weight: bold;
-  margin-bottom: 0.2em;
-  margin-top: 0;
-  font-size: 2em;
-  padding: 0;
-}
-
-.article__title a {
-  font-size: 1em;
-  font-family: 'exolight', "Lucida Console", Monaco, monospace;
-  line-height: 1.2em;
-  text-align: left;
-  display: block;
-  font-weight: bold;
-}
-
-.article__date {
-  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
-  margin-top: 0;
-  font-size: 0.9em;
-  opacity: 0.5;
-  display: inline-block;
-  text-align: left;
-  margin-bottom: 2em;
-}
-
-.article__tags {
-  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
-  font-size: 0.9em;
-  display: inline-block;
-  text-align: left;
-  opacity: 0.6;
-  margin-left: 1em;
-}
-
-.article__tags a:before {
-  content: "<";
-}
-
-.article__tags a:after {
-  content: "/>";
-}
-
-.article p {
-  line-height: 1.6em;
-  margin-bottom: 1em;
-}
-
-.article p a {
-  font-weight: 600;
-}
-
-.article {
-  h3 {
-    margin: 2em 0 1em 0;
-    text-align: left;
-    font-size: 1.6em;
-  }
-
-  h4 {
-    margin-top: 2em;
-    font-size: 1.3em;
-  }
-
-  .article__date + h3,
-  .article__date + h4 {
-    margin-top: 0;
-  }
-
-
-  strong {
-    font-weight: 600;
-    color: #444;
-  }
-}
-
-.article ul li, .article ol li {
-  margin-bottom: 0.5em;
-}
-
-.article img {
-  max-width: 100%;
-  border: 1px solid #CCC;
-  margin: 1em 0;
-}
-
-.article .article__more {
-  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
-  display: block;
-  background-color: #F5F5F5;
-  text-align: center;
-
-  &:hover {
-    opacity: 0.6;
-    text-decoration: none;
-  }
-}
-
-@media (max-width: 500px){
-  .article__title {
-    padding: 0;
-
-    a {
-      font-size: 0.7em;
-    }
-  }
-
-  .article h3 {
-    font-size: 1.3em;
-  }
+#disqus_thread {
+  margin: 4em 0;
 }

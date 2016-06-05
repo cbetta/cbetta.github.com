@@ -1,0 +1,10 @@
+- if next_page || prev_page
+  .ui.pagination.menu.item.fluid{class: (next_page && prev_page) ? 'two' : 'one' }
+    - if next_page
+      = link_to next_page, class: "item" do
+        %i.icon.arrow.left
+        Older
+    - if prev_page
+      = link_to prev_page, class: "item" do
+        Newer
+        %i.icon.arrow.right

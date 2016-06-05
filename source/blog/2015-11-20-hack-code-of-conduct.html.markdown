@@ -3,6 +3,7 @@ title: The Hack Code of Conduct
 date: 2015-11-20 12:00 UTC
 tags: code of conduct, devrel
 image: blog/2015/hack-code-of-conduct-1.png
+icon: file text outline
 ---
 > This post was originally first posted on
   [Braintree's Strongly Typed](https://www.braintreepayments.com/blog/the-hack-code-of-conduct/) blog on November 6th 2015.
@@ -13,7 +14,7 @@ It’s been a year since its release and we’ve gotten a lot of positive feedba
 
 [MORE]
 
-### Scratching an itch
+## Scratching an itch
 
 The HackCoC was written to fulfill a need we encountered running our global hackathon series, [BattleHack](https://2015.battlehack.org/). When we were asked by a participant about the existence of one; my initial response was not much different than most of us who’ve been running events for a while:
 
@@ -27,7 +28,7 @@ Inspired by [The Hack Day Manifesto](http://hackdaymanifesto.com/) -- of which I
 
 ![The Hack Code of Conduct](blog/2015/hack-code-of-conduct-1.png)
 
-### An amazing response
+## An amazing response
 
 Since its launch, the response to our Hack Code of Conduct has been amazing. We’ve had over 125 thought leaders across the tech industry and hackathon scene sign their support. This includes developers and hackathon organisers from PayPal, Braintree, Venmo, Twilio, Sendgrid, Twitter, MLH, and PennApps, to name a few. We’d like to thank all of these individuals and organizations for showing their support and helping hackathons become more inclusive to everyone.
 
@@ -35,7 +36,7 @@ Since its launch, the response to our Hack Code of Conduct has been amazing. We�
 
 Since 2014 when we rolled out the Hack Code of Conduct for our Braintree/PayPal BattleHack series, we’ve had more than 50 hackathon organisers create custom versions of it for their events. What I really love is the collaborative nature of a project like this, as evidenced by the occasional pull requests I receive with changes to the content. This helps us as a developer/hackathon organiser community to further refine the wording and common values that our Hack Code of Conduct is committed to implementing.
 
-### What's next?
+## What's next?
 
 I’ve seen that the Hack Code of Conduct alone is not always sufficient. It is still important as a hackathon organiser to create an atmosphere that gives people the confidence to contact you when they see or experience a violation. Without this secure environment, people might reach out to social media, or worse, say nothing at all. As a hackathon organizer, this could be frustrating and put a bad light on your event.
 

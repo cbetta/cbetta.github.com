@@ -2,6 +2,7 @@
 title: "Survey: Hackathons and Open Source"
 date: 2016-05-10 21:00 UTC
 tags: hackdays
+icon: comments outline
 ---
 
 >  TL;DR - I ran a Twitter Poll with interesting but insignificant results. Now I'm running a more extensive survey to see if I can get some more results. [You should fill in the survey!](http://goo.gl/forms/AbNVDc2jcq)
@@ -40,4 +41,4 @@ In the end I feel the poll left more questions than it provided answers to. Ther
 
 [The survey](http://goo.gl/forms/AbNVDc2jcq) will be open untill the end of June. I'd love your entry even if you don't do hackathons or Open Source!
 
-[Go fill in the survey!](http://goo.gl/forms/AbNVDc2jcq).
+[Go fill in the survey!](http://goo.gl/forms/AbNVDc2jcq){:.ui.button}

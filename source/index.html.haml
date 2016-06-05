@@ -1,0 +1,37 @@
+%h4.ui.horizontal.divider
+
+= image_tag 'cbetta.jpg', class: 'ui small circular image centered'
+
+%h1.ui.header.centered.name
+  %strong Cristiano
+  Betta
+
+%p
+  I'm a Developer Relations consultant - if you want to know what that is
+  have a look at my
+  %a{href: 'https://work.betta.io'} previous work
+  to get an idea. I've worked at PayPal as a senior developer advocate and
+  I run events with my friends at
+  %a{href: "http://geeksoflondon.com"} Geeks of London
+  I'm married to the amazing
+  %a{href: 'http://missgeeky.com'} @mseckington
+  and the owner of some very odd cats.
+
+%p
+  I love to code in Ruby, Rails & JS. I appreciates web standards,
+  continuous integration, distributed version control, test
+  driven development, and coffee.
+
+%h4.ui.horizontal.divider
+  %a{href: '/blog'} From the blog
+
+.ui.relaxed.divided.list
+  - page_articles.first(10).each_with_index do |article, i|
+    .item
+      %i.large.middle.aligned.icon.icon-fixed-width{class: article.data.icon }
+      .content
+        = link_to article.title, article, class: 'header'
+        .description Updated 10 mins ago
+
+%h5.ui.horizontal.divider
+  %a{href: '/blog'} Read More

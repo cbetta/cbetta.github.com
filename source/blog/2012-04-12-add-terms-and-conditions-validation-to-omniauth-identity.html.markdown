@@ -3,6 +3,7 @@ title: Add terms & conditions validation to Omniauth Identity
 date: 2012-04-12 00:32
 comments: true
 tags: rails, omniauth, ruby
+icon: diamond
 ---
 
 [Omniauth Identity](https://github.com/intridea/omniauth-identity) is a great
@@ -15,22 +16,22 @@ like explained in [this Railscast](http://railscasts.com/episodes/304-omniauth-i
 
 [MORE]
 
-### Step 1 - app/views/identities/new.html.erb
+## Step 1 - app/views/identities/new.html.erb
 
 Add a checkbox to your form.
 
-```erb
+~~~erb
 <div class="field">
   <%= label_tag :conditions %><br>
   <%= check_box_tag :conditions %>
 </div>
-```
+~~~
 
-### Step 2 - app/models/identity.rb
+## Step 2 - app/models/identity.rb
 
 Add a attribute to your identity model and check for it to be set.
 
-```ruby
+~~~ruby
 class Identity < OmniAuth::Identity::Models::ActiveRecord
   ...
 
@@ -39,23 +40,23 @@ class Identity < OmniAuth::Identity::Models::ActiveRecord
 
   ...
 end
-```
+~~~
 
 
 You should really only check this on create, otherwise this validation will
 run every time the identity gets updated, unless of course you decide to store
 the `conditions` value in the database.
 
-### Step 3 - config/initializers/omniauth.rb
+## Step 3 - config/initializers/omniauth.rb
 
 This is the one that took me the longest to figure out. You need to tell
 Omniauth Identity what fields to look for on signup.
 
-```ruby
+~~~ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
   provider :identity, fields: [:email, :conditions]
 end
-```
+~~~
 
 In the same way you can add a users name and other details, though I highly
 recommend you dont store those on the `Identity` but on the `User` model.

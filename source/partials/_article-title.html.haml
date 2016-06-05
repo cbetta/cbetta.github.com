@@ -1,0 +1,16 @@
+%h2.ui.center.aligned.icon.header.article-icon
+  %i.icon{class: article.data.icon }
+
+%h1.ui.divider.horizontal
+  = article.title
+
+
+.ui.one.column.grid.article-info
+  .row
+    .column.center.aligned
+      - article.tags.each do |tag|
+        = link_to tag_path(tag), class: 'ui tag label' do
+          = tag
+      = link_to blog_month_path(article.date.year, article.date.month), class: 'ui label' do
+        %i.calendar.icon
+        = article.date.strftime('%B %e %Y')

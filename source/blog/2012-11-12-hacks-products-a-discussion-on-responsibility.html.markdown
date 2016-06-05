@@ -4,6 +4,7 @@ title: "Hacks / Products - A discussion on responsibility"
 date: 2012-11-12 17:35
 comments: true
 tags: hackdays, events
+icon: comments outline
 ---
 
 **<TL;DR>**
@@ -12,7 +13,7 @@ Who is responsible for developing a hack beyond a hack day? Is it just the devel
 
 [MORE]
 
-### The problem
+## The problem
 
 I was surprised to see the amount of criticism I was getting during the [CharityHack 2012](http://charityhack.org/) (more about that and my hack soon) regarding my intensions of continuing development of my hack after the event.
 
@@ -29,7 +30,7 @@ And I can understand why: it's hard to find developers with a passion for someon
 
 Maybe the organisers (in this case PayPal) should be the ones to set a framework. I've seen quite a few Hack Days where the winners get some funding to continue the product. But often this funding is very low (funding 1 developer for about half a year max), and it fails to ask the question: does the developer even want any funding? And if so, can they actually find the time?
 
-### Solutions?
+## Solutions?
 
 So are there any solutions to this? Last weekend at the [Mozilla Festival](http://mozillafestival.org/) I was talking to the people behind [Hacks/Hackers](http://hackshackers.com/) and they seemed to have the same issues. I thought it might be handy to have some more regular events (every month or week) to keep ideas alive and show the progress achieved, but I was told that this was already tried without much success.
 

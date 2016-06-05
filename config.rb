@@ -27,12 +27,21 @@ end
 
 page "/atom.xml", layout: false
 
-set :markdown_engine, :redcarpet
+set :markdown_engine, :kramdown
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :search_engine_sitemap
 
 helpers do
+  def active(uri, exact = false)
+    if exact
+      return "active" if current_page.url == uri
+    else
+      return "active" if current_page.url.index(uri) == 0
+    end
+    nil
+  end
+
   def description
     if current_page.data.description
       current_page.data.description
@@ -47,7 +56,7 @@ helpers do
 
   def title
     title = ""
-    title += current_article.title unless current_article.nil?
+    title += (current_article.title + " - ") unless current_article.nil?
     title
   end
 
@@ -57,10 +66,6 @@ helpers do
     else
       data.site.root+image_path('cbetta.jpg')
     end
-  end
-
-  def root?
-    current_page.path == 'index.html'
   end
 end
 

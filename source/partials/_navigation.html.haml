@@ -1,0 +1,37 @@
+#desktop-menu.ui.secondary.pointing.menu
+  .ui.text.container
+    %a.item.toc
+      %i.sidebar.icon
+    %a.item.image.floated.right
+      .ui.logo.icon.image{href: '/'}
+        = image_tag 'cb.jpg'
+    %a.item.name{href: '/', class: active('/', true)}
+      %strong Cristiano
+      &nbsp;
+      %em Betta
+    %a.item{href: "/blog", class: active('/blog')}
+      %i.icon.quote.left
+      Blog
+    %a.item{href: "https://work.betta.io"}
+      %i.icon.code
+      Work
+    .ui.dropdown.item
+      %i.icon.linkify
+      Online
+      %i.icon.dropdown
+      .menu
+        %a.item{href: "https://twitter.com/cbetta"}
+          %i.icon.twitter
+          Twitter
+        %a.item{href: "https://github.com/cbetta"}
+          %i.icon.github
+          GitHub
+        %a.item{href: "https://linkedin.com/in/cbetta"}
+          %i.icon.linkedin
+          LinkedIn
+        %a.item{href: "https://lanyrd.com/cbetta"}
+          %i.icon.comment.outline
+          Speaker Profile
+    %a.ui.right.inverted.item{href: "https://work.betta.io"}
+      %i.icon.diamond
+      Hire Me

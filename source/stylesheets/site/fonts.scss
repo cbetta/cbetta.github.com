@@ -29,3 +29,19 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.name {
+  font-family: 'exothin', "Lucida Console", Monaco, monospace !important;
+  font-weight: bold;
+}
+
+.name em {
+  font-family: 'exoregular', "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.name strong {
+  font-family: 'exobold', "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+}

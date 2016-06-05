@@ -4,6 +4,7 @@ title: "Reading list - Week 38"
 date: 2013-09-20 00:40
 comments: true
 tags: reading, ruby
+icon: rss
 ---
 
 I thought I'd get back into blogging again so let's start with a simple reading list. Here's some articles that have kept me busy over the past week and I'd think people ight enjoy.

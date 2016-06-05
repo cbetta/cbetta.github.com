@@ -4,16 +4,12 @@
 }
 
 .highlight code {
-  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
   line-height: 1.5em;
   font-size: 14px;
 }
 
-.highlight pre {
-  border: 0;
-  background-color: #f8f8f8;
-}
-
-.code h3 {
-  font-family: 'Cutive Mono', "Lucida Console", Monaco, monospace;
+code {
+  background-color: #f0f0f0;
+  padding: 0 0.3em;
+  display: inline-block;
 }

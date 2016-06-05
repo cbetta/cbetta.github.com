@@ -1,7 +1,5 @@
 <% wrap_layout :default do %>
-  <div class="article article--delimited">
-    <%= partial 'partials/article-title', locals: { article: current_page } %>
-    <%= yield %>
-    <%= disqus %>
-  </div>
+  <%= partial 'partials/article-title', locals: { article: current_page } %>
+  <%= yield %>
+  <%= disqus %>
 <% end %>

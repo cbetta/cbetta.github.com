@@ -4,9 +4,10 @@ title: "OpenCodeCamp - Where the best of HackDays and BarCamps come together"
 date: 2012-05-08 12:18
 comments: true
 tags: events, hackdays
+icon: comments outline
 ---
 
-### tl;dr
+**<TL;DR>**
 
 I want to run a new kind of event: **OpenCodeCamp** (working title). OpenCodeCamp should be an event that promotes knowledge sharing and skills swapping amongst developers of any age or level of experience. It should be free of commercialism, competition, sexism, racism, age-ism and accessible to developers of any seniority.
 
@@ -14,7 +15,7 @@ Read the full post and leave a comment if you want to get involved.
 
 [MORE]
 
-### Where did this come from?
+## Where did this come from?
 
 I love HackDays but I have some issues with where they are going as you may have noticed [here](http://blog.cristianobetta.com/2012/01/14/the-end-of-an-era/index.html), [here](/blog/2012/04/29/what-i-miss-about-hackdays-dot-dot-dot/), and [here](http://hackdaymanifesto.com/). I also love BarCamps, having been to many and having organised a few, but I noticed that HackDays and BarCamps are diverging in purpose and format.
 
@@ -22,7 +23,7 @@ Our contact at [City University](http://www.city.ac.uk/) where we ran 2 BarCamps
 
 In my eyes (though I might be wrong) this is how HackDays were when they started. They were events where anyone could come to play with new programming languages and platforms, learn about new concepts and ideas, and collaborate on interesting and crazy new ideas. Sadly from there the events have become increasingly more competitive, lowering the amount of true knowledge sharing that is done, and making the events ever more closed off to anyone from outside of the particular industry that the HackDay focusses on.
 
-### Proposing OpenCodeCamp (working title)
+## Proposing OpenCodeCamp (working title)
 
 So here is what I want to do instead: I want to run an event that promotes knowledge sharing and skills swapping amongst developers of any age or level of experience. Inspired by the [rules of BarCamp](http://barcamp.org/w/page/405173/TheRulesOfBarCamp), I think OpenCodeCamp should have the following rules:
 
@@ -42,6 +43,6 @@ I don't have a definite format for this event yet. I'm thinking of something som
 * **Who's paying?** - One of the reasons we've seen more and more HackDays is because companies can see a nice return of investment on putting a few bucks into a HackDay which in return gives them a few nice prototypes they can show to their investors (a.k.a. cheap labor). How would companies react to an event where their APIs are not at the centre of attention.
 * **Change the name?** - There is already something called [CodeCamp](http://en.wikipedia.org/wiki/Code_Camp) out there but this name was the best I could come up with. Any other suggestions?
 
-### How to help out?
+## How to help out?
 
 Leave a comment here or send me an email with any suggestions. Also feel free to share this article with anyone you think might be interested in helping out.

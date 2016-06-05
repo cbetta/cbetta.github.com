@@ -1,0 +1,35 @@
+#desktop-menu {
+  border-bottom: 0px;
+  background-color: white;
+
+  .item {
+    &.toc, &.image {
+      display: none;
+    }
+
+    &.name {
+      position: relative;
+      top: 1px;
+    }
+
+    &.image {
+      img {
+        width: 24px;
+        border-radius: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  #desktop-menu {
+    .item, .menu {
+      display: none;
+    }
+
+    .toc.item, .image.item {
+      display: block;
+    }
+  }
+
+}
