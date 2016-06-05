@@ -1,5 +1,3 @@
-%h4.ui.horizontal.divider
-
 = image_tag 'cbetta.jpg', class: 'ui small circular image centered'
 
 %h1.ui.header.centered.name
@@ -22,7 +20,7 @@
   continuous integration, distributed version control, test
   driven development, and coffee.
 
-%h4.ui.horizontal.divider
+%h2.ui.horizontal.divider
   %a{href: '/blog'} From the blog
 
 .ui.relaxed.divided.list
@@ -33,5 +31,5 @@
         = link_to article.title, article, class: 'header'
         .description= article.date.strftime('%A %B %e, %Y')
 
-%h5.ui.horizontal.divider
+%h2.ui.horizontal.divider
   %a{href: '/blog'} Read More

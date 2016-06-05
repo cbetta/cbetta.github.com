@@ -1,7 +1,3 @@
-.article-icon {
-  margin-top: 3em !important;
-}
-
 .article-info {
   margin-bottom: 3em !important;
 }
@@ -14,4 +10,18 @@ blockquote {
 
 #disqus_thread {
   margin: 4em 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ui.label {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 660px) {
+  .article-icon {
+    margin-top: 3em !important;
+  }
 }
