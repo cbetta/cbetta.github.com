@@ -15,6 +15,7 @@ gem "middleman-syntax"
 gem "middleman-sprockets", "4.0.0.rc.3"
 gem "kramdown"
 gem "turbolinks", require: false
+gem "mime-types"
 
 source "https://rails-assets.org" do
   gem "rails-assets-jquery"
