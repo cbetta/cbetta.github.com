@@ -1,0 +1,52 @@
+{
+  "future" : [
+    {
+      "title" : "Narrator",
+      "date" : "July 13-15, 2016",
+      "conference" : "Hackference",
+      "conference_url" : "http://2016.hackference.co.uk/",
+      "icon" : "comment outline"
+    },
+    {
+      "title" : "Lightweight JS with Riot, Redux and Rollup",
+      "date" : "July 13-15, 2016",
+      "conference" : "FullStack 2016",
+      "conference_url" : "https://skillsmatter.com/conferences/7278-fullstack-2016-the-conference-on-javascript-node-and-internet-of-things",
+      "icon" : "code"
+    }
+  ],
+  "past" : [
+    {
+      "title" : "Lightweight JS with Riot, Redux and Rollup",
+      "url" : "https://github.com/cbetta/slides-devtalks-bucharest-2016",
+      "date" : "June 10, 2016",
+      "conference" : "DevTalks Bucharest",
+      "conference_url" : "http://www.devtalks.ro/bucharest/",
+      "icon" : "code"
+    },
+    {
+      "title" : "Lightweight JS with Riot, Redux and Rollup",
+      "url" : "https://github.com/cbetta/slides-techsylvania-2016",
+      "date" : "May 21-24, 2016",
+      "conference" : "Techsylvania",
+      "conference_url" : "http://www.techsylvania.co/",
+      "icon" : "code"
+    },
+    {
+      "title" : "This strange planet earth",
+      "url" : "https://speakerdeck.com/cbetta/this-strange-planet-earth",
+      "date" : "October 5-7, 2015",
+      "conference" : "Future of Web Apps London",
+      "conference_url" : "http://lanyrd.com/2015/fowa/",
+      "icon" : "money"
+    },
+    {
+      "title" : "Tooling your way to a great devrel team",
+      "url" : "http://blog.devrel.net/craft/tooling-your-way-to-a-great-devrel-team/",
+      "date" : "September 30, 2015",
+      "conference" : "DevRelCon",
+      "conference_url" : "http://london-2015.devrel.net/",
+      "icon" : "video"
+    }
+  ]
+}

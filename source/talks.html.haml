@@ -1,0 +1,30 @@
+---
+default_description: Work Betta
+---
+
+%h3.ui.divider.horizontal Upcoming Talks
+
+.ui.relaxed.divided.list
+  - data.talks.future.each_with_index do |talk, i|
+    .item
+      %i.large.middle.aligned.icon.icon-fixed-width{class: talk.icon }
+      .content
+        = link_to talk.title, talk.conference_url, class: 'header'
+        %small
+          = link_to talk.conference, talk.conference_url
+        .description= talk.date
+
+%h3.ui.divider.horizontal Past Talks
+
+.ui.relaxed.divided.list
+  - data.talks.past.each_with_index do |talk, i|
+    .item
+      %i.large.middle.aligned.icon.icon-fixed-width{class: talk.icon }
+      .content
+        = link_to talk.title, talk.url, class: 'header'
+        %small
+          = link_to talk.conference, talk.conference_url
+        .description= talk.date
+
+%h3.ui.horizontal.divider
+  %a{href: 'http://lanyrd.com/profile/cbetta/'} Way more on Lanyrd

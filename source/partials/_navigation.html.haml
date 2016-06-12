@@ -12,9 +12,20 @@
     %a.item{href: "/blog", class: active('/blog')}
       %i.icon.quote.left
       Blog
-    %a.item{href: "https://work.betta.io"}
+    .ui.dropdown.item
       %i.icon.code
       Work
+      %i.icon.dropdown
+      .menu
+        %a.item{href: "https://work.betta.io"}
+          %i.icon.diamond
+          Ruby Contracting
+        %a.item{href: "https://work.betta.io"}
+          %i.icon.doctor
+          DevRel Consulting
+        %a.item{href: "/talks"}
+          %i.icon.comment.outline
+          Public Speaking
     .ui.dropdown.item
       %i.icon.linkify
       Online
@@ -29,9 +40,6 @@
         %a.item{href: "https://linkedin.com/in/cbetta"}
           %i.icon.linkedin
           LinkedIn
-        %a.item{href: "https://lanyrd.com/cbetta"}
-          %i.icon.comment.outline
-          Speaker Profile
     %a.ui.right.inverted.item{href: "https://work.betta.io"}
       %i.icon.diamond
       Hire Me
