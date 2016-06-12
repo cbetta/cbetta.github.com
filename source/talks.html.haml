@@ -2,7 +2,26 @@
 default_description: Work Betta
 ---
 
-%h3.ui.divider.horizontal Upcoming Talks
+%h3.ui.divider
+
+%h1.ui.header
+  Talks & Workshops
+
+%p
+  I'm honored to have spoken at (and been involved with) the events below. I love
+  to talk about practical applications of technology, and I'm fascinated with the
+  boundary where technology and culture meet. My talks have ranged from deeply
+  technical Ruby and JS talks, to analytical insights into UI design, to workshops
+  on hackathons and DevRel.
+
+%p
+  My talks tend to be high paced, full of energy, and with a high JPM (joke-per-minute)
+  rate. I love to keep my audience informed, entertained and excited to try what they
+  learned themselves.
+
+
+
+%h3.ui.divider.horizontal Upcoming
 
 .ui.relaxed.divided.list
   - data.talks.future.each_with_index do |talk, i|
@@ -11,10 +30,12 @@ default_description: Work Betta
       .content
         = link_to talk.title, talk.conference_url, class: 'header'
         %small
-          = link_to talk.conference, talk.conference_url
+          = link_to talk.conference_url do
+            %i.flag{ class: talk.country }
+            = talk.conference
         .description= talk.date
 
-%h3.ui.divider.horizontal Past Talks
+%h3.ui.divider.horizontal Past
 
 .ui.relaxed.divided.list
   - data.talks.past.each_with_index do |talk, i|
@@ -23,8 +44,10 @@ default_description: Work Betta
       .content
         = link_to talk.title, talk.url, class: 'header'
         %small
-          = link_to talk.conference, talk.conference_url
+          = link_to talk.conference_url do
+            %i.flag{ class: talk.country }
+            = talk.conference
         .description= talk.date
 
-%h3.ui.horizontal.divider
+%h2.ui.horizontal.divider
   %a{href: 'http://lanyrd.com/profile/cbetta/'} Way more on Lanyrd
