@@ -27,6 +27,21 @@ description: >
   driven development, and coffee.
 
 %h2.ui.horizontal.divider
+  %a{href: '/talks'} Upcoming Events
+
+.ui.relaxed.divided.list
+  - data.talks.future.each_with_index do |talk, i|
+    .item
+      %i.large.middle.aligned.icon.icon-fixed-width{class: talk.icon }
+      .content
+        = link_to talk.title, talk.conference_url, class: 'header'
+        %small
+          = link_to talk.conference_url do
+            %i.flag{ class: talk.country }
+            = talk.conference
+        .description= talk.date
+
+%h2.ui.horizontal.divider
   %a{href: '/blog'} From the blog
 
 .ui.relaxed.divided.list
@@ -38,4 +53,4 @@ description: >
         .description= article.date.strftime('%A %B %e, %Y')
 
 %h2.ui.horizontal.divider
-  %a{href: '/blog'} Read More
+  %a{href: '/blog'}  More Posts
