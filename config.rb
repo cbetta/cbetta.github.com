@@ -28,7 +28,7 @@ end
 page "/atom.xml", layout: false
 
 set :markdown_engine, :kramdown
-set :markdown, :fenced_code_blocks => true, :smartypants => true
+set :markdown, fenced_code_blocks: true, smartypants: true, parse_block_html: true
 
 activate :search_engine_sitemap
 
