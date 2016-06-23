@@ -1,6 +1,6 @@
 # Middleman site
 
-## Developmentx
+## Development
 
 * `bundle install`
 * `middleman`
