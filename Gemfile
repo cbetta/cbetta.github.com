@@ -13,6 +13,7 @@ gem 'middleman-s3_sync'
 gem 'middleman-search_engine_sitemap'
 gem "middleman-syntax"
 gem "middleman-sprockets", "4.0.0.rc.3"
+gem 'middleman-minify-html'
 gem "kramdown"
 gem "turbolinks", require: false
 gem "mime-types"

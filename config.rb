@@ -110,5 +110,6 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
-  # activate :relative_assets
+  activate :minify_html
+  activate :asset_host, host: '//d2vxwsh43haze0.cloudfront.net'
 end
