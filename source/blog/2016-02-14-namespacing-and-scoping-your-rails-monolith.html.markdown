@@ -1,7 +1,7 @@
 ---
 title: Namespacing and scoping your Rails monolith
 date: 2016-02-14 18:48 UTC
-tags: ruby, rails
+tags: ruby, rails, tutorial
 icon: diamond
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Two Factor Authentication in Rails with Devise and Nexmo Verify
-date: 2016-07-06 11:00 UTC
+date: 2016-06-07 11:00 UTC
 tags: nexmo, tutorial
 icon: phone
 ---
@@ -22,7 +22,7 @@ account is a good second factor of authentication.
 
 For this tutorial I am going to show you how to add two factor authentication
 to your Rails site using the [Nexmo Verify API](https://www.nexmo.com/products/verify/).
-For this purpose I have built a little app called ["Kittens & Co"](https://github.com/cbetta/nexmo-rails-2fa-demo) -
+For this purpose I have built a little app called ["Kittens & Co"](https://github.com/nexmo-community/nexmo-rails-2fa-demo) -
 a social network where business cats can exchange their plans to take over the
 world.
 
@@ -32,7 +32,7 @@ You can download the starting point of the app from Github and run it locally.
 
 ~~~sh
 # ensure you have Ruby and Bundler installed
-git clone https://github.com/cbetta/nexmo-rails-2fa-demo.git
+git clone https://github.com/nexmo-community/nexmo-rails-2fa-demo.git
 cd nexmo-rails-2fa-demo
 bundle install
 rails server
@@ -45,9 +45,9 @@ but most of this tutorial applies similarly to apps that use other
 authentication methods. Additionally I added the `bootstrap-sass` and
 `device-bootstrap-templates` gems for some prettyfication of our app.
 
-All the code for this starting point can be found on the [basic-login](https://github.com/cbetta/nexmo-rails-2fa-demo/tree/basic-login)
+All the code for this starting point can be found on the [basic-login](https://github.com/nexmo-community/nexmo-rails-2fa-demo/tree/basic-login)
 branch on Github. All the code I will be adding below can be found on the
-[two-factor](https://github.com/cbetta/nexmo-rails-2fa-demo/tree/two-factor) branch. For your convenience you can see [all the changes between our start and end point](https://github.com/cbetta/nexmo-rails-2fa-demo/compare/basic-login...two-factor) on Github as well.
+[two-factor](https://github.com/nexmo-community/nexmo-rails-2fa-demo/tree/two-factor) branch. For your convenience you can see [all the changes between our start and end point](https://github.com/nexmo-community/nexmo-rails-2fa-demo/compare/basic-login...two-factor) on Github as well.
 
 ## Nexmo Verify
 

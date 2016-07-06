@@ -1,7 +1,7 @@
 ---
 title: Namespacing views by subdomain in Rails
 date: 2016-02-15 10:36 UTC
-tags: ruby, rails
+tags: ruby, rails, tutorial
 icon: diamond
 ---
 
