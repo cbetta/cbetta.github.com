@@ -7,8 +7,6 @@ tags: events, hackdays
 icon: file text outline
 ---
 
-![Manifesto](/images/blog/2012/thehackdaymanifesto.png){:.ui.image.centered.bordered }
-
 One of my friends, [Dan](http://artisanofcode.com/), started a document called ["The Hack Day Manifesto"](http://hackdaymanifesto.com/) on the #GeeksOfLondon IRC channel a few days back. With the help of our community we managed to update it to a full document and it's now live.
 
 It's a must read if you ever plan to run a hack day or hackathon.
