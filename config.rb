@@ -35,7 +35,7 @@ activate :search_engine_sitemap
 helpers do
   def dx_image group, id, title
     url = "/images/dx/#{group}/#{group}-#{id}.png"
-    image = "![#{title}](#{url}){:.ui.image.fluid.bordered}"
+    image = "![#{title}](/images/dx/lazy.png){:.ui.image.fluid.bordered.lazy data-src=\"#{url}\"}"
     "[#{image}](#{url}){: data-lightbox=\"lightbox\" data-title=\"#{title}\"}"
   end
 
