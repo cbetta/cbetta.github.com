@@ -1,14 +1,6 @@
 {
   "future" : [
     {
-      "title" : "Attending with @nexmo",
-      "date" : "August 23-24, 2016",
-      "conference" : "Laracon EU, Amsterdam",
-      "conference_url" : "http://laracon.eu/2016/",
-      "icon" : "settings",
-      "country" : "nl"
-    },
-    {
       "title" : "Lightning Talk: Let's Forget About Hackathons",
       "date" : "September 2-4, 2016",
       "conference" : "Hackcon EU, Eindhoven",
