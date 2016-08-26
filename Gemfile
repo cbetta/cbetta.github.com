@@ -21,4 +21,5 @@ gem "mime-types"
 source "https://rails-assets.org" do
   gem "rails-assets-jquery"
   gem "rails-assets-semantic"
+  gem "rails-assets-lightbox2"
 end

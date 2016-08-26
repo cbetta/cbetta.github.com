@@ -33,6 +33,12 @@ set :markdown, fenced_code_blocks: true, smartypants: true, parse_block_html: tr
 activate :search_engine_sitemap
 
 helpers do
+  def dx_image group, id, title
+    url = "/images/dx/#{group}/#{group}-#{id}.png"
+    image = "![#{title}](#{url}){:.ui.image.fluid.bordered}"
+    "[#{image}](#{url}){: data-lightbox=\"lightbox\" data-title=\"#{title}\"}"
+  end
+
   def active(uri, exact = false)
     if exact
       return "active" if current_page.url == uri

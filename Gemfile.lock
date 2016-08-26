@@ -181,6 +181,8 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rails-assets-jquery (2.2.4)
+    rails-assets-lightbox2 (2.8.2)
+      rails-assets-jquery (~> 2)
     rails-assets-semantic (2.1.8)
       rails-assets-jquery (>= 1.8)
     rails-deprecated_sanitizer (1.0.3)
@@ -239,6 +241,7 @@ DEPENDENCIES
   middleman-syntax
   mime-types
   rails-assets-jquery!
+  rails-assets-lightbox2!
   rails-assets-semantic!
   turbolinks
 
