@@ -10,59 +10,131 @@ This is the second in a series of articles focussing on reviewing Developer Expe
 
 ## Criteria
 
-As with the previous post I will be looking at the developer onboarding experience with a focus on:
+<div class="ui ordered tiny steps">
+<div class="step">
+<div class="content">
+<div class="title">
+  Exploration
+</div>
+</div>
+</div>
+<div class="step">
+<div class="content">
+<div class="title">
+  Onboarding
+</div>
+</div>
+</div>
+<div class="step">
+<div class="content">
+<div class="title">
+  Reference
+</div>
+</div>
+</div>
+</div>
 
-* **Flow:** How well does the product guide me from landing on their site all the way to making a first API call?
-* **Exploration:** How easy is it to get an idea of how their product works before committing to a paid plan / signing up?
-* **Completeness:** Once I have my first integration in place, how hard is it to find the full reference documentation?
+I will be looking at 3 aspects of the developer experience:
+
+1. **Exploration**: Does the experience help me to understand or try out their product before signing up for an account?
+2. **Onboarding &amp; Integration:** How well does the product guide me from their main site to create an account and to make that first API call or integration?
+3. **Reference:** Once I have my first integration in place, how hard is it to find the full reference documentation?
 
 ## Pusher
 
-> Build Apps, Not Infrastructure.
+#### _Build Apps, Not Infrastructure._
+
+[![Pusher](/images/dx/pusher/pusher.png)](https://pusher.com){:.ui.image.fluid.bordered}
 
 _"Pusher is a cloud-based tech platform enabling developers to create collaborative tools, multiplayer games, chat and real-time dashboards. Founded in 2010."_ - [CrunchBase](https://www.crunchbase.com/organization/pusher)
 
-I picked Pusher for similar reasons as my previous post: they are well established, have been very developer focussed for years, and they have a good reputation with developers in general.
+Pusher are a well established brand, have been very developer focussed for years, and they have a reasonably good reputation with developers.
 
-### Landing
+## Exploration
 
 [`https://pusher.com/`](https://pusher.com/)
 
 <%= dx_image 'pusher', 1, 'Landing Page' %>
 
+Pusher's landing page is very simple and sparse. They slogan probably does wonders for SEO but it doesn't really help explain what they do. I suddenly spot the **I'm a Developer** link at the top.
+
+Before I click this I decide to scroll further down and notice that Pusher does **<3** developers.
+
 <%= dx_image 'pusher', 2, 'Pusher loves developers' %>
+
+I can't run any of thise code here directly but I do get presented with a now even bigger **I'm a Developer** link. I click it.
 
 [`https://pusher.com/developers`](https://pusher.com/developers)
 
-<%= dx_image 'pusher', 3, "Pusher's developer portal" %>
+<%= dx_image 'pusher', 3, "Pusher's developer landing page" %>
+
+I see a cURL command so I open up my terminal an paste it in and run it.
 
 <%= dx_image 'pusher', 4, "An interactive example" %>
 
-### Signup
+Whoa! The color changed to purple. I give it a few more tries to ensure this was indeed me. I start to see the point: push anything anywhere.
+
+## Onboarding
+
+As I'm sold on this product already I hit the **Get Started** button at the top.
 
 [`https://pusher.com/signup`](https://pusher.com/signup)
 
 <%= dx_image 'pusher', 5, "Signup form" %>
 
+Good to see I can create a **free** account. It's always good to know I won't be asked to add my credit card details just yet. I fill in my work email address and notice a subtle warning.
+
 <%= dx_image 'pusher', 6, "A subtle warning on signup" %>
+
+I didn't make a typo but the amount of people that can't type their own email address correctly always surprises me so these kind of checks help people from making simple mistakes.
+
+I fill in the rest of the form and continue.
 
 <%= dx_image 'pusher', 7, "An odd warning..." %>
 
+Now this is very odd. Pusher seems to check my email address against the Google/Github APIs and won't let me login with it here if I already have it tied to another account?
+
+I try a different email address instead and the form submits.
+
 <%= dx_image 'pusher', 8, "Is this a signup or login form?" %>
 
-### First integration
+Now this form just confused me extremely. The button says **Create a Free Account** but I thought I just did. Additionally it suddenly has a reCAPTCHA and only one password field. I got so confused here I went back all the way to the start and started over again with yet another different email address. I again ended up here.
+
+I made a guess: this is a login form. I typed in email and password that I chose for registration, verified that I'm not a robot, and hit the big blue button.
+
+## Integration
+
+[`https://dashboard.pusher.com/`](https://dashboard.pusher.com/)
 
 <%= dx_image 'pusher', 9, "The first login experience" %>
 
+Yay I'm logged in!
+
+Although the signup was a bit confusing this first login screen is amazing. This is probably one of the best first-use experiences I've seen.
+
+Pusher realises that as I'm new I probably want to create my first app. Additionally they want to help me start integrating so they ask me for my preferred front and backend languages. I pick JS and Ruby as I'm quite familiar with them.
+
 <%= dx_image 'pusher', 10, "Language selector" %>
+
+I create my application.
 
 <%= dx_image 'pusher', 11, "Next steps" %>
 
+Before I get to continue Pusher informs me of some more useful links like their **Debug Console** and their **Docs**. I open all of these in a tab and continue.
+
 <%= dx_image 'pusher', 12, "Detailed steps for first integration" %>
+
+As I earlier chose my prefered languages Pusher is now able to give me detailed sample code on my dashboard - this is perfect for me to get started as quickly as possible.
+
+What's nice is that the code samples already have my API key and secret inserted into them.
+
+I copy paste the cURL command into my terminal and run it.
 
 <%= dx_image 'pusher', 13, "Successful first API call" %>
 
-### Reference documentation
+Nice, they integrated the push events into the dashboard. A slight annoyance here is that I did get 2 popups as I also had the **Debug Console** open.
+
+## Reference
 
 [`https://pusher.com/docs`](https://pusher.com/docs)
 
@@ -72,20 +144,22 @@ I picked Pusher for similar reasons as my previous post: they are well establish
 
 <%= dx_image 'pusher', 15, "Reference documentation" %>
 
-### Emails
+## Emails
 
 <%= dx_image 'pusher', 16, "Confirmation email" %>
 
 <%= dx_image 'pusher', 17, "Welcome email" %>
 
+## Conclusions
 
-### Conclusions
+### The good
 
-#### The good
-
-
-#### The bad
+### The bad
 
 ## Next
 
-That's it for this second post on Developer Experience. Let me know what you think of it and if I should continue. I'd also love to know who you think I should review next, and if you are interested in me reviewing your product then most definitely let me know!
+That's it for this second post on Developer Experience. Let me know in the comments below what you think of this post and if I should continue. I'd also love to know what company you think I should review next.
+
+## Hire me?
+
+I am a [freelance Developer Relations consultant](https://work.betta.io). If you want to know more about my work have a look at my portfolio and if you'd like for me to help your company's Developer Experience better then most definitely reach out to me via [Twitter](https://twitter.com/cbetta) or [email](mailto:work@betta.io)!
