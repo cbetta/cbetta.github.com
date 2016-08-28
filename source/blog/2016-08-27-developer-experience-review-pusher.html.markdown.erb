@@ -76,7 +76,7 @@ Whoa! The color changed to purple. I give it a few more tries to ensure this was
 
 ## Onboarding
 
-As I'm sold on this product already I hit the **Get Started** button at the top.
+I'm convinced I want to use this so I hit the **Get Started** button at the top.
 
 [`https://pusher.com/signup`](https://pusher.com/signup)
 
@@ -100,7 +100,7 @@ I try a different email address instead and the form submits.
 
 Now this form just confused me extremely. The button says **Create a Free Account** but I thought I just did. Additionally it suddenly has a reCAPTCHA and only one password field. I got so confused here I went back all the way to the start and started over again with yet another different email address. I again ended up here.
 
-I made a guess: this is a login form. I typed in email and password that I chose for registration, verified that I'm not a robot, and hit the big blue button.
+I made a guess: this is a login form. I typed in the email address and password that I chose for registration, verified that I'm not a robot, and hit the big blue button.
 
 ## Integration
 
@@ -124,7 +124,7 @@ Before I get to continue Pusher informs me of some more useful links like their 
 
 <%= dx_image 'pusher', 12, "Detailed steps for first integration" %>
 
-As I earlier chose my prefered languages Pusher is now able to give me detailed sample code on my dashboard - this is perfect for me to get started as quickly as possible.
+Because I earlier chose my prefered languages Pusher is now able to give me detailed sample code right son my dashboard - this is perfect for me to get started as quickly as possible.
 
 What's nice is that the code samples already have my API key and secret inserted into them.
 
@@ -132,27 +132,85 @@ I copy paste the cURL command into my terminal and run it.
 
 <%= dx_image 'pusher', 13, "Successful first API call" %>
 
-Nice, they integrated the push events into the dashboard. A slight annoyance here is that I did get 2 popups as I also had the **Debug Console** open.
+Nice, they integrated the push events into the dashboard. A slight annoyance here is that I did get 2 popups as I also had the **Debug Console** open in another tab, but I can live with that.
 
 ## Reference
 
+The cURL command returned an empty JSON hash.
+
+~~~json
+{}
+~~~
+
+I know the command was successful because I received the alert in my browser, but I'm still interested in the full API reference documentation including expected responses.
+
+I spot a **Documentation** link in the top of the dashboard and click on it to end up on the documentation root.
+
 [`https://pusher.com/docs`](https://pusher.com/docs)
 
-<%= dx_image 'pusher', 14, "Main documentation page" %>
+<%= dx_image 'pusher', 18, "Reference documentation" %>
+
+Somehow this feels like an underwhelming page compared to what I've seen from Pusher so far. There's little structure to this pagem just some text, an image that doesn't help me understand anything, and a pretty unstructured sidebar navigation.
+
+I'd expect a mention of a "reference" and find a few at the bottom of the sidebar.
+
+<%= dx_image 'pusher', 19, "Reference documentation" %>
+
+It doesn't link me really to what I want though, these pages do not keep exact reference docs. In the end it turns out that this link is what I wanted.
+
+<%= dx_image 'pusher', 14, "Reference documentation" %>
+
+I actually clicked on it by chance and ended up on this page.
 
 [`https://pusher.com/docs/rest_api`](https://pusher.com/docs/rest_api)
 
 <%= dx_image 'pusher', 15, "Reference documentation" %>
 
+This page holds more exact request and responses for making API calls. This still doesn't feel like a complete reference but it has more detail than the pages actually labeled **reference** in the sidebar.
+
 ## Emails
+
+I want to quickly highlight the emails that Pusher sent me while I signed up. Non of these were necessary to get started but they nicely round out the onboarding experience.
+
+The first email is the confirmation email.
 
 <%= dx_image 'pusher', 16, "Confirmation email" %>
 
+It's a simple straightforward text email with 1 call to action and a link to get in contact if you need any help. This pretty much covers every main usecase for someone onboarding.
+
+The second email is a additional email pushing me (no pun intended) to get started with my first integration.
+
 <%= dx_image 'pusher', 17, "Welcome email" %>
+
+This email is might seem redundant - with the great first-use experience that Pusher offers - but it's extremely useful for anyone who did not have the time to complete that first integration for some reason. It allows people to quickly come back to the right point to create their first integration.
+
+The only minor note of dissapointment is that the **Quickstart Guide** link doesn't link me back to the same experience we saw on first login on the dashboard.
 
 ## Conclusions
 
+
+> <div class="ui huge star rating" data-rating="4" data-max-rating="5"></div>
+> *Almost flawless*
+
+<!-- 1 Impossible
+2 Barely possible
+3 Harder than it should be
+4 Almost flawless
+5 Flawless -->
+
+Pusher is an example of a developer product that has to teach developers how to use their product on both the frontend and backend. They have to to solve the problem of onboarding a developer in not just one but two programming languages! Pusher's first-use experience is an excellent example of how to solve this problem with as little friction as possible.
+
 ### The good
+
+* A great first use experience
+  * It helped me set up my first app, helping me get my API credentials
+  * It allowed me to pick my frontend and backend languages
+  * It provided me with code samples for the frontend, backend, and a cURL sample
+  * The code samples already had my API key prefilled
+* A free plan allowing me to try out their product before paying
+* A way to test the application before commiting to an account
+* An excellent follow up email to get me back to integrating if I somehow left the onboarding flow
+* It takes 0 clicks to get to a first code sample, as there's one right on the homepage
 
 ### The bad
 
