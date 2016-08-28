@@ -1,6 +1,5 @@
 var ready = function() {
-  $('.image.lazy')
-  .visibility({
+  $('.image.lazy').visibility({
     type       : 'image',
     transition : 'fade in',
     duration   : 300
@@ -8,4 +7,4 @@ var ready = function() {
 };
 
 $(document).ready(ready);
-$(document).on('page:load', ready);
+$(document).on('turbolinks:load', ready);
