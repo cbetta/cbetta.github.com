@@ -1,4 +1,4 @@
-Time.zone = "UTC"
+Time.zone = "London"
 
 set :url_root, 'https://betta.io'
 
