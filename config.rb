@@ -33,8 +33,8 @@ set :markdown, fenced_code_blocks: true, smartypants: true, parse_block_html: tr
 activate :search_engine_sitemap
 
 helpers do
-  def dx_image group, id, title
-    url = "/images/dx/#{group}/#{group}-#{id}.png"
+  def dx_image group, id, title, extension = 'png'
+    url = "/images/dx/#{group}/#{group}-#{id}.#{extension}"
     image = "![#{title}](/images/dx/lazy.png){:.ui.image.fluid.bordered.lazy data-src=\"#{url}\"}"
     "[#{image}](#{url}){: data-lightbox=\"lightbox\" data-title=\"#{title}\"}"
   end

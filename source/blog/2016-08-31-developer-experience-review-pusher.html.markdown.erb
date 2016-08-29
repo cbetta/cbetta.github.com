@@ -1,6 +1,6 @@
 ---
 title: "Developer Experience Review: Pusher"
-date: 2016-08-27 14:00 UTC
+date: 2016-08-31 10:00 BST
 tags: developer experience
 icon: camera retro
 published: false
@@ -62,6 +62,8 @@ Before I click this I decide to scroll further down and notice that Pusher does 
 
 <%= dx_image 'pusher', 2, 'Pusher loves developers' %>
 
+This code sample does a great job of making me understand what Pusher is about. They call out two main actions: publish and subscribe.
+
 I can't run any of thise code here directly but I do get presented with a now even bigger **I'm a Developer** link. I click it.
 
 [`https://pusher.com/developers`](https://pusher.com/developers)
@@ -70,9 +72,9 @@ I can't run any of thise code here directly but I do get presented with a now ev
 
 I see a cURL command so I open up my terminal an paste it in and run it.
 
-<%= dx_image 'pusher', 4, "An interactive example" %>
+<%= dx_image 'pusher', 1, "An interactive example", 'gif' %>
 
-Whoa! The color changed to purple. I give it a few more tries to ensure this was indeed me. I start to see the point: push anything anywhere.
+Whoa! The color devices colors changed. I give it a few more tries to ensure this was indeed me. I start to see the point: push anything anywhere.
 
 ## Onboarding
 
@@ -92,7 +94,7 @@ I fill in the rest of the form and continue.
 
 <%= dx_image 'pusher', 7, "An odd warning..." %>
 
-Now this is very odd. Pusher seems to check my email address against the Google/Github APIs and won't let me login with it here if I already have it tied to another account?
+Now this is very odd. Pusher seems to check my email address against the Google/Github APIs and won't let me login with it here if I already have it tied to Github or Google account?
 
 I try a different email address instead and the form submits.
 
@@ -100,7 +102,7 @@ I try a different email address instead and the form submits.
 
 Now this form just confused me extremely. The button says **Create a Free Account** but I thought I just did. Additionally it suddenly has a reCAPTCHA and only one password field. I got so confused here I went back all the way to the start and started over again with yet another different email address. I again ended up here.
 
-I made a guess: this is a login form. I typed in the email address and password that I chose for registration, verified that I'm not a robot, and hit the big blue button.
+I made a guess: this is a login form. I typed in the email address and password that I chose for registration, verified that I'm not a <i class='ui icon android'></i> and hit the big blue button.
 
 ## Integration
 
@@ -150,7 +152,7 @@ I spot a **Documentation** link in the top of the dashboard and click on it to e
 
 <%= dx_image 'pusher', 18, "Reference documentation" %>
 
-Somehow this feels like an underwhelming page compared to what I've seen from Pusher so far. There's little structure to this pagem just some text, an image that doesn't help me understand anything, and a pretty unstructured sidebar navigation.
+Somehow this feels like an underwhelming page compared to what I've seen from Pusher so far. There's little structure to this page - just some text, an image that doesn't help me understand anything, and a very unstructured sidebar navigation.
 
 I'd expect a mention of a "reference" and find a few at the bottom of the sidebar.
 
@@ -166,11 +168,11 @@ I actually clicked on it by chance and ended up on this page.
 
 <%= dx_image 'pusher', 15, "Reference documentation" %>
 
-This page holds more exact request and responses for making API calls. This still doesn't feel like a complete reference but it has more detail than the pages actually labeled **reference** in the sidebar.
+This page holds the exact request and responses for most API calls. I have to admit this page still doesn't feel like a complete reference documentaiton but it has more detail than the pages actually labeled **reference** in the sidebar.
 
 ## Emails
 
-I want to quickly highlight the emails that Pusher sent me while I signed up. Non of these were necessary to get started but they nicely round out the onboarding experience.
+I want to quickly highlight the emails that Pusher sent me while I signed up. None of these were necessary to get started but they nicely round out the onboarding experience.
 
 The first email is the confirmation email.
 
@@ -178,13 +180,13 @@ The first email is the confirmation email.
 
 It's a simple straightforward text email with 1 call to action and a link to get in contact if you need any help. This pretty much covers every main usecase for someone onboarding.
 
-The second email is a additional email pushing me (no pun intended) to get started with my first integration.
+The second email is an additional email pushing me (no pun intended) to get started with my first integration.
 
 <%= dx_image 'pusher', 17, "Welcome email" %>
 
-This email is might seem redundant - with the great first-use experience that Pusher offers - but it's extremely useful for anyone who did not have the time to complete that first integration for some reason. It allows people to quickly come back to the right point to create their first integration.
+This email might seem redundant - with the great first-use experience that Pusher offers - but it's extremely useful for anyone who did not have the time to complete that first integration for some reason. It allows people to quickly come back to the right point to create their first integration.
 
-The only minor note of dissapointment is that the **Quickstart Guide** link doesn't link me back to the same experience we saw on first login on the dashboard.
+The only minor note of dissapointment is that the **Quickstart Guide** link doesn't link me back to the same experience we saw on first login on the dashboard, instead it links me back to the rather underwhelming docs.
 
 ## Conclusions
 
@@ -214,10 +216,13 @@ Pusher is an example of a developer product that has to teach developers how to 
 
 ### The bad
 
+* Confusing signup
+* Underwhelming unstructured docs
+
 ## Next
 
-That's it for this second post on Developer Experience. Let me know in the comments below what you think of this post and if I should continue. I'd also love to know what company you think I should review next.
+That's it for this second post on [Developer Experience](/blog/categories/developer-experience/). Let me know in the comments below what you think of this post and if I should continue. I'd also love to know what company you think I should review next.
 
 ## Hire me?
 
-I am a [freelance Developer Relations consultant](https://work.betta.io). If you want to know more about my work have a look at my portfolio and if you'd like for me to help your company's Developer Experience better then most definitely reach out to me via [Twitter](https://twitter.com/cbetta) or [email](mailto:work@betta.io)!
+I am a [freelance Developer Relations consultant](https://work.betta.io). If you want to know more about my work have a look at my portfolio and if you'd like for me to help improve your company's Developer Experience better then most definitely reach out to me via [Twitter](https://twitter.com/cbetta) or [email](mailto:work@betta.io)!
