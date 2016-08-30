@@ -19,7 +19,7 @@ layout: default
     .column
       .ui.fluid.card
         %a.image{ "data-lightbox" => 'lightbox', "href" => src, "data-title" => name }
-          %img.lazy{"data-src" => src, src: '/images/dx/lazy.png' }
+          %img.lazy{"data-src" => asset_url(src), src: asset_url('/images/dx/lazy.png') }
         .content
           .header
             = name
@@ -38,7 +38,7 @@ layout: default
     .column
       .ui.fluid.card
         %a.image{ href: "/galleries/#{key}"}
-          %img.lazy{"data-src" => value['screenshots'].first.last, src: '/images/dx/lazy.png' }
+          %img.lazy{"data-src" => asset_url(value['screenshots'].first.last), src: asset_url('/images/dx/lazy.png') }
         .content
           .header
             = value['title']
