@@ -1,5 +1,5 @@
 var ready = function() {
-  $('.image.lazy').visibility({
+  $('.lazy').visibility({
     type       : 'image',
     transition : 'fade in',
     duration   : 300

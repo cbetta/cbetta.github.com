@@ -1,0 +1,47 @@
+{
+  "developer_portals" : {
+    "title" : "Developer Landing Pages",
+    "description" : "Dedicated developer landing pages",
+    "long_description" : "A dedicated developer portal or landing page can serve as a way to keep the homepage non technical and providing with all the dedication developers need to make a decision.",
+    "screenshots" : {
+      "Pusher" : "/images/dx/pusher/pusher-3.png"
+    }
+  },
+  "first_login" : {
+    "title" : "First-time use dashboards",
+    "description" : "Look and feel of dashboards on first login",
+    "long_description" : "Providing a custom first-time use experience right after a developer signs up can help with user activation and retention.",
+    "screenshots" : {
+      "Pusher / 1" : "/images/dx/pusher/pusher-10.png",
+      "Pusher / 2" : "/images/dx/pusher/pusher-11.png",
+      "Pusher / 3" : "/images/dx/pusher/pusher-12.png"
+    }
+  },
+  "confirmation_emails" : {
+    "title" : "Confirmation Emails",
+    "description" : "Emails sent out to confirm the user's email address",
+    "long_description" : "Confirmation emails are sent out to confirm the user's email address.",
+    "screenshots" : {
+      "SendGrid" : "/images/dx/sendgrid/sendgrid-6.png",
+      "Pusher" : "/images/dx/pusher/pusher-16.png"
+    }
+  },
+  "welcome_emails" : {
+    "title" : "Welcome Emails",
+    "description" : "Emails sent out to developers after signup",
+    "long_description" : "Welcome emails are an essential tool for managing user retention. When people sign up and don't complete a first integration a simple welcome email can often bring people back to your product on a later moment.",
+    "screenshots" : {
+      "SendGrid" : "/images/dx/sendgrid/sendgrid-24.png",
+      "Pusher" : "/images/dx/pusher/pusher-17.png"
+    }
+  },
+  "home_pages" : {
+    "title" : "Home Pages",
+    "description" : "Product homepages",
+    "long_description" : "The initial home page is often catered to fit the needs of developers and other interested parties. It therefore has to strike a balance to introduce both technical and non technical people to the product at offer.",
+    "screenshots" : {
+      "Pusher" : "/images/dx/sendgrid/sendgrid-1.png",
+      "SendGrid" : "/images/dx/pusher/pusher-1.png"
+    }
+  }
+}

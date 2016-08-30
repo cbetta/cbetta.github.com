@@ -25,6 +25,11 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
+data.galleries.each do |path, value|
+  proxy "/galleries/#{path}", "/gallery.html", :locals => { :gallery => path }
+end
+
+ignore "/gallery.html"
 page "/atom.xml", layout: false
 
 set :markdown_engine, :kramdown

@@ -1,0 +1,52 @@
+---
+default_description: Developer Experience Galleries
+layout: default
+---
+
+- info = data.galleries[gallery]
+%h3.ui.divider
+
+%h1.ui.header
+  = info['title']
+
+%p= info['long_description']
+
+%h3.ui.divider
+
+
+.ui.two.column.grid
+  - info.screenshots.each do |name, src|
+    .column
+      .ui.fluid.card
+        %a.image{ "data-lightbox" => 'lightbox', "href" => src, "data-title" => name }
+          %img.lazy{"data-src" => src, src: '/images/dx/lazy.png' }
+        .content
+          .header
+            = name
+
+%br
+%br
+%br
+%br
+
+%h3.ui.divider.horizontal Other Topics
+
+%br
+
+.ui.two.column.grid
+  - data.galleries.each do |key, value|
+    .column
+      .ui.fluid.card
+        %a.image{ href: "/galleries/#{key}"}
+          %img.lazy{"data-src" => value['screenshots'].first.last, src: '/images/dx/lazy.png' }
+        .content
+          .header
+            = value['title']
+          .description
+            = value['description']
+        .extra.content
+          %span.right.floated
+            %i.camera.icon
+            = pluralize(value['screenshots'].count, 'screenshot')
+
+%h2.ui.horizontal.divider

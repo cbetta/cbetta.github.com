@@ -38,7 +38,7 @@ I will be looking at 3 aspects of the developer experience:
 
 1. **Exploration**: Does the experience help me to understand or try out their product before signing up for an account?
 2. **Onboarding &amp; Integration:** How well does the product guide me from their main site to create an account and to make that first API call or integration?
-3. **Reference:** Once I have my first integration in place, how hard is it to find the full reference documentation?
+3. **Reference:** Once I have my first integration in place, how hard is it to find the full reference documentation for the API call I made?
 
 ## Pusher
 
@@ -56,7 +56,7 @@ Pusher are a well established brand, have been very developer focussed for years
 
 <%= dx_image 'pusher', 1, 'Landing Page' %>
 
-Pusher's landing page is very simple and sparse. They slogan probably does wonders for SEO but it doesn't really help explain what they do. I suddenly spot the **I'm a Developer** link at the top.
+Pusher's landing page is very simple and sparse. Their slogan probably does wonders for SEO but it doesn't really help explain to a developer what they do. I suddenly spot the **I'm a Developer** link at the top.
 
 Before I click this I decide to scroll further down and notice that Pusher does **<3** developers.
 
@@ -74,11 +74,11 @@ I see a cURL command so I open up my terminal an paste it in and run it.
 
 <%= dx_image 'pusher', 1, "An interactive example", 'gif' %>
 
-Whoa! The color devices colors changed. I give it a few more tries to ensure this was indeed me. I start to see the point: push anything anywhere.
+Whoa! The colors changed! I give it a few more tries to ensure this was indeed me. I start to see the point: push anything anywhere.
 
 ## Onboarding
 
-I'm convinced I want to use this so I hit the **Get Started** button at the top.
+Now that I'm convinced I want to use Pusher I hit the **Get Started** button at the top.
 
 [`https://pusher.com/signup`](https://pusher.com/signup)
 
@@ -100,9 +100,9 @@ I try a different email address instead and the form submits.
 
 <%= dx_image 'pusher', 8, "Is this a signup or login form?" %>
 
-Now this form just confused me extremely. The button says **Create a Free Account** but I thought I just did. Additionally it suddenly has a reCAPTCHA and only one password field. I got so confused here I went back all the way to the start and started over again with yet another different email address. I again ended up here.
+This form had me extremely confused . The button says **Create a Free Account** - but I thought I just did?! Additionally it suddenly has a reCAPTCHA and only one password field. I got so confused here I went back all the way to the start and started over again with _yet another different email address_.
 
-I made a guess: this is a login form. I typed in the email address and password that I chose for registration, verified that I'm not a <i class='ui icon android'></i> and hit the big blue button.
+I again ended up on this page and I made a guess: this is a login form. I typed in the email address and password that I chose for registration, verified that I'm not a <i class='ui icon android'></i> and hit the big blue button.
 
 ## Integration
 
@@ -112,9 +112,9 @@ I made a guess: this is a login form. I typed in the email address and password 
 
 Yay I'm logged in!
 
-Although the signup was a bit confusing this first login screen is amazing. This is probably one of the best first-use experiences I've seen.
+Although the signup was a bit confusing this first login screen is amazing. This is one of the best first-use experiences I've seen.
 
-Pusher realises that as I'm new I probably want to create my first app. Additionally they want to help me start integrating so they ask me for my preferred front and backend languages. I pick JS and Ruby as I'm quite familiar with them.
+Pusher realises that as I'm new I probably want to create my first app. Additionally they want to help me start integrating so they ask me for my preferred front- and backend languages. I pick Javascript and Ruby.
 
 <%= dx_image 'pusher', 10, "Language selector" %>
 
@@ -122,19 +122,19 @@ I create my application.
 
 <%= dx_image 'pusher', 11, "Next steps" %>
 
-Before I get to continue Pusher informs me of some more useful links like their **Debug Console** and their **Docs**. I open all of these in a tab and continue.
+Before I get to continue Pusher informs me of some more useful links like their **Debug Console** and their **Documentation**. I open all of these links in new tabs and continue.
 
 <%= dx_image 'pusher', 12, "Detailed steps for first integration" %>
 
-Because I earlier chose my prefered languages Pusher is now able to give me detailed sample code right son my dashboard - this is perfect for me to get started as quickly as possible.
+Because I chose my prefered languages Pusher is now able to give me detailed sample code right on my dashboard - allowing me to get started as quickly as possible.
 
-What's nice is that the code samples already have my API key and secret inserted into them.
+What's really nice is that the code samples already have my **API key** and **secret** embdedded into them.
 
 I copy paste the cURL command into my terminal and run it.
 
 <%= dx_image 'pusher', 13, "Successful first API call" %>
 
-Nice, they integrated the push events into the dashboard. A slight annoyance here is that I did get 2 popups as I also had the **Debug Console** open in another tab, but I can live with that.
+Nice, they integrated the push events into their dashboard. A slight annoyance here is that I did get 2 popups as I also had the **Debug Console** open in another tab, but I can live with that.
 
 ## Reference
 
@@ -205,19 +205,20 @@ Pusher is an example of a developer product that has to teach developers how to 
 ### The good
 
 * A great first use experience
-  * It helped me set up my first app, helping me get my API credentials
+  * It helped me set up my first app, allow me to get my API credentials
   * It allowed me to pick my frontend and backend languages
   * It provided me with code samples for the frontend, backend, and a cURL sample
   * The code samples already had my API key prefilled
 * A free plan allowing me to try out their product before paying
-* A way to test the application before commiting to an account
+* A way to test the application before committing to an account
 * An excellent follow up email to get me back to integrating if I somehow left the onboarding flow
-* It takes 0 clicks to get to a first code sample, as there's one right on the homepage
+* It took 0 clicks to get to a first code sample, as there's one right on the homepage
 
 ### The bad
 
-* Confusing signup
-* Underwhelming unstructured docs
+* The flow from registration to login had me very confused, and I'm still not sure if this is a bug or not.
+* The warning about my email address already being in use with Github/Google might have been beneficial to them but the error message did nothing help me proceed to the next step.
+* The developer documentation seems unstructured and occassionally incomplete. It's an underwhelming experience that requires an experienced developer to be able to find the right pages required.
 
 ## Next
 
