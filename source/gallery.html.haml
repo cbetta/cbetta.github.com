@@ -18,7 +18,7 @@ layout: default
   - info.screenshots.each do |name, src|
     .column
       .ui.fluid.card
-        %a.image{ "data-lightbox" => 'lightbox', "href" => src, "data-title" => name }
+        %a.image{ "data-lightbox" => 'lightbox', "href" => asset_url(src), "data-title" => name }
           %img.lazy{"data-src" => asset_url(src), src: asset_url('/images/dx/lazy.png') }
         .content
           .header
