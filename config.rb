@@ -66,6 +66,7 @@ helpers do
   end
 
   def title
+    return (current_page.data.title + " - ") if current_page.data.title
     title = ""
     title += (current_article.title + " - ") unless current_article.nil?
     title
