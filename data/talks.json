@@ -1,23 +1,32 @@
 {
   "future" : [
     {
-      "title" : "Lightning Talk: Let's Forget About Hackathons",
-      "date" : "September 2-4, 2016",
-      "conference" : "Hackcon EU, Eindhoven",
-      "conference_url" : "https://hackcon.mlh.io/eu/",
-      "icon" : "lightning",
-      "country" : "nl"
-    },
-    {
       "title" : "Narrator / MC",
       "date" : "October 21-23, 2016",
       "conference" : "Hackference, Birmingham",
       "conference_url" : "http://2016.hackference.co.uk/",
       "icon" : "comment outline",
       "country" : "gb"
+    },
+    {
+      "title" : "Hackathon Workshop",
+      "date" : "December 6, 2016",
+      "conference" : "DevRelCon, London",
+      "conference_url" : "https://ti.to/hoopy/devrel-training-london-december-2016/",
+      "icon" : "comments outline",
+      "country" : "gb"
     }
   ],
   "past" : [
+    {
+      "title" : "Lightning Talk: Let's Forget About Hackathons",
+      "url" : "https://cbetta.github.io/slides-hackcon-europe-2016/",
+      "date" : "September 2-4, 2016",
+      "conference" : "Hackcon EU, Eindhoven",
+      "conference_url" : "https://hackcon.mlh.io/eu/",
+      "icon" : "lightning",
+      "country" : "nl"
+    },
     {
       "title" : "Lightweight JS with Riot, Redux and Rollup",
       "url" : "https://github.com/cbetta/slides-fullstack-london-2016",
