@@ -12,8 +12,16 @@
       "title" : "Hackathon Workshop",
       "date" : "December 6, 2016",
       "conference" : "DevRelCon, London",
-      "conference_url" : "https://ti.to/hoopy/devrel-training-london-december-2016/",
+      "conference_url" : "https://london-2016.devrel.net",
       "icon" : "comments outline",
+      "country" : "gb"
+    },
+    {
+      "title" : "Developer Experience: Why the first 10 seconds matter",
+      "date" : "December 7, 2016",
+      "conference" : "DevRelCon, London",
+      "conference_url" : "https://london-2016.devrel.net",
+      "icon" : "comment outline",
       "country" : "gb"
     }
   ],
