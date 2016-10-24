@@ -8,6 +8,15 @@
       "Stripe" : "/images/dx/stripe/stripe-10.png"
     }
   },
+  "interactive_demos" : {
+    "title" : "Interactive Demos",
+    "description" : "Interactive demonstrations of product features",
+    "long_description" : "An interactive demonstration of product's features can be the easiest way to explain to new users the purpose and power of your developer product.",
+    "screenshots" : {
+      "Pusher" : "/images/dx/pusher/pusher-1.gif",
+      "Stripe" : "/images/dx/stripe/stripe-3.gif"
+    }
+  },
   "first_login" : {
     "title" : "First-time use dashboards",
     "description" : "Look and feel of dashboards on first login",
