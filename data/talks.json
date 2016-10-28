@@ -1,14 +1,6 @@
 {
   "future" : [
     {
-      "title" : "Narrator / MC",
-      "date" : "October 21-23, 2016",
-      "conference" : "Hackference, Birmingham",
-      "conference_url" : "http://2016.hackference.co.uk/",
-      "icon" : "comment outline",
-      "country" : "gb"
-    },
-    {
       "title" : "Hackathon Workshop",
       "date" : "December 6, 2016",
       "conference" : "DevRelCon, London",
@@ -26,6 +18,15 @@
     }
   ],
   "past" : [
+    {
+      "title" : "Narrator / MC",
+      "url" : "http://2016.hackference.co.uk/",
+      "date" : "October 21-23, 2016",
+      "conference" : "Hackference, Birmingham",
+      "conference_url" : "http://2016.hackference.co.uk/",
+      "icon" : "comment outline",
+      "country" : "gb"
+    },
     {
       "title" : "Lightning Talk: Let's Forget About Hackathons",
       "url" : "https://cbetta.github.io/slides-hackcon-europe-2016/",
