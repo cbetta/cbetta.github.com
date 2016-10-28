@@ -212,7 +212,7 @@ test.betta.io  test.betta.io.herokudns.com
 
 Change your DNS record to point to new DNS target. This time you can set the TTL to a longer value.
 
-Once you have done this verify your `https` works by visiting your site.
+Once you have done this verify your `https` works by visiting your site. You can verify your certificate is indeed provided by LetsEncrypt.
 
 ![LetsEncrypt certificate](/images/blog/2016/letsencrypt-sinatra/certificate.png){:.ui.image.fluid.bordered}
 
@@ -245,10 +245,6 @@ git push heroku master
 ~~~
 
 Now hit your website on `http` and it should automatically redirect to `https`.
-
-You can verify your certificate is indeed provided by LetsEncrypt.
-
-[Image]
 
 ## Schedule renewal
 
