@@ -7,7 +7,7 @@ icon: code
 
 This is a short and straightforward tutorial showing how to use [Sinatra](http://www.sinatrarb.com/) on [Heroku](https://heroku.com) with an auto-renewing SSL certificate from [LetsEncrypt](https://letsencrypt.org/).
 
-LetsEncrypt is awesome because it's believes security should be built into the web without any extra cost.
+LetsEncrypt is awesome as it believes security should be built into the web without any extra cost.
 
 The code for this demo is on [Github](https://github.com/cbetta/sinatra-lets-encrypt-heroku-demo). There is both a `before` and `after` branch with the code before and after I added SSL respectively.
 
@@ -125,11 +125,11 @@ git push heroku master
 
 ## Configure the certificate
 
-To roll our first LetsEncrypt certificate we will want to make sure our custom domain is pointed to our server somehow. In this case I will add `test.betta.io`.
+To roll our first LetsEncrypt certificate we will want to make sure our custom domain is pointed to our server somehow. In this case I will add `test123.betta.io`.
 
 ~~~bash
-> heroku domains:add test.betta.io
-Adding test.betta.io to ⬢ intense-ridge-63161... done
+> heroku domains:add test123.betta.io
+Adding test123.betta.io to ⬢ intense-ridge-63161... done
  ▸    Configure your apps DNS provider to point to the DNS Target
  ▸    intense-ridge-63161.herokuapp.com.
  ▸    For help, see https://devcenter.heroku.com/articles/custom-domains
@@ -144,7 +144,7 @@ Wait for your DNS to resolve, give it a try in the browser and ensure your domai
 Next run the following command to add some environment variables to Heroku.
 
 ~~~sh
-heroku config:add ACME_DOMAIN=test.betta.io
+heroku config:add ACME_DOMAIN=test123.betta.io
 heroku config:add ACME_EMAIL=test@betta.io
 heroku config:add HEROKU_APP=intense-ridge-63161
 ~~~
@@ -184,7 +184,7 @@ Now with all of this in place we can create our certificate.
 Running rake letsencrypt:renew on ⬢ intense-ridge-63161... up, run.5438 (Hobby)
 Creating account key...Done!
 Registering with LetsEncrypt...Done!
-Performing verification for test.betta.io:
+Performing verification for test123.betta.io:
 Setting config vars on Heroku...Done!
 Giving config vars time to change...Done!
 Testing filename works (to bring up app)...Done!
@@ -207,7 +207,7 @@ intense-ridge-63161.herokuapp.com
 === intense-ridge-63161 Custom Domains
 Domain Name       DNS Target
 ────────────────  ──────────────────────────────
-test.betta.io  test.betta.io.herokudns.com
+test123.betta.io  test123.betta.io.herokudns.com
 ~~~
 
 Change your DNS record to point to new DNS target. This time you can set the TTL to a longer value.
