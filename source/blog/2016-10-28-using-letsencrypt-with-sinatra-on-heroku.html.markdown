@@ -1,8 +1,8 @@
 ---
 title: Using LetsEncrypt with Sinatra on Heroku
 date: 2016-10-28 18:09 BST
-tags: gems ruby
-icon: code
+tags: gems, ruby, tutorial
+icon: diamond
 ---
 
 This is a short and straightforward tutorial showing how to use [Sinatra](http://www.sinatrarb.com/) on [Heroku](https://heroku.com) with an auto-renewing SSL certificate from [LetsEncrypt](https://letsencrypt.org/).
