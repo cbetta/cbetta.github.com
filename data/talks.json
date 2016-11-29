@@ -9,10 +9,18 @@
       "country" : "gb"
     },
     {
-      "title" : "Developer Experience: Why the first 10 seconds matter",
+      "title" : "A brick by brick guide to developer experience",
       "date" : "December 7, 2016",
       "conference" : "DevRelCon, London",
       "conference_url" : "https://london-2016.devrel.net",
+      "icon" : "comment outline",
+      "country" : "gb"
+    },
+    {
+      "title" : "Developer Experience: The LEGO Way",
+      "date" : "December 13, 2016",
+      "conference" : "APIDays Paris, London",
+      "conference_url" : "http://www.apidays.io/events/paris-2016",
       "icon" : "comment outline",
       "country" : "gb"
     }
