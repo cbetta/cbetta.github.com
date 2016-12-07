@@ -1,22 +1,6 @@
 {
   "future" : [
     {
-      "title" : "Hackathon Workshop",
-      "date" : "December 6, 2016",
-      "conference" : "DevRelCon, London",
-      "conference_url" : "https://london-2016.devrel.net",
-      "icon" : "comments outline",
-      "country" : "gb"
-    },
-    {
-      "title" : "A brick by brick guide to developer experience",
-      "date" : "December 7, 2016",
-      "conference" : "DevRelCon, London",
-      "conference_url" : "https://london-2016.devrel.net",
-      "icon" : "comment outline",
-      "country" : "gb"
-    },
-    {
       "title" : "Developer Experience: The LEGO Way",
       "date" : "December 13, 2016",
       "conference" : "APIDays Paris, London",
@@ -26,6 +10,24 @@
     }
   ],
   "past" : [
+    {
+      "title" : "A brick by brick guide to developer experience",
+      "url" : "https://speakerdeck.com/cbetta/a-brick-by-brick-guide-to-developer-experience",
+      "date" : "December 7, 2016",
+      "conference" : "DevRelCon, London",
+      "conference_url" : "https://london-2016.devrel.net",
+      "icon" : "comment outline",
+      "country" : "gb"
+    },
+    {
+      "title" : "Hackathon Workshop",
+      "url" : "https://speakerdeck.com/cbetta/hackathons-workshop",
+      "date" : "December 6, 2016",
+      "conference" : "DevRelCon, London",
+      "conference_url" : "https://london-2016.devrel.net",
+      "icon" : "comments outline",
+      "country" : "gb"
+    },
     {
       "title" : "Narrator / MC",
       "url" : "http://2016.hackference.co.uk/",
