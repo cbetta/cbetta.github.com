@@ -44,6 +44,12 @@ helpers do
     "[#{image}](#{url}){: data-lightbox=\"lightbox\" data-title=\"#{title}\"}"
   end
 
+  def slide_image group, id
+    url = "/images/slides/#{group}/#{group}.#{"%03d" % id}.jpeg"
+    image = "![#{title}](/images/dx/lazy.png){:.ui.image.fluid.bordered.lazy data-src=\"#{url}\"}"
+    "[#{image}](#{url}){: data-lightbox=\"lightbox\" data-title=\"#{title}\"}"
+  end
+
   def active(uri, exact = false)
     if exact
       return "active" if current_page.url == uri

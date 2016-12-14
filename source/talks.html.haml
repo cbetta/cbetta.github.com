@@ -20,20 +20,20 @@ default_description: Work Betta
   learned themselves.
 
 
+- if data.talks.future.count > 0
+  %h3.ui.divider.horizontal Upcoming
 
-%h3.ui.divider.horizontal Upcoming
-
-.ui.relaxed.divided.list
-  - data.talks.future.each_with_index do |talk, i|
-    .item
-      %i.large.middle.aligned.icon.icon-fixed-width{class: talk.icon }
-      .content
-        = link_to talk.title, talk.conference_url, class: 'header'
-        %small
-          = link_to talk.conference_url do
-            %i.flag{ class: talk.country }
-            = talk.conference
-        .description= talk.date
+  .ui.relaxed.divided.list
+    - data.talks.future.each_with_index do |talk, i|
+      .item
+        %i.large.middle.aligned.icon.icon-fixed-width{class: talk.icon }
+        .content
+          = link_to talk.title, talk.conference_url, class: 'header'
+          %small
+            = link_to talk.conference_url do
+              %i.flag{ class: talk.country }
+              = talk.conference
+          .description= talk.date
 
 %h3.ui.divider.horizontal Past
 

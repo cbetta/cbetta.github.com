@@ -5,4 +5,5 @@
 //= require ./site/lazy-images
 //= require ./site/lightbox
 //= require ./site/rating
+//= require ./site/embed
 //= require turbolinks
