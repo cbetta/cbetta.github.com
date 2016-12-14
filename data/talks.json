@@ -3,7 +3,7 @@
   "past" : [
     {
       "title" : "Developer Experience: The LEGO Way",
-      "url" : "https://speakerdeck.com/cbetta/a-brick-by-brick-guide-to-developer-experience",
+      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
       "date" : "December 13, 2016",
       "conference" : "APIDays Paris, London",
       "conference_url" : "http://www.apidays.io/events/paris-2016",
@@ -12,7 +12,7 @@
     },
     {
       "title" : "A brick by brick guide to developer experience",
-      "url" : "https://speakerdeck.com/cbetta/a-brick-by-brick-guide-to-developer-experience",
+      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
       "date" : "December 7, 2016",
       "conference" : "DevRelCon, London",
       "conference_url" : "https://london-2016.devrel.net",
