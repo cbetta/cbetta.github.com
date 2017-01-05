@@ -30,7 +30,7 @@ Besides the yearly membership cost there is a fee for each individual rental. Fo
 |Refunds||||£10|
 |**Total**||**14x**||**£330.50**|
 |Average/trip||||£23.61|
-{:.ui.striped.table}
+{:.ui.unstackable.celled.striped.table}
 
 
 In other words: for less than £24 a trip I've had 14 trips that included insurance (excluding a damage fee per incident) and fuel (up to a limit). I did a quick check on CompareTheMarket and if I were to buy a 12-year-old Ford KA for about £500 today I'd pay at least £800 for insurance alone!
