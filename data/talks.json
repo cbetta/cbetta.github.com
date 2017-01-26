@@ -1,5 +1,24 @@
 {
-  "future" : [],
+  "future" : [
+    {
+      "title" : "Developer Experience: The LEGO Way",
+      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
+      "date" : "March 17, 2017",
+      "conference" : "March of the Droids Dev Days, Reading",
+      "conference_url" : "http://www.marchofthedroids.co.uk/",
+      "icon" : "comment outline",
+      "country" : "gb"
+    },
+    {
+      "title" : "Developer Experience: The LEGO Way",
+      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
+      "date" : "May 17-19, 2017",
+      "conference" : "Dev Days, Vilnius",
+      "conference_url" : "http://devdays.lt/",
+      "icon" : "comment outline",
+      "country" : "lt"
+    }
+  ],
   "past" : [
     {
       "title" : "Developer Experience: The LEGO Way",
