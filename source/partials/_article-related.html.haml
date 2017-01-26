@@ -1,0 +1,16 @@
+- all_articles = blog.tags.slice(*current_page.tags).values.first
+- related_articles = [] if all_articles.blank?
+- related_articles = all_articles.delete_if { |article| article == current_page }
+- related_articles = related_articles.first(3)
+
+- unless related_articles.empty?
+  %h2
+    Related Articles
+
+  .ui.relaxed.divided.list
+    - related_articles.each do |article|
+      .item
+        %i.large.middle.aligned.icon.icon-fixed-width{class: article.data.icon }
+        .content
+          = link_to article.title, article, class: 'header'
+          .description= article.date.strftime('%A %B %e, %Y')
