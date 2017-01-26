@@ -33,7 +33,7 @@ ignore "/gallery.html"
 page "/atom.xml", layout: false
 
 set :markdown_engine, :kramdown
-set :markdown, fenced_code_blocks: true, smartypants: true, parse_block_html: true
+set :markdown, fenced_code_blocks: true, smartypants: true, parse_block_html: false
 
 activate :search_engine_sitemap
 

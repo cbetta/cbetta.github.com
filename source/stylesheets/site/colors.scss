@@ -1,0 +1,25 @@
+.color {
+  &.bg.green {
+    display: inline-block;
+    padding: 0 0.5em;
+    border-radius: 6px;
+    background-color: #0DB93C;
+    color: white;
+  }
+
+  &.bg.red {
+    display: inline-block;
+    padding: 0 0.5em;
+    border-radius: 6px;
+    background-color: #D5241D;
+    color: white;
+  }
+
+  &.bg.orange {
+    display: inline-block;
+    padding: 0 0.5em;
+    border-radius: 6px;
+    background-color: #F47000;
+    color: white;
+  }
+}
