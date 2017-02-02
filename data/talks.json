@@ -3,6 +3,15 @@
     {
       "title" : "Developer Experience: The LEGO Way",
       "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
+      "date" : "May 28-March 1, 2017",
+      "conference" : "APIdays, Sydney",
+      "conference_url" : "http://au.apidays.io/",
+      "icon" : "comment outline",
+      "country" : "au"
+    },
+    {
+      "title" : "Developer Experience: The LEGO Way",
+      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
       "date" : "March 17, 2017",
       "conference" : "March of the Droids Dev Days, Reading",
       "conference_url" : "http://www.marchofthedroids.co.uk/",
@@ -17,6 +26,14 @@
       "conference_url" : "http://devdays.lt/",
       "icon" : "comment outline",
       "country" : "lt"
+    },
+    {
+      "title" : "The State of Encryption",
+      "date" : "June 21, 2017",
+      "conference" : "FullStack Bytes, London",
+      "conference_url" : "https://skillsmatter.com/meetups/9040-the-state-of-encryption",
+      "icon" : "comment outline",
+      "country" : "gb"
     }
   ],
   "past" : [
