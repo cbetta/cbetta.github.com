@@ -4,9 +4,15 @@
     "description" : "Dedicated developer landing pages",
     "long_description" : "A dedicated developer portal or landing page can serve as a way to keep the homepage non technical and providing with all the dedication developers need to make a decision.",
     "screenshots" : {
-      "Pusher" : "/images/dx/pusher/pusher-3.png",
-      "Stripe" : "/images/dx/stripe/stripe-10.png",
-      "Twilio" : "/images/dx/twilio/twilio-4.png"
+      "Pusher" : {
+        "image" : "/images/dx/pusher/pusher-3.png"
+      },
+      "Stripe" : {
+        "image" : "/images/dx/stripe/stripe-10.png"
+      },
+      "Twilio" : {
+        "image" : "/images/dx/twilio/twilio-4.png"
+      }
     }
   },
   "interactive_demos" : {
@@ -14,9 +20,15 @@
     "description" : "Interactive demonstrations of product features",
     "long_description" : "An interactive demonstration of product's features can be the easiest way to explain to new users the purpose and power of your developer product.",
     "screenshots" : {
-      "Pusher" : "/images/dx/pusher/pusher-1.gif",
-      "Twilio" : "/images/dx/twilio/twilio-4.png",
-      "Stripe" : "/images/dx/stripe/stripe-3.gif"
+      "Pusher" : {
+        "image" : "/images/dx/pusher/pusher-1.gif"
+      },
+      "Twilio" : {
+        "image" : "/images/dx/twilio/twilio-4.png"
+      },
+      "Stripe" : {
+        "image" : "/images/dx/stripe/stripe-3.gif"
+      }
     }
   },
   "first_login" : {
@@ -24,21 +36,51 @@
     "description" : "Look and feel of dashboards on first login",
     "long_description" : "Providing a custom first-time use experience right after a developer signs up can help with user activation and retention.",
     "screenshots" : {
-      "Pusher / 1" : "/images/dx/pusher/pusher-10.png",
-      "Pusher / 2" : "/images/dx/pusher/pusher-11.png",
-      "Pusher / 3" : "/images/dx/pusher/pusher-12.png",
-      "Stripe" : "/images/dx/stripe/stripe-19.png",
-      "Twilio / 1" : "/images/dx/twilio/twilio-8.png",
-      "Twilio / 2" : "/images/dx/twilio/twilio-9.png",
-      "Twilio / 3" : "/images/dx/twilio/twilio-10.png",
-      "Twilio / 4" : "/images/dx/twilio/twilio-11.png",
-      "Twilio / 5" : "/images/dx/twilio/twilio-12.png",
-      "Twilio / 6" : "/images/dx/twilio/twilio-13.png",
-      "Twilio / 7" : "/images/dx/twilio/twilio-14.png",
-      "Twilio / 8" : "/images/dx/twilio/twilio-15.png",
-      "Twilio / 9" : "/images/dx/twilio/twilio-17.png",
-      "Twilio / 10" : "/images/dx/twilio/twilio-19.png",
-      "Twilio / 11" : "/images/dx/twilio/twilio-21.png"
+      "Pusher / 1" : {
+        "image" : "/images/dx/pusher/pusher-10.png"
+      },
+      "Pusher / 2" : {
+        "image" : "/images/dx/pusher/pusher-11.png"
+      },
+      "Pusher / 3" : {
+        "image" : "/images/dx/pusher/pusher-12.png"
+      },
+      "Stripe" : {
+        "image" : "/images/dx/stripe/stripe-19.png"
+      },
+      "Twilio / 1" : {
+        "image" : "/images/dx/twilio/twilio-8.png"
+      },
+      "Twilio / 2" : {
+        "image" : "/images/dx/twilio/twilio-9.png"
+      },
+      "Twilio / 3" : {
+        "image" : "/images/dx/twilio/twilio-10.png"
+      },
+      "Twilio / 4" : {
+        "image" : "/images/dx/twilio/twilio-11.png"
+      },
+      "Twilio / 5" : {
+        "image" : "/images/dx/twilio/twilio-12.png"
+      },
+      "Twilio / 6" : {
+        "image" : "/images/dx/twilio/twilio-13.png"
+      },
+      "Twilio / 7" : {
+        "image" : "/images/dx/twilio/twilio-14.png"
+      },
+      "Twilio / 8" : {
+        "image" : "/images/dx/twilio/twilio-15.png"
+      },
+      "Twilio / 9" : {
+        "image" : "/images/dx/twilio/twilio-17.png"
+      },
+      "Twilio / 10" : {
+        "image" : "/images/dx/twilio/twilio-19.png"
+      },
+      "Twilio / 11" : {
+        "image" : "/images/dx/twilio/twilio-21.png"
+      }
     }
   },
   "reference_documentation" : {
@@ -46,9 +88,15 @@
     "description" : "The reference documentation root pages",
     "long_description" : "The reference documentation is an important tool to the experienced and dedicated developer intending to make the most of a developer product.",
     "screenshots" : {
-      "Stripe" : "/images/dx/stripe/stripe-40.png",
-      "Sendgrid" : "/images/dx/sendgrid/sendgrid-21.png",
-      "Twilio" : "/images/dx/twilio/twilio-28.png"
+      "Stripe" : {
+        "image" : "/images/dx/stripe/stripe-40.png"
+      },
+      "Sendgrid" : {
+        "image" : "/images/dx/sendgrid/sendgrid-21.png"
+      },
+      "Twilio" : {
+        "image" : "/images/dx/twilio/twilio-28.png"
+      }
     }
   },
   "confirmation_emails" : {
@@ -56,9 +104,15 @@
     "description" : "Emails sent out to confirm the user's email address",
     "long_description" : "Confirmation emails are sent out to confirm the user's email address.",
     "screenshots" : {
-      "SendGrid" : "/images/dx/sendgrid/sendgrid-6.png",
-      "Pusher" : "/images/dx/pusher/pusher-16.png",
-      "Stripe" : "/images/dx/stripe/stripe-1.png"
+      "SendGrid" : {
+        "image" : "/images/dx/sendgrid/sendgrid-6.png"
+      },
+      "Pusher" : {
+        "image" : "/images/dx/pusher/pusher-16.png"
+      },
+      "Stripe" : {
+        "image" : "/images/dx/stripe/stripe-1.png"
+      }
     }
   },
   "welcome_emails" : {
@@ -66,10 +120,18 @@
     "description" : "Emails sent out to developers after signup",
     "long_description" : "Welcome emails are an essential tool for managing user retention. When people sign up and don't complete a first integration a simple welcome email can often bring people back to your product on a later moment.",
     "screenshots" : {
-      "SendGrid" : "/images/dx/sendgrid/sendgrid-24.png",
-      "Pusher" : "/images/dx/pusher/pusher-17.png",
-      "Stripe" : "/images/dx/stripe/stripe-1.png",
-      "Twilio" : "/images/dx/twilio/twilio-32.png"
+      "SendGrid" : {
+        "image" : "/images/dx/sendgrid/sendgrid-24.png"
+      },
+      "Pusher" : {
+        "image" : "/images/dx/pusher/pusher-17.png"
+      },
+      "Stripe" : {
+        "image" : "/images/dx/stripe/stripe-1.png"
+      },
+      "Twilio" : {
+        "image" : "/images/dx/twilio/twilio-32.png"
+      }
     }
   },
   "home_pages" : {
@@ -77,10 +139,41 @@
     "description" : "Product homepages",
     "long_description" : "The initial home page is often catered to fit the needs of developers and other interested parties. It therefore has to strike a balance to introduce both technical and non technical people to the product at offer.",
     "screenshots" : {
-      "Stripe" : "/images/dx/stripe/stripe-5.png",
-      "Pusher" : "/images/dx/sendgrid/sendgrid-1.png",
-      "SendGrid" : "/images/dx/pusher/pusher-1.png",
-      "Twilio" : "/images/dx/twilio/twilio-1.png"
+      "Stripe" : {
+        "image" : "/images/dx/stripe/stripe-5.png"
+      },
+      "Pusher" : {
+        "image" : "/images/dx/sendgrid/sendgrid-1.png"
+      },
+      "SendGrid" : {
+        "image" : "/images/dx/pusher/pusher-1.png"
+      },
+      "Twilio" : {
+        "image" : "/images/dx/twilio/twilio-1.png"
+      }
+    }
+  },
+  "readmes" : {
+    "title" : "Github READMEs",
+    "description" : "The READMEs for the SDKs",
+    "long_description" : "The README for the publicly available SDKs and libraries for a developer product offer an important initial starting point or many developers. Getting the various steps of the developer experience nailed down in this document is important to a successful onboarding.",
+    "screenshots" : {
+      "Stripe" : {
+        "image" : "/images/dx/stripe/stripe-44.png",
+        "preview" : true
+      },
+      "Twilio" : {
+        "image" : "/images/dx/twilio/twilio-34.png",
+        "preview" : true
+      },
+      "Pusher" : {
+        "image" : "/images/dx/pusher/pusher-20.png",
+        "preview" : true
+      },
+      "SendGrid" : {
+        "image" : "/images/dx/sendgrid/sendgrid-25.png",
+        "preview" : true
+      }
     }
   }
 }

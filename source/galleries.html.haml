@@ -23,18 +23,7 @@ title: Developer Experience Design Patterns
 
 .ui.two.column.grid
   - data.galleries.each do |key, value|
-    .column
-      .ui.fluid.card
-        %a.image{ href: "/galleries/#{key}"}
-          %img.lazy{"data-src" => value['screenshots'].first.last, src: '/images/dx/lazy.png' }
-        .content
-          .header
-            = value['title']
-          .description
-            = value['description']
-        .extra.content
-          %span.right.floated
-            %i.camera.icon
-            = pluralize(value['screenshots'].count, 'screenshot')
+    = partial 'partials/gallery_index_item', locals: { name: key, category: value }
+
 
 %h2.ui.horizontal.divider

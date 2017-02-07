@@ -15,14 +15,8 @@ layout: default
 
 
 .ui.two.column.grid
-  - info.screenshots.each do |name, src|
-    .column
-      .ui.fluid.card
-        %a.image{ "data-lightbox" => 'lightbox', "href" => asset_url(src), "data-title" => name }
-          %img.lazy{"data-src" => asset_url(src), src: asset_url('/images/dx/lazy.png') }
-        .content
-          .header
-            = name
+  - info.screenshots.each do |name, screenshot|
+    = partial 'partials/gallery_item', locals: { name: name, screenshot: screenshot }
 
 %br
 %br
@@ -35,18 +29,6 @@ layout: default
 
 .ui.two.column.grid
   - data.galleries.each do |key, value|
-    .column
-      .ui.fluid.card
-        %a.image{ href: "/galleries/#{key}"}
-          %img.lazy{"data-src" => asset_url(value['screenshots'].first.last), src: asset_url('/images/dx/lazy.png') }
-        .content
-          .header
-            = value['title']
-          .description
-            = value['description']
-        .extra.content
-          %span.right.floated
-            %i.camera.icon
-            = pluralize(value['screenshots'].count, 'screenshot')
+    = partial 'partials/gallery_index_item', locals: { name: key, category: value }
 
 %h2.ui.horizontal.divider

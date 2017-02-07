@@ -1,0 +1,17 @@
+- screenshot = category['screenshots'].first.last
+- image = screenshot['image']
+- image = screenshot['preview'] ? image.gsub('.png', "-small.png") : image
+
+.column
+  .ui.fluid.card
+    %a.image{ href: "/galleries/#{name}"}
+      %img.lazy{"data-src" => asset_url(image), src: asset_url('/images/dx/lazy.png') }
+    .content
+      .header
+        = category['title']
+      .description
+        = category['description']
+    .extra.content
+      %span.right.floated
+        %i.camera.icon
+        = pluralize(category['screenshots'].count, 'screenshot')

@@ -1,0 +1,18 @@
+- image = screenshot['image']
+- preview = screenshot['preview'] ? image.gsub('.png', "-small.png") : image
+- lightbox_class = screenshot['preview'] ? '' : 'lightbox'
+- target = screenshot['preview'] ? '__blank' : ''
+.column
+  .ui.fluid.card
+    - if screenshot['preview']
+      %a.image{ 'target' => target, "href" => asset_url(image) }
+        %img.lazy{"data-src" => asset_url(preview), src: asset_url('/images/dx/lazy.png') }
+      .content
+        .header
+          = name
+    - else
+      %a.image{ "data-lightbox" => lightbox_class, 'target' => target, "href" => asset_url(image), "data-title" => name }
+        %img.lazy{"data-src" => asset_url(preview), src: asset_url('/images/dx/lazy.png') }
+      .content
+        .header
+          = name
