@@ -19,12 +19,36 @@
       "country" : "gb"
     },
     {
+      "title" : "The Seven Deadly Sins of Developer Onboarding",
+      "date" : "April 19, 2017",
+      "conference" : "API Strategy & Tactics, London",
+      "conference_url" : "https://www.meetup.com/API-Strategy-Tactics-London/events/237546222/",
+      "icon" : "comment outline",
+      "country" : "gb"
+    },
+    {
+      "title" : "Developer Experience Workshop",
+      "date" : "May 23, 2017",
+      "conference" : "DevXCon, San Francisco",
+      "conference_url" : "https://2017.devxcon.com/",
+      "icon" : "comments outline",
+      "country" : "us"
+    },
+    {
       "title" : "The State of Encryption",
       "date" : "June 21, 2017",
       "conference" : "FullStack Bytes, London",
       "conference_url" : "https://skillsmatter.com/meetups/9040-the-state-of-encryption",
       "icon" : "comment outline",
       "country" : "gb"
+    },
+    {
+      "title" : "Hackathon Workshop",
+      "date" : "July 28, 2017",
+      "conference" : "DevRelCon, Tokyo",
+      "conference_url" : "https://tokyo-2017.devrel.net/",
+      "icon" : "comments outline",
+      "country" : "jp"
     }
   ],
   "past" : [
