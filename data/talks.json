@@ -49,6 +49,14 @@
       "conference_url" : "https://tokyo-2017.devrel.net/",
       "icon" : "comments outline",
       "country" : "jp"
+    },
+    {
+      "title" : "The Seven Deadly Sins of Developer Onboarding",
+      "date" : "July 29, 2017",
+      "conference" : "DevRelCon, Tokyo",
+      "conference_url" : "https://tokyo-2017.devrel.net/",
+      "icon" : "comment outline",
+      "country" : "jp"
     }
   ],
   "past" : [
