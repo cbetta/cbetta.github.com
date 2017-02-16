@@ -55,7 +55,7 @@ description: >
           .description= talk.date
 
 %h2.ui.horizontal.divider
-  %a{href: '/blog'} From the blog
+  %a{href: '/blog'} Highlights from the blog
 
 .ui.relaxed.divided.list
   - page_articles.select{|article| article.data.tags.include?('developer experience')}.first(20).each_with_index do |article, i|
