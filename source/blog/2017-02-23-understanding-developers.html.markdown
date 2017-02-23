@@ -135,7 +135,7 @@ When we look at these characteristics it becomes easy to determine the lowest co
 
 Sounds tough, right? Well the good thing is that I've never heard a developer say: "I wish this documentation was more complicated!" Providing clear, simple, and to the point documentation is useful for everyone. Providing documentation and guidance for every other level is the next step, but even that is not an impossible task.
 
-In my next post I will go over the different documentation types and how they can help you target these different types of developers. In the meanwhile remember that different developers have different needs, and providing documentation for developers at each level is essential.
+In my next post I will go over the different documentation types and how they can help you target these different types of developers. Meanwhile, remember that different developers have different needs, and providing documentation for developers at each level is essential.
 
 ## Hire me?
 
