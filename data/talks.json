@@ -10,11 +10,10 @@
       "country" : "au"
     },
     {
-      "title" : "Developer Experience: The LEGO Way",
-      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
+      "title" : "The Seven Deadly Sins of Developer Onboarding",
       "date" : "March 17, 2017",
-      "conference" : "March of the Droids Dev Days, Reading",
-      "conference_url" : "http://www.marchofthedroids.co.uk/",
+      "conference" : "The IDEs of March Conference, Reading",
+      "conference_url" : "https://www.theidesofmarch.net/",
       "icon" : "comment outline",
       "country" : "gb"
     },
