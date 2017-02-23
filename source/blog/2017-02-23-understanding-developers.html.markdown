@@ -16,7 +16,7 @@ Instead I want to explore a developer's mindset and how this influences the docu
 > "I know what developers think!" <br>
 > <small>- famous last words of an API product owner</small>
 
-When software developers write software it's very easy for them to convince themselves that all developers think the same way they think. We're all analytical super geniuses after-all, right?
+When software developers write software for other developers to use, it's very easy for them to convince themselves that all developers think the same way they think. We're all analytical super geniuses after-all, right?
 
 Those of us who've had some experience with trying to get developers to integrate our products know that this is not true. Yet often the next step is to put these developers into arbitrary categories: "Startup Developers", "Enterprise Developers", "N00bs", "Script Kiddies".
 
