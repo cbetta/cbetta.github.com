@@ -20,7 +20,7 @@ When software developers write software for other developers to use, it's very e
 
 Those of us who've had some experience with trying to get developers to integrate our products know that this is not true. Yet often the next step is to put these developers into arbitrary categories: "Startup Developers", "Enterprise Developers", "N00bs", "Script Kiddies".
 
-In this article I hope to give you a different way to think about what sets developers apart from each other. At the core there a 4 attributes that contribute to the state of mind of a developer.
+In this article I hope to give you a different way to think about what sets developers apart from each other. At the core there are 4 attributes that contribute to the state of mind of a developer.
 
 1. Product Experience
 1. Industry Experience
