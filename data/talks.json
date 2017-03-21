@@ -2,14 +2,6 @@
   "future" : [
     {
       "title" : "The Seven Deadly Sins of Developer Onboarding",
-      "date" : "March 17, 2017",
-      "conference" : "The IDEs of March Conference, Reading",
-      "conference_url" : "https://www.theidesofmarch.net/",
-      "icon" : "comment outline",
-      "country" : "gb"
-    },
-    {
-      "title" : "The Seven Deadly Sins of Developer Onboarding",
       "date" : "April 19, 2017",
       "conference" : "API Strategy & Tactics, London",
       "conference_url" : "https://www.meetup.com/API-Strategy-Tactics-London/events/237546222/",
@@ -58,6 +50,15 @@
     }
   ],
   "past" : [
+    {
+      "title" : "The Seven Deadly Sins of Developer Onboarding",
+      "url" : "https://cbetta.github.io/slides-seven-sins-of-developer-onboarding/",
+      "date" : "March 17, 2017",
+      "conference" : "The IDEs of March Conference, Reading",
+      "conference_url" : "https://www.theidesofmarch.net/",
+      "icon" : "comment outline",
+      "country" : "gb"
+    },
     {
       "title" : "Developer Experience: The LEGO Way",
       "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",

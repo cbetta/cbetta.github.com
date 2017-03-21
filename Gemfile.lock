@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/andrusha/middleman-cloudfront.git
+  remote: https://github.com/andrusha/middleman-cloudfront.git
   revision: 62913cf76e35e14c3e6aa8a592a376a3df11545f
   specs:
     middleman-cloudfront (0.2.1)
