@@ -16,7 +16,7 @@ var initSearch = function() {
 
     var loadDataAndSearch = function(query, callback) {
         $.ajax({
-            url: '/search.json',
+            url: $('body').data('search-path'),
             cache: true,
             method: 'GET',
             success: function(data) {

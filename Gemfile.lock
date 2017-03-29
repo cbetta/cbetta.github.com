@@ -19,6 +19,7 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     ansi (1.5.0)
+    awesome_print (1.7.0)
     backports (3.7.0)
     builder (3.2.3)
     coffee-script (2.4.1)
@@ -139,7 +140,7 @@ GEM
     middleman-search_engine_sitemap (1.4.0)
       builder
       middleman-core (~> 4.0)
-    middleman-sprockets (4.0.0.rc.3)
+    middleman-sprockets (4.1.0)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
     middleman-syntax (3.0.0)
@@ -202,6 +203,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   builder
   kramdown
   middleman (= 4.2.1)
@@ -214,7 +216,7 @@ DEPENDENCIES
   middleman-s3_sync
   middleman-search
   middleman-search_engine_sitemap
-  middleman-sprockets (= 4.0.0.rc.3)
+  middleman-sprockets
   middleman-syntax
   mime-types
   rails-assets-jquery!

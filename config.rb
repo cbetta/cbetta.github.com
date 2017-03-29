@@ -1,3 +1,4 @@
+
 Time.zone = "London"
 
 set :url_root, 'https://betta.io'
@@ -139,7 +140,9 @@ set :layout, 'default'
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  activate :asset_hash
+  activate :asset_hash, 
+    exts: [".css", ".png", ".jpg", ".jpeg", ".webp", ".svg", ".svgz", ".js", ".gif", ".ttf", ".otf", ".woff", ".woff2", ".eot", ".map", ".json"],
+    ignore: ['manifest.json']
   activate :minify_html
   activate :asset_host, host: '//d2vxwsh43haze0.cloudfront.net'
 end

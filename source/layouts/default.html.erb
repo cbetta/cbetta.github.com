@@ -37,7 +37,7 @@
     <%= feed_tag :atom, "/atom.xml", title: "Atom Feed" %>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   </head>
-  <body>
+  <body data-search-path='<%= search_index_path %>'>
     <%= partial 'partials/sidebar' %>
     <div class="pusher">
       <%= partial "partials/navigation"  %>
