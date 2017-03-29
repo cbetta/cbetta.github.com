@@ -14,12 +14,14 @@ gem 'middleman-search_engine_sitemap'
 gem "middleman-syntax"
 gem "middleman-sprockets", "4.0.0.rc.3"
 gem 'middleman-minify-html'
+gem 'middleman-search'
 gem "kramdown"
 gem "turbolinks", require: false
 gem "mime-types"
 
 source "https://rails-assets.org" do
   gem "rails-assets-jquery"
+  gem "rails-assets-underscore"
   gem "rails-assets-semantic"
   gem "rails-assets-lightbox2"
 end

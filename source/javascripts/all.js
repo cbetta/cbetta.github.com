@@ -1,9 +1,12 @@
 //= require jquery
 //= require semantic
+//= require lunr.min
+//= require underscore
 //= require ./site/dropdowns
 //= require ./site/sidebar
 //= require ./site/lazy-images
 //= require ./site/lightbox
 //= require ./site/rating
 //= require ./site/embed
+//= require ./site/search
 //= require turbolinks

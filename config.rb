@@ -25,6 +25,18 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
+activate :search do |search|
+
+  search.resources = ['blog/']
+  
+  search.fields = {
+    title:   {boost: 200, store: true, required: true},
+    tags:    {boost: 100, store: true, required: true},
+    content: {boost: 50},
+    url:     {index: false, store: true}
+  }
+end
+
 data.galleries.each do |path, value|
   proxy "/galleries/#{path}", "/gallery.html", :locals => { :gallery => path }
 end
@@ -46,8 +58,8 @@ helpers do
 
   def slide_image group, id
     url = "/images/slides/#{group}/#{group}.#{"%03d" % id}.jpeg"
-    image = "![#{title}](/images/dx/lazy.png){:.ui.image.fluid.bordered.lazy data-src=\"#{url}\"}"
-    "[#{image}](#{url}){: data-lightbox=\"lightbox\" data-title=\"#{title}\"}"
+    image = "![#{group}](/images/dx/lazy.png){:.ui.image.fluid.bordered.lazy data-src=\"#{url}\"}"
+    "[#{image}](#{url}){: data-lightbox=\"lightbox\" data-title=\"#{group}\"}"
   end
 
   def active(uri, exact = false)
@@ -127,7 +139,9 @@ set :layout, 'default'
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  activate :asset_hash
+  activate :asset_hash do |asset_hash|
+    asset_hash.exts << '.json'
+  end
   activate :minify_html
   activate :asset_host, host: '//d2vxwsh43haze0.cloudfront.net'
 end
