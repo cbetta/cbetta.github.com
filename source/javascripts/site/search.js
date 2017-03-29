@@ -2,8 +2,7 @@ var initSearch = function() {
     var lunrIndex = null;
     var lunrData = null;
 
-    var makeSearch = function(callback) {
-        var query = $('.ui.search input').val();
+    var makeSearch = function(query, callback) {
         var results = _(lunrIndex.search(query)).take(5).map(function(object) {
             entry = lunrData.docs[object.ref];
             entry["description"] = entry.tags;
@@ -15,7 +14,7 @@ var initSearch = function() {
         });
     };
 
-    var loadData = function(callback) {
+    var loadDataAndSearch = function(query, callback) {
         $.ajax({
             url: '/search.json',
             cache: true,
@@ -23,16 +22,17 @@ var initSearch = function() {
             success: function(data) {
                 lunrData = data;
                 lunrIndex = lunr.Index.load(lunrData.index);
-                makeSearch(callback);            
+                makeSearch(query, callback);            
             }
         });
     };
 
     var executeSearch = function(settings, callback) {
+        var query = $(this).find('input').val();
         if (lunrData == null) {
-            loadData(callback);
+            loadDataAndSearch(query, callback);
         } else {
-            makeSearch(callback);
+            makeSearch(query, callback);
         }
     };
 
@@ -50,7 +50,7 @@ var initSearch = function() {
         }
     });   
 
-    loadData(function(){});
+    loadDataAndSearch("", function(){});
 };
 
 $(document).ready(initSearch);

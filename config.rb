@@ -139,9 +139,7 @@ set :layout, 'default'
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  activate :asset_hash do |asset_hash|
-    asset_hash.exts << '.json'
-  end
+  activate :asset_hash
   activate :minify_html
   activate :asset_host, host: '//d2vxwsh43haze0.cloudfront.net'
 end
