@@ -26,20 +26,8 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
-activate :search do |search|
-
-  search.resources = ['blog/']
-  
-  search.fields = {
-    title:   {boost: 200, store: true, required: true},
-    tags:    {boost: 100, store: true, required: true},
-    content: {boost: 50},
-    url:     {index: false, store: true}
-  }
-end
-
 data.galleries.each do |path, value|
-  proxy "/galleries/#{path}", "/gallery.html", :locals => { :gallery => path }
+  proxy "/galleries/#{path}", "/gallery.html", :locals => { :gallery => path }, title: value.title, tags: value.description
 end
 
 ignore "/gallery.html"
@@ -132,6 +120,18 @@ activate :google_analytics do |ga|
   ga.tracking_id = 'UA-2925354-7'
 end
 
+activate :search do |search|
+
+  search.resources = ['blog/', 'galleries', 'talks']
+  
+  search.fields = {
+    title:   {boost: 200, store: true, required: true},
+    tags:    {boost: 100, store: true, required: true},
+    content: {boost: 50},
+    url:     {index: false, store: true}
+  }
+end
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
@@ -146,3 +146,4 @@ configure :build do
   activate :minify_html
   activate :asset_host, host: '//d2vxwsh43haze0.cloudfront.net'
 end
+
