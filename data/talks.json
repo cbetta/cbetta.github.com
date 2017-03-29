@@ -1,6 +1,14 @@
 {
   "future" : [
     {
+      "title" : "Developer Experience: The LEGO Way",
+      "date" : "April 10, 2017",
+      "conference" : "Contentful Dev Talks, Berlin",
+      "conference_url" : "https://www.contentful.com/",
+      "icon" : "comment outline",
+      "country" : "de"
+    },
+    {
       "title" : "The Seven Deadly Sins of Developer Onboarding",
       "date" : "April 19, 2017",
       "conference" : "API Strategy & Tactics, London",
