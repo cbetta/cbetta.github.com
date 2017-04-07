@@ -5,6 +5,8 @@ per_page: 15
 
 %h2.ui.divider.horizontal Blog
 
+= partial 'partials/newsletter'
+
 .ui.relaxed.divided.list
   - page_articles.each_with_index do |article, i|
     .item
