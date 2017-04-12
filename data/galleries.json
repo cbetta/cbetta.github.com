@@ -12,6 +12,9 @@
       },
       "Twilio" : {
         "image" : "/images/dx/twilio/twilio-4.png"
+      },
+      "GitHub" : {
+        "image" : "/images/dx/github/github-5.png"
       }
     }
   },
@@ -112,6 +115,9 @@
       },
       "Stripe" : {
         "image" : "/images/dx/stripe/stripe-1.png"
+      },
+      "GitHub" : {
+        "image" : "/images/dx/github/github-47.png"
       }
     }
   },
@@ -150,6 +156,9 @@
       },
       "Twilio" : {
         "image" : "/images/dx/twilio/twilio-1.png"
+      },
+      "GitHub" : {
+        "image" : "/images/dx/github/github-1.png"
       }
     }
   },
@@ -172,6 +181,10 @@
       },
       "SendGrid" : {
         "image" : "/images/dx/sendgrid/sendgrid-25.png",
+        "preview" : true
+      },
+      "GitHub" : {
+        "image" : "/images/dx/github/github-50.png",
         "preview" : true
       }
     }
