@@ -26,6 +26,14 @@
     },
     {
       "title" : "The State of Encryption",
+      "date" : "June 12, 2017",
+      "conference" : "FullStack, London",
+      "conference_url" : "https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things",
+      "icon" : "comment outline",
+      "country" : "gb"
+    },
+    {
+      "title" : "The State of Encryption",
       "date" : "June 21, 2017",
       "conference" : "FullStack Bytes, London",
       "conference_url" : "https://skillsmatter.com/meetups/9040-the-state-of-encryption",
