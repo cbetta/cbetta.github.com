@@ -1,14 +1,6 @@
 {
   "future" : [
     {
-      "title" : "The Seven Deadly Sins of Developer Onboarding",
-      "date" : "April 19, 2017",
-      "conference" : "API Strategy & Tactics, London",
-      "conference_url" : "https://www.meetup.com/API-Strategy-Tactics-London/events/237546222/",
-      "icon" : "comment outline",
-      "country" : "gb"
-    },
-    {
       "title" : "Developer Experience Workshop",
       "date" : "May 23, 2017",
       "conference" : "DevXCon, San Francisco",
@@ -21,23 +13,23 @@
       "date" : "June 8, 2017",
       "conference" : "DevTalks, Bucharest",
       "conference_url" : "http://www.devtalks.ro/bucharest/",
-      "icon" : "comment outline",
+      "icon" : "lock",
       "country" : "ro"
-    },
-    {
-      "title" : "The State of Encryption",
-      "date" : "June 12, 2017",
-      "conference" : "FullStack, London",
-      "conference_url" : "https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things",
-      "icon" : "comment outline",
-      "country" : "gb"
     },
     {
       "title" : "The State of Encryption",
       "date" : "June 21, 2017",
       "conference" : "FullStack Bytes, London",
       "conference_url" : "https://skillsmatter.com/meetups/9040-the-state-of-encryption",
-      "icon" : "comment outline",
+      "icon" : "lock",
+      "country" : "gb"
+    },
+    {
+      "title" : "A Mini State of Encryption",
+      "date" : "July 12-14, 2017",
+      "conference" : "FullStack, London",
+      "conference_url" : "https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things",
+      "icon" : "lock",
       "country" : "gb"
     },
     {
@@ -53,18 +45,26 @@
       "date" : "July 29, 2017",
       "conference" : "DevRelCon, Tokyo",
       "conference_url" : "https://tokyo-2017.devrel.net/",
-      "icon" : "comment outline",
+      "icon" : "university",
       "country" : "jp"
     }
   ],
   "past" : [
+    {
+      "title" : "The Seven Deadly Sins of Developer Onboarding",
+      "date" : "April 19, 2017",
+      "conference" : "API Strategy & Tactics, London",
+      "conference_url" : "https://www.meetup.com/API-Strategy-Tactics-London/events/237546222/",
+      "icon" : "university",
+      "country" : "gb"
+    },
     {
       "title" : "Developer Experience: The LEGO Way",
       "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
       "date" : "April 10, 2017",
       "conference" : "Contentful Dev Talks, Berlin",
       "conference_url" : "https://www.contentful.com/",
-      "icon" : "comment outline",
+      "icon" : "space shuttle",
       "country" : "de"
     },
     {
@@ -73,7 +73,7 @@
       "date" : "March 17, 2017",
       "conference" : "The IDEs of March Conference, Reading",
       "conference_url" : "https://www.theidesofmarch.net/",
-      "icon" : "comment outline",
+      "icon" : "university",
       "country" : "gb"
     },
     {
@@ -82,7 +82,7 @@
       "date" : "February 28-March 1, 2017",
       "conference" : "APIdays, Sydney",
       "conference_url" : "http://au.apidays.io/",
-      "icon" : "comment outline",
+      "icon" : "space shuttle",
       "country" : "au"
     },
     {
@@ -91,7 +91,7 @@
       "date" : "December 13, 2016",
       "conference" : "APIDays Paris, London",
       "conference_url" : "http://www.apidays.io/events/paris-2016",
-      "icon" : "comment outline",
+      "icon" : "space shuttle",
       "country" : "gb"
     },
     {
@@ -100,7 +100,7 @@
       "date" : "December 7, 2016",
       "conference" : "DevRelCon, London",
       "conference_url" : "https://london-2016.devrel.net",
-      "icon" : "comment outline",
+      "icon" : "space shuttle",
       "country" : "gb"
     },
     {
