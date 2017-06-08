@@ -1,22 +1,6 @@
 {
   "future" : [
     {
-      "title" : "Developer Experience Workshop",
-      "date" : "May 23, 2017",
-      "conference" : "DevXCon, San Francisco",
-      "conference_url" : "https://2017.devxcon.com/",
-      "icon" : "comments outline",
-      "country" : "us"
-    },
-    {
-      "title" : "The State of Encryption",
-      "date" : "June 8, 2017",
-      "conference" : "DevTalks, Bucharest",
-      "conference_url" : "http://www.devtalks.ro/bucharest/",
-      "icon" : "lock",
-      "country" : "ro"
-    },
-    {
       "title" : "The State of Encryption",
       "date" : "June 21, 2017",
       "conference" : "FullStack Bytes, London",
@@ -51,7 +35,26 @@
   ],
   "past" : [
     {
+      "title" : "The State of Encryption",
+      "url" : "https://speakerdeck.com/cbetta/the-state-of-encryption",
+      "date" : "June 8, 2017",
+      "conference" : "DevTalks, Bucharest",
+      "conference_url" : "http://www.devtalks.ro/bucharest/",
+      "icon" : "lock",
+      "country" : "ro"
+    },
+    {
+      "title" : "Developer Experience Workshop",
+      "url" : "https://speakerdeck.com/cbetta/developer-experience-workshop",
+      "date" : "May 23, 2017",
+      "conference" : "DevXCon, San Francisco",
+      "conference_url" : "https://2017.devxcon.com/",
+      "icon" : "comments outline",
+      "country" : "us"
+    },
+    {
       "title" : "The Seven Deadly Sins of Developer Onboarding",
+      "url" : "https://speakerdeck.com/cbetta/the-7-deadly-sins-of-developer-onboarding",
       "date" : "April 19, 2017",
       "conference" : "API Strategy & Tactics, London",
       "conference_url" : "https://www.meetup.com/API-Strategy-Tactics-London/events/237546222/",
