@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/andrusha/middleman-cloudfront.git
+  remote: git://github.com/andrusha/middleman-cloudfront.git
   revision: 62913cf76e35e14c3e6aa8a592a376a3df11545f
   specs:
     middleman-cloudfront (0.2.1)
@@ -226,7 +226,7 @@ DEPENDENCIES
   turbolinks
 
 RUBY VERSION
-   ruby 2.4.0p0
+   ruby 2.4.1p111
 
 BUNDLED WITH
-   1.14.6
+   1.15.3

@@ -1,20 +1,16 @@
 {
   "future" : [
+
+  ],
+  "past" : [
     {
-      "title" : "The State of Encryption",
-      "date" : "June 21, 2017",
-      "conference" : "FullStack Bytes, London",
-      "conference_url" : "https://skillsmatter.com/meetups/9040-the-state-of-encryption",
-      "icon" : "lock",
-      "country" : "gb"
-    },
-    {
-      "title" : "A Mini State of Encryption",
-      "date" : "July 12-14, 2017",
-      "conference" : "FullStack, London",
-      "conference_url" : "https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things",
-      "icon" : "lock",
-      "country" : "gb"
+      "title" : "The Seven Deadly Sins of Developer Onboarding",
+      "date" : "July 29, 2017",
+      "conference" : "DevRelCon, Tokyo",
+      "conference_url" : "https://tokyo-2017.devrel.net/",
+      "icon" : "university",
+      "country" : "jp",
+      "url" : "https://speakerdeck.com/cbetta/the-7-deadly-sins-of-developer-experience-devrelcon-tokyo"
     },
     {
       "title" : "Hackathon Workshop",
@@ -22,18 +18,18 @@
       "conference" : "DevRelCon, Tokyo",
       "conference_url" : "https://tokyo-2017.devrel.net/",
       "icon" : "comments outline",
-      "country" : "jp"
+      "country" : "jp",
+      "url" : "https://tokyo-2017.devrel.net/"
     },
     {
-      "title" : "The Seven Deadly Sins of Developer Onboarding",
-      "date" : "July 29, 2017",
-      "conference" : "DevRelCon, Tokyo",
-      "conference_url" : "https://tokyo-2017.devrel.net/",
-      "icon" : "university",
-      "country" : "jp"
-    }
-  ],
-  "past" : [
+      "title" : "The State of Encryption",
+      "date" : "July 12-14, 2017",
+      "conference" : "FullStack, London",
+      "conference_url" : "https://skillsmatter.com/conferences/8264-fullstack-2017-the-conference-on-javascript-node-and-internet-of-things",
+      "icon" : "lock",
+      "country" : "gb",
+      "url" : "https://speakerdeck.com/cbetta/the-state-of-encryption"
+    },
     {
       "title" : "The State of Encryption",
       "url" : "https://speakerdeck.com/cbetta/the-state-of-encryption",
