@@ -1,6 +1,13 @@
 {
   "future" : [
-
+    {
+      "title" : "Developer Experience & Event Workshop",
+      "date" : "December 7, 2017",
+      "conference" : "DevRelCon, London",
+      "conference_url" : "https://london-2017.devrel.net/",
+      "icon" : "comments outline",
+      "country" : "gb"
+    }
   ],
   "past" : [
     {
