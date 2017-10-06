@@ -3,7 +3,7 @@ rvm:
 - 2.4.2
 script:
 - bundle exec middleman build --no-parallel
-# - bundle exec middleman s3_sync
+- bundle exec middleman s3_sync
 branches:
   only:
   - master
