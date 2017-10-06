@@ -7,10 +7,6 @@ install:
 - bundle install --path vendor/bundle
 script:
 - bundle exec middleman build
-- bundle exec middleman s3_sync
 branches:
   only:
   - master
-env:
-  global:
-    secure: gwRo06HyR3EkqOi1NGJW0hX94QAR1BWZDE2yC68UnS2zj8G5FKVv65FMon4NBRTyRoMhH8FZcif6P278s+gZ0U0vTCqUk8lpWRF18S36QWlz0sLdAkIAKXih74O7BkJGt/Z+nRyujHHa8sinTzzfi+sFe1OlnTikV1g/8wqtMYHf7t/8eXn6XbDO0CaWRg8ZCju4vaoKRguddoBuYLXHpMQ8r0SSmL3pD4REXz1PoQ5+Jg5YCikh76nsWFZHZmk3B+t7h/Yg/MoT2HHU2qe8HEaWeGBI8KFqHkzgRNSNoq0OnMnt0QyU0JOjNlk84r2W+CZ3IyfH1Iixncb4NKaW2AWd2TKJGj5v+2nVK/6srmBTKbkkUjUqce8/kO2XTzkuGhjRZblo69KK68fC6FWOCg1tzgPxn+Kx/N0PhGmV+FBaVCC1+qGav+AHeALq+YZeqyONFCXmsFZWFfWw5mMB0lOoX3LRZrm3jsAcL1qw0jTG8MQFjW8casodB55aSvGdCuf9KbWkooFcoxNz9qQreAa0Yo9cPcGcEuA3734Z8nudFxG9MkxG5mE8e8kUk4R0hOnflAWMof6kw4ortKsQGBP3joNS/J0o5h6Lum+QJRfQc92iw4GR6REUL0zkGz0uZm3uZ3ZjMh7Eaut3maSs5Aa5mrBy7mgbZ88AXQ3iHZE=
