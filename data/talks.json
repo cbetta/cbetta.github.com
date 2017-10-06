@@ -2,6 +2,22 @@
   "future" : [
     {
       "title" : "Track MC",
+      "date" : "October 20, 2017",
+      "conference" : "Hackference, Birmingham",
+      "conference_url" : "https://2017.hackference.co.uk/",
+      "icon" : "comment outline",
+      "country" : "gb"
+    },
+    {
+      "title" : "API Teardown - Live",
+      "date" : "December 6, 2017",
+      "conference" : "DevRelCon, London",
+      "conference_url" : "https://london-2017.devrel.net/",
+      "icon" : "tv",
+      "country" : "gb"
+    },
+    {
+      "title" : "Track MC",
       "date" : "December 6, 2017",
       "conference" : "DevRelCon, London",
       "conference_url" : "https://london-2017.devrel.net/",
