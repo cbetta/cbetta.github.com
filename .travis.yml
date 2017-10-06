@@ -4,9 +4,9 @@ rvm:
 before_install:
 - rvm install 2.4.2
 install:
-- bundle install --path vendor/bundle
+- bundle install
 script:
-- bundle exec middleman build
+- bundle exec middleman build --no-parallel
 branches:
   only:
   - master
