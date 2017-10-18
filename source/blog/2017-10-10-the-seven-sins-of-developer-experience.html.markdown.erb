@@ -1,0 +1,143 @@
+---
+title: "The 7 Sins of Developer Experience"
+date: 2017-10-10 15:00 GMT
+tags: developer experience
+icon: map signs
+---
+
+This post is a write up of a talk given at [DevRelCon Tokyo 2017](tokyo-2017.devrel.net) and a few other events. Slides for this talk are [available on Speaker Deck](https://speakerdeck.com/cbetta/the-7-deadly-sins-of-developer-experience-devrelcon-tokyo).
+{:.ui.message}
+
+<div class="ui embed" data-source='youtube' data-id="5Frzvrq52fs" data-placeholder="<%= image_path '/images/slides/sins/sins.001.jpeg' %>
+"></div>
+
+<br>
+
+We all ocassionally have one of these days. We want to use things, but we can't quite figure out how. The world is designed for us, it's so easy, yet once in a while with all good intent - we can't manage.
+
+Doors are hard. Doors are really hard to deal with, especially glass doors, cause you can see right through them and unless there's a special sign on them it can be hard to see they're there.
+
+Yet a lot of us have APis and SDKs, we sell products to developers. And those products are probably a lot harder than glass doors.
+
+A lot harder, I think personally.
+
+So, who am I?
+
+My name is Cristiano. I am develper experience designer, I used to work at PayPal and Braintree. I am abig fan of dev experience, I like to write about it, looking at companies like Stripe, Github and look at how they take a developer from first signup  to first API call.
+
+I also like to look at OSS projects, like the SDKs of these companies, what do they put in the documetation, etc.
+
+And I work with companies small and large to help them improve their DX flow.
+
+What I want to talk about today is DX and the worst things I've seen. To me DX is like Users are to UX, developers are like DX.
+
+To quote Jennifer Riggens. <Insert quote>
+
+I personally love the last part. Your users will always be experiencing your product, even when you did not put any time in your DX, even if your experience is rubbish.
+
+For all of us who have an API or Dev Prod, developers are still going to have an experience and it's up to you to decide if that's a good one or a bad one.
+
+
+So what is DX to me? To me, if you have a paltform you want a successful user on it. That's often the target, and for DP we can geeralize this to a successful developer.
+
+Somewhere we start off with a fresh new developer, a dev who gets introduced to your prod and we take them on a journey to become a successful developer and on the long term we hope they have long term success as well.
+
+That middle bit, that to me is DX. The journey from first landing on your site, your dev portal, your twitter, or even meetin gyou at a booth, to that successful integration. That moment that they have a successful product that ues your product. Everyone outside of that is either dev evangelis or dev advocacy. The marketing before, the support after.
+
+In the middle, lives your product. If you think of it your product is made up of 2 different things. Your product is compromised of 2 different things. Your APIs, SDKs, software on one side, and the documentation that supports the software on the other side.
+
+Those 2 things, they make your product. And a different way to think about it is that your APIs and SDKs are the tools you provide, and the documentation and support are the information to support these tools.
+
+The gist of what I'm going to talk about today is how a lot of the information we provide to users is the problem. Not all information is created equal.
+
+There is so much information that we write. Often it's too much, we give it to them too soon. We provide them too little when they do want it. We structure it badly, we badly support our own documentation, and sometimes its incomple or incorrect.
+
+On the other side are the tools. Often we write tools over which we have no control.
+
+And I don't know if you noticed, but those are 7 things. Which make for my 7 sins of developer experience.
+
+So let's kick it off with #1
+
+Too much information.
+
+There's a concept called performance overload. Performance load is the idea that when we have a door, with a handle, there's 2 vectors of performance load on it. The first one is the physical load, it's the idea that there's a certain physical activity that I need to do. If it's aprticularly heavy handle or door, the physical load is higher than for an automatic sliding door.
+
+The other load is the cognitive load. As it's a handle I can look at it and see a handle, which tells me that this is probably a door that will open, and it will probably open inwards. And how do we see that, we see that because of the handle.
+
+We get cognitive dissonance when the UI'ssignifiers don't necessarily signify what you can do with them. For example, when we get a handle yet the door opens away from us there is a disconnect between what we expected and were allowed to do.
+
+Now this one isn't so bad, as we see it more often, and repetition drives behaviour as well. It gets overloaded when you get to situations like this.
+
+There is a handle in the middle, 2 bars, 4 signs. At this moment people might get overloaded, blocked, frustrated, and they will give up. They will walk away and try a different door.
+
+And we see the same thing we see when we look at some websites.
+
+I love amazon, I love their products, but this is overload. People look at this and go away and try something else.
+
+See, cognitive overload is a situation where you as a teach give too much info or tasks to a learner at the same time resulting to the learner being unable to process all that information. It's above the limit at that time in one go.
+
+There are some solutions to this. One of them is chunking. If you chunk by 8 items at a time they are more likely to be able to remember or understand that information.
+
+And if you give them multiple chunks of chunks, they are more likely to remember a larger percentage of that information as well.
+
+Amazon does this kinda in their UI, but they do it in a pretty poor way.
+
+If you go to one of their other sites, their 10 minute guides site, they actually apply a different rule, the 80/20 rule.
+
+This rule is the idea that users will use 20% of your product 80% of the time. Amazon recognises this, they prioritized the things people mostly do: compute, spin up a linux version, spin up a windows machine. Those are the things most people want to do, regardless of what they want to do. So put those things first, rather than the other 80% of features.
+
+Number 2
+
+Information: Too soon
+
+It's kind of Cognitive Load part 2.
+
+Do we all recognize this?
+
+It's a fire alarm. The thing we break in the case of a fire.
+
+And it's kind of cool. It has a low cognitive performance load, it takes little to understand what it does. Yet it has a medium physical load, you need to press relatively hard to breakd the glass.
+
+The reason why we do that is to prevent abuse. You can't accidentally lean against the button to set of the alarm, you relaly need to press harder than that.
+
+Now we do the same in UI with confirmation dialogs. Are you sure you want to continue? It's low cognitive load, yes I really wanted to do this. Yet, it still requires some extra physical load to click a button, again.
+
+That's a good example of putting cognitive load in the way of users. Yet often we put CGL in the way at the wrong time, and often with forms.
+
+For example, let's take this simple field asking for your name. Seems pretty simple right? Yet the moment we put that little star on it we make this field mandatory, and with that come a lot f questions. Who can see this? Do I fill in my actual name or fake name? Can I change it later? Do I use the name in my passport or the name I use in public?
+
+Now this is a relatively easy one, but when we sign up for dev products we often ask these kind of questions. "I am a developer/designer/business owner".
+
+Same question again? Can I change this later? What if I am more than one? If I pick business owner will I still get API keys? I don't know!
+
+All of that is cognitive load. All those questions that people are asking make it hard for people to continue.
+
+So I like what people does on their sign up. They ask you what plan you want, and if you want to set up an org.
+
+And org is a weird one to ask. Cause when I sign up to GH and have no experience with GH I have no idea what an org is.
+
+So I first have to understand what an org is before I can make a decision on whether I want to set one up.  Which is what a mental model is. We have to make sure that the way your user thinks your product works is in sync with how it qctually works. And when these things are not in sync, it becomes really hard for somebody to reason about how to use your product.
+
+<Insert Mental Model Quote>
+
+So what GH does in this situation, they put some help text under it to help you make an educated decision. Now the org is an optional choice, it's a checkbox, so the hurdle isn't very high, you can ignore it.
+
+Now for the personal vs paid plan question you actually have to decide there and then. That's a touugh one. The same questons come up again: can I change this later? Which one do I want?
+
+Luckily GH puts some text in place under it to say "dont worry, you can cancel or upgrade at any time". That takes the load away to make a decision at that time, to remove the feeling that you are being forced into anything, and allows everyone to continue.
+
+It's interesting that this is the second screen of signup, not the first. It's the idea of progressive disclosure.
+
+<Insert Quote>
+
+What happens here is that when you sign up it only asks for a username, email, password. Nothing else. Those are really low cognitive load quetions. I know what my standard username is, my email, and we all use theh same password everywhere, right?
+
+And then only after that, after I'm signed up they start asking the hard questions.
+
+All the hard questions are postponed.
+
+Number 3 (17:40)
+
+
+
+<%= slide_image 'sins', 2 %>
