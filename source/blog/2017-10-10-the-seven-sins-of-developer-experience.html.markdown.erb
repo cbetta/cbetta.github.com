@@ -138,6 +138,105 @@ All the hard questions are postponed.
 
 Number 3 (17:40)
 
+Information withotu structure. When we read a book, there's a lot of structure in a book. We have the page numbers, the current chapter at the top quite often, the toc somewhere at the front of the book. the index at the back. We can flip to the next page just by pulling the corner, and we can flip to the previous page just by pulling the other corner.
+
+All those things help me understand where I am in a book. What page am I on? I can look at a book and see approximately how far through I am.
+
+It tells me where I can go. I can go to the next page or previous page, or I can look at the index and toc to see what chapters there are.
+
+And I can see where I came from, I can see what pages came first and what came after.
+
+All of that is the idea of signposting. And we do this online all the time.
+
+If you look at most websites, you'll see some navigation at the top. The navigation tends to be there and as we move across to different pages it tends to stay there.
+
+We will have links, that tell us "you can click here". And when we click on one of those the navigation might change to tell us that we are now in a different section.
+
+Yet a lot of websites that I deal with are missing that basic structure that tells us where we are at any point. That tells us where we can go, where we came from, and how we can go back.
+
+A great way to show you where you are within a website for developers is with breadcrumbs. On this facebook page I can see that we are within the docs for games section, and on this page i can get an outline of all the sections in this page specifically.
+
+This kind of design goes hand in hand with a design principle called the Guttenberg Diagram. It's a diagram that describes the general pattern followed by the eyes when looking at evenly distributed, homogenous information. 
+
+In most of the western world, this will look something like this for an average website. You get that F shape focussing on the top left, with less and less attention as we go more to the bottom right of the page.
+
+And this is why you generally find all the navigation on the top and left. With the main content in the middle of the page, because this is where people expect that content according to the guttenberg diagram.
+
+So if you want to structure your site to have the right signposting, then those are the places where they will look for that information. Only people with very high motivation will scroll all the way to the footer and look there for the content they are looking for.
+
+They might only do so after they have given up looking in the other places.
+
+Number 4
+
+Too little information
+
+Too late
+
+We write a lot of documentation. We love writing documentation. I feel like documentation is a bit like ductape. Once you have it, you want to use it for everything.
+
+It's a bit like where we have something that's broken, and rather than aiming for perfection, for a fix, we settle for something that's just good enough.
+
+And we see this a lot with doors. When people are having trouble with doors we don't tend to fix the UX, we just put up a note. We add more documentation.
+
+And more documentation is not always better.
+
+This is a website I recently looked at. And this is 1 of their over 600 pages of documentation.
+
+We do pretty clever thigns with documentation, where we might have some product, which does something awesome. But with this you need to be very specific.
+
+So we add a little warning note to inform a developer of our peculiar product.
+
+This looks like progressive disclosure, the thing we talked about before where we are telling people about the things they need to know when they need to know.
+
+But that's not what's really happening here. It's more like progressive revalation, where we only provide people with the documentation when they run into the error and try and find a solution in the documentation.
+
+Where ideally what we should be doing is solving the product. We should look at the product and update the API or SDK to be more forgiving and understanding of the developer intent.
+
+That's actually using the documentation to inform, not just for it to support the constrains in your product.
+
+Number 5
+ 
+Information without flow
+
+I hate get started buttons, because 90% of the time they go straight from the button to the bin bucket.
+
+When I first looked at sendgrid they took you from Get Started to signup to a page whith no context. They just left you hanging. It's like all they wanted to get was your email. Not useful
+
+We are all trying to tell stories within devrel, stories about how are products are great and how they can make our customers successful. 
+
+So story telling is essential when we take people on that adventure of making their first API call. When we look at Pusher, they actually do take you from Signup, to creating your first application, all the way to making that first API call in your programming language.
+
+
+They take you from get Started all the way to success.
+
+And i feel like often we don't know what success means. is it getting an email address? Probably not.
+
+is it getting developers to make their first APi call? Probably neither.
+
+Is it a paying user? Probably neither.
+
+Is it having a successful user? Probably yeah!
+
+Having a successful user is super important. Cause if you won't have customer success you won't be successful either.
+
+Number 6
+
+Incomplete information
+
+If you go to GitHub and search for "documentation mistake" you will find 43000 issues. If you search for "typo" you will find 614.000 issues. 
+
+I had this problem with Ember where they were on version 2.12. But if you go to 2.0 it will tel you that you are on an old guide. Yet if you went to search for ember router you would end up on the 1.0 documentation, which had no mention of this being an old version of the docs. This is where developers get frustrated, where developers waste time, and where they will go away and try out your competitor.
+
+It's really important to test your documentation. We often test our code, but do we test our docs? There's a great blog post by GitLab about how they ship their product and documentation hand in hand. 
+
+Number 7
+
+Out of control tools. Quite often I see companies who do not own their own SDKs. 
+
+PayPal did [26:27]
+
+
+
 
 
 <%= slide_image 'sins', 2 %>
