@@ -15,7 +15,7 @@ This post is a write up of a talk given at [DevRelCon Tokyo 2017](tokyo-2017.dev
 
 ## Prologue
 
-We all ocassionally have one of these days where things don't quite go our way. We want to use things, but we can't quite figure out how. Everything in the world is designed for us, it's all made to be so easy, yet once in a while - with all good intent - we can't manage.
+We all occasionally have one of these days where things don't quite go our way. We want to use things, but we can't quite figure out how. Everything in the world is designed for us, it's all made to be so easy, yet once in a while - with all good intent - we can't manage.
 
 <iframe width="100%" height="365" src="https://www.youtube-nocookie.com/embed/SyCj5ce2jYk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -37,19 +37,19 @@ A lot harder.
 
 So, who am I?
 
-My name is Cristiano. I am Develper Experience designer who used to work at PayPal and Braintree. I am abig fan of great Developer Experiences, and as such I like to write about them. On my site I've looked at companies like Stripe, GitHub and others, and looked at how they take a developer from first signup all the way to their first API call.
+My name is Cristiano. I am Developer Experience designer who used to work at PayPal and Braintree. I am a big fan of great Developer Experiences, and as such, I like to write about them. On my site, I've looked at companies like [Stripe](https://betta.io/blog/2016/10/16/developer-experience-review-stripe/), [GitHub](https://betta.io/blog/2017/04/12/developer-experience-review-github/) and others, and looked at how they take a developer from first signup all the way to their first API call.
 
-Additionally, I also like to look at publicly available sofware that these companies produce, like their SDKs, samples and documentation.
+Additionally, I also like to look at publicly available software that these companies produce, like their [SDKs](https://betta.io/blog/2017/02/07/developer-experience-github-readmes/), samples and documentation.
 
 <%= slide_image 'sins', 11 %>
 
-Over the past year I've worked with companies small and large to help them improve their DX in the onboarding, documentation, SDKs, and more.
+Over the past year, I've worked with companies small and large to help them improve their DX in the onboarding, documentation, SDKs, and more.
 
 <%= slide_image 'sins', 12 %>
 
 ## About Developer Experience
 
-What I want to talk about today is DX, and some of the worst things I've seen companies do. 
+What I want to talk about today is DX and some of the worst things I've seen companies do to it. 
 
 Let's start with a bit of a refresher of what DX is, and what it means to me. To me, DX is to Developers as UX is to Users.
 
@@ -57,27 +57,27 @@ Let's start with a bit of a refresher of what DX is, and what it means to me. To
 
 To quote [Jennifer Riggens](https://twitter.com/jkriggins). 
 
-> "Developer experience is an extension of UX that focuses on the developer, who can either be the intermediary or, as is the case with many APIs, the end user. Whether or not you focus on DX desiign, your developers are always experiencing your API, and that experience may either be positive or negative."
+> "Developer experience is an extension of UX that focuses on the developer, who can either be the intermediary or, as is the case with many APIs, the end user. Whether or not you focus on DX design, your developers are always experiencing your API, and that experience may either be positive or negative."
 
-I personally love the last part: Your developers will always be experiencing your product, even when you did not put any time in your DX design. Even if your developer experience is rubbish.
+I personally love the last part: Your developers will always be experiencing your product, even when you did not put any time into your DX design. Even if your developer experience is rubbish.
 
-For all of us who have an API or other kind of developer product it's so important to realise that developers are still going to have an experience, and it's up to us to decide if that experience is a good one or a bad one.
+For all of us who have an API or another kind of developer product, it's so important to realise that developers are still going to have an experience, and it's up to us to decide if that experience is a good one or a bad one.
 
 <%= slide_image 'sins', 16 %>
 
-For any of us who have a product, our ultimate goals is to have successful users using it. For a developer product we can usually  generalize this user to have to be a successful developer.
+For those of us who have a product, our ultimate goal is to have successful users using it. For a developer product, we can usually  generalize this user to have to be a successful developer.
 
-We all start with a fresh new developer that gets introduced to our product, and then we take them on a journey to get onboarded and make their first API call, and then on the long term we hope that they stay with us as their success incrases as well.
+We all start with a fresh new developer that gets introduced to our product, and then we take them on a journey to get onboarded and make their first API call, and then on the long term, we hope that they stay with us as their success increases as well.
 
 <%= slide_image 'sins', 19 %>
 
 That middle bit, that is Developer Experience to me. That journey from first landing on your site, your developer portal, your twitter, or even meeting you in person at a booth. All the way to that successful integration, that moment when they have a successful product that uses your product. 
 
-Everthing outside of that middle scope is, to me, either developer evangelism or developer advocacy. 
+Everything outside of that middle scope is, to me, either developer evangelism or developer advocacy. 
 
 <%= slide_image 'sins', 21 %>
 
-In the middle lives your product. To me the developer experience of your product is very much driven by 2 factors: information and tooling. On the one side you have your APIs, SDKs, and other software that developers will use as tools to achieve their goals.
+In the middle lives your product. To me, the developer experience of your product is very much driven by 2 factors: information and tooling. On the one side, you have your APIs, SDKs, and other software that developers will use as tools to achieve their goals.
 
 On the other side is the documentation that supports these tools and allows developers to look up and learn every aspect of the tools you've given them
 
@@ -101,13 +101,13 @@ I don't know if you noticed, but those are 6 things. The last one is about the l
 
 <%= slide_image 'sins', 34 %>
 
-So let's kick it off with number 1, in no particular order.
+So let's kick it off, with the first sin, in no particular order.
 
 <%= slide_image 'sins', 36 %>
 
 ## #1 - Too much information.
 
-There's a concept called "Performance Overload". it comes from the idea of "Performance Load", which is the idea that when we have an object that we can peform an action on, there are 2 vectors of the difficulty we might have with that interaction.
+There's a concept called "Performance Overload". it comes from the idea of "Performance Load", which is the idea that when we have an object that we can perform an action on, there are 2 vectors of the difficulty we might have with that interaction.
 
 In the case of a door, with a handle, the 2 vectors are the physical and cognitive performance loads.
 
@@ -129,9 +129,9 @@ Now, this example wasn't so bad, as we see doors quite often and we expect doors
 
 <%= slide_image 'sins', 46 %>
 
-In this example, there's a regular door handle in the middle, but also 2 bars on each side to pull at, and 4 seemingly unrelated yet confusing signs. 
+In this example, there's a regular door handle in the middle, but also 2 bars on each side to pull at, and 4 seemingly unrelated yet confusing signs.
 
-When people encounter these kind of situations they run the risk of cognitive overload, causing them to freeze, feel blocked and frustrated, and if they can't overcome this they will give up. 
+When people encounter this kind of situation they run the risk of cognitive overload, causing them to freeze, feel blocked and frustrated, and if they can't overcome this they will give up.
 
 They will literally walk away and try a different door.
 
@@ -139,7 +139,7 @@ They will literally walk away and try a different door.
 
 And yet, we see the same thing we see when we look at some websites, like Amazon's AWS portal.
 
-I have to admit, I love amazon. I love their store, their developer services, yet this is total overload. When young developer look at this they will feel overwhelmed, intimidated, and demotivated. And they will go away and try something else like Heroku.
+I have to admit, I love Amazon. I love their store, their developer services, yet this is total overload. When young developer looks at this they will feel overwhelmed, intimidated, and demotivated. And they will go away and try something else like Heroku.
 
 <%= slide_image 'sins', 48 %>
 
@@ -151,15 +151,15 @@ There are some solutions to this, of which one is the concept called "Chunking".
 
 What is great is that when you give them multiple chunks of chunks, people are still more likely to remember a larger percentage of that information as well.
 
-Amazon does this kinda in their UI, though its debatable if this is very effective.
+Amazon does this kinda in their UI, though it's debatable if this is very effective.
 
 <%= slide_image 'sins', 50 %>
 
-When you actually go to one of their other sites, they apply a different information design concenpt: the 80/20 rule. The idea of this rule is that that users will use 20% of your product 80% of the time.
+When you actually go to one of their other sites, they apply a different information design concept: the 80/20 rule. The idea of this rule is that users will use 20% of your product 80% of the time.
 
 <%= slide_image 'sins', 51 %>
 
-On this site Amazon actually recognises that most users on AWS will use their product initially for one of a few different things, and they prioritized the things people mostly do: "spin up a Linux vurtual machine", "spin up a Windows machine", etc. 
+On this site Amazon actually recognises that most users on AWS will use their product initially for one of a few different things, and they prioritized the things people mostly do: "spin up a Linux virtual machine", "spin up a Windows machine", etc. 
 
 Those are the things most people want to do, regardless of what they want to do. So putting those things first, rather than the other 80% of features, is essential in educating developer while limiting cognitive overload.
 
@@ -180,7 +180,7 @@ It's kind of cool how low the cognitive performance load is for a fire alarm. It
 
 <%= slide_image 'sins', 57 %>
 
-Yet at the same time it has a medium level of physical load: you need to intentially press the glass with some force to break it.
+Yet at the same time, it has a medium level of physical load: you need to intentionally press the glass with some force to break it.
 
 <%= slide_image 'sins', 58 %>
 
@@ -188,49 +188,49 @@ The reason why we have that physical load requirement is to prevent abuse and ac
 
 <%= slide_image 'sins', 59 %>
 
-We can achieve the same effect in digital user interfaces with __confirmation dialogs__.
+We can achieve the same effect in digital user interfaces with __confirmation dialogues__.
 
 "Are you sure you want to continue?"
 
-The question has a low cognitive load to find an answer - "Yes, I really wanted to do this". Yet, at the same time it still prevents accidents and abuse by requiring some extra physical load to click a button, again.
+The question has a low cognitive load to find an answer - "Yes, I really wanted to do this". Yet, at the same time, it still prevents accidents and abuse by requiring some extra physical load to click a button, again.
 
 <%= slide_image 'sins', 60 %>
 
-This is a good example of putting cognitive load in the way of users for their safety. Yet, often, we also put these kind of blocks in the way of users at the wrong times. And often this is when we deal with forms.
+This is a good example of putting cognitive load in the way of users for their safety. Yet, often, we also put this kind of block in the way of users at the wrong times. And often this is when we deal with forms.
 
 <%= slide_image 'sins', 62 %>
 
-Let's take a look at this simple field asking as user for their name. Seems pretty simple right?
+Let's take a look at this simple field asking a user for their name. Seems pretty simple right?
 
-Yet, any moment that we put a question in the way of users, especially when they are required field, we raise a lot of questions in the heads of our users.
+Yet, any moment that we put a question in the way of users, especially when they are a required field, we raise a lot of questions in the heads of our users.
 
 <%= slide_image 'sins', 64 %>
 
-In this case we can ask a lot of questions about this field. Who can see this? Do I fill in my actual birth name, or can I use my married name? Can I change it later? Do you want all my names or just my first name? Can I control visibility of this name?
+In this case, we can ask a lot of questions about this field. Who can see this? Do I fill in my actual birth name, or can I use my married name? Can I change it later? Do you want all my names or just my first name? Can I control the visibility of this name?
 
 <%= slide_image 'sins', 65 %>
 
-A name might seem like an easy question, and we migth all have our stock answers,yet we ask far more complicated questions in many of our onboarding flows. 
+A name might seem like an easy question, and we might all have our stock answers, yet we ask far more complicated questions in many of our onboarding flows. 
 
 One thing I often see when I sign up for a developer product is the questions asking me what kind of user I am: "I am a developer/designer/business owner".
 
 <%= slide_image 'sins', 66 %>
 
-And again the same question  apply. Can I change this later? What if I am more both a business owner and a developer? If I pick business owner will I still get API keys? I don't know?!
+And again the same questions apply. Can I change this later? What if I am more both a business owner and a developer? If I pick business owner will I still get API keys? I don't know?!
 
 All of those questions cause developers to experience increased cognitive load. And when those questions reach a point where their capacity to deal with that cognitive load is exceeded they give up and leave.
 
 <%= slide_image 'sins', 69 %>
 
-I love how GitHub deals with these problems on their sign up form. One of the decisions they want you to make is if you want to set up an organisation as well as user account.
+I love how GitHub deals with these problems on their sign up form. One of the decisions they want you to make is if you want to set up an organisation as well as a user account.
 
-Now this is a hard question to asl, as I might not understand the concept of an organisation when I sign up to GitHub, as I have no experience with GitHub yet until I am signed up
+Now this is a hard question to ask, as I might not understand the concept of an organisation when I sign up to GitHub, as I have no experience with GitHub yet until I am signed up
 
 So I first have to understand what an org is before I can make a decision on whether I want to set one up.
 
 <%= slide_image 'sins', 71 %>
 
-This undertanding of how a product works is called a __Mental Model__. As product designers we have to make sure that the way our users think our product works is in sync with how it actually opperates. 
+This understanding of how a product works is called a __Mental Model__. As product designers, we have to make sure that the way our users think our product works is in sync with how it actually operates. 
 
 <%= slide_image 'sins', 72 %>
 
@@ -242,7 +242,7 @@ So what GH does in this situation? Well, they first off put some help text under
 
 <%= slide_image 'sins', 74 %>
 
-A more difficult question is the choice between a paid plan with private repositories, or a free plan without. This question is not optional, it's a radio button, and therefore you actually have to decide there and then.
+A more difficult question is the choice between a paid plan with private repositories or a free plan without. This question is not optional, it's a radio button, and therefore you actually have to decide there and then.
 
 It's a tough one and we can ask some of the same questions again, like "Can I change this later?".
 
@@ -250,7 +250,7 @@ It's a tough one and we can ask some of the same questions again, like "Can I ch
 
 Luckily, GitHub makes this an easy choice as they have put some text under the selection telling a user "not to worry, you can cancel or upgrade at any time". 
 
-This simple little bit of text takes the load away from the user, allowing them to postpone the decision at that time, and therefore removing that feeling that they are being forced into a choice. 
+This simple little bit of text takes the load away from the user, allowing them to postpone the decision at that time, and therefore removing that feeling that they are being forced into a choice.
 
 It allows every user to continue.
 
@@ -262,13 +262,13 @@ What I find interesting as well is that this is the second screen of GitHub's si
 
 > Progressive Disclosure: A strategy for managing information complexity in which only necessary information is requested at any given time.
 
-What GitHub has done here is to make sure that when you sign up they only asks you for a username, email, and password.
+What GitHub has done here is to make sure that when you sign up they only ask you for a username, email, and password.
 
 Nothing else.
 
 <%= slide_image 'sins', 77 %>
 
-Those questions have a very low cognitive load. I mostly know what my standard username is. What my standard email is. And we all use the same password everywhere, right? 
+Those questions have a very low cognitive load. I mostly know what my standard username is. What my standard email is. And we all use the same password everywhere, right?
 
 Right?
 
@@ -278,17 +278,17 @@ And then only after that low complexity form, after I'm signed up, only then do 
 
 ## #3 - Information Without Structure
 
-When we read a book, there's a lot of structure in a book to help us navigate. 
+When we read a book, there's a lot of structure in a book to help us navigate.
 
 <%= slide_image 'sins', 87 %>
 
-There are the page numbers, the current chapter at the top of a page, the table of content at the start of the book, and the index at the back. 
+There are the page numbers, the current chapter at the top of a page, the table of content at the start of the book, and the index at the back.
 
 We can flip to the next page just by pulling the corner, and we can flip to the previous page just by pulling the other corner.
 
 <%= slide_image 'sins', 90 %>
 
-All of these things help us understand where we are in a book. 
+All of these things help us understand where we are in a book.
 
 "What page am I on?" can be answered just by looking at the side of a book to see approximately how far through we are.
 
@@ -298,7 +298,7 @@ And finally, "Where did I come from" can be similarly explored just by looking a
 
 <%= slide_image 'sins', 91 %>
 
-All these signals are a form of __Sign Posting__ and we use it a lot online in our websites and apps.
+All these signals are a form of __Sign Posting__ and we use it a lot online on our websites and in our apps.
 
 If you look at most websites, you'll see some navigation at the top. The navigation tends to remain there even as we move across to different pages on the same site.
 
@@ -310,7 +310,7 @@ Yet, a lot of developer portals that I deal with are missing that basic structur
 
 <%= slide_image 'sins', 93 %>
 
-A great way to show users where they are within a site is with a design pattern commonly known as __breadcrumbs__. 
+A great way to show users where they are on a site is with a design pattern commonly known as __breadcrumbs__. 
 
 On this page within the Facebook developer documentation we can see that we are within the __Docs > Games__ section, and even within the page we can get an outline of all the available subsections.
 
@@ -320,7 +320,7 @@ This kind of layout goes hand in hand with a design principle called the __Gutte
 
 > Guttenberg Diagram: A diagram that describes the general pattern followed by the eyes when looking at evenly distributed, homogeneous information.
 
-For most websites this diagram will look something like this.
+For most websites, this diagram will look something like this.
 
 <%= slide_image 'sins', 95 %>
 
@@ -330,7 +330,7 @@ As you can see you get in interesting F-shape heatmap that focusses mostly on th
 
 This is why you generally find all the navigation on websites on the top and left side of the page, with the main content in the middle of the page.
 
-With this in mind it becomes obvious that to have effective signposting the placement of your navigation links in those places where people will most likely look for them is essential.
+With this in mind, it becomes obvious that to have effective signposting the placement of your navigation links in those places where people will most likely look for them is essential.
 
 Only people with very high motivation will scroll all the way to the footer and look there for the content they are looking for. They might only do so after they have given up looking in the other places.
 
@@ -356,23 +356,23 @@ And more documentation is not always better.
 
 <%= slide_image 'sins', 108 %>
 
-There is a website I recently looked at that had over 600 pages of documentation, and one of the pages had enough content for 23 printed A4 sheets.That is so much information that it becomes pretty hard to maintain and navigate.
+There is a website I recently looked at that had over 600 pages of documentation, and one of the pages had enough content for 23 printed A4 sheets. That is so much information that it becomes pretty hard to maintain and navigate.
 
 <%= slide_image 'sins', 110 %>
 
-A lot of this documentation is to explain bad UX in a product. I often see people do pretty clever things with their documentation where they might have some product which does something awesome - but with some very specfic constraints.
+A lot of this documentation is used to explain bad UX in a product. I often see people do pretty clever things with their documentation where they might have some product which does something awesome - but with some very specific constraints.
 
 To clarify this weird behaviour we then add a little warning note to inform a developer of this oddity.
 
 <%= slide_image 'sins', 112 %>
 
-Now wile this might looks like __Progressive Disclosure__ (information disclosed when it is important) that's not what's really happening here. This kind of documentation is more like __Progressive Revalation__ where we only provide people with the documentation when they run into an error and try and find a solution in the documentation.
+Now while this might look like __Progressive Disclosure__ (information disclosed when it is important) that's not what's really happening here. This kind of documentation is more like __Progressive Revelation__ where we only provide people with the documentation when they run into an error and try and find a solution in the documentation.
 
 <%= slide_image 'sins', 113 %>
 
 What ideally should be happening here is that we should be trying to solve the problem in the product. We could look at the product and ensure that it worked the way the developer expected it to. We could update the API or SDK to be more forgiving and understanding of the developer intent.
 
-With that fix in place we could actually use the documentation to please the developer with our attention to detail, not just for it to cover us when developers come to us with technical support about the inflexibility about our product.
+With that fix in place, we could actually use the documentation to please the developer with our attention to detail, not just for it to cover us when developers come to us with technical support about the inflexibility about our product.
 
 <%= slide_image 'sins', 115 %>
 
@@ -390,7 +390,7 @@ They just left a developer completely hanging. It was almost like all they wante
 
 <%= slide_image 'sins', 119 %>
 
-We are all trying to tell stories with our products. We want to tell developers that our product will save them time and money, or that it will make their life better. At the core we want to tell our customers how our products will make them more successfull.
+We are all trying to tell stories with our products. We want to tell developers that our product will save them time and money, or that it will make their life better. At the core, we want to tell our customers how our products will make them more successful.
 
 Story telling is essential when we take people on that adventure, taking them from first landing on a site all the way to making their first API call. 
 
@@ -404,7 +404,7 @@ When we compare SendGrid to Pusher we see the difference a good understanding of
 
 <%= slide_image 'sins', 122 %>
 
-...all the way to making that first API call in their preffered programming language.
+...all the way to making that first API call in their preferred programming language.
 
 <%= slide_image 'sins', 123 %>
 
@@ -416,7 +416,7 @@ Yet how many of us have a good understanding of what success means for developer
 
 <%= slide_image 'sins', 128 %>
 
-The ultimate goal is it have a successful user using our product. If your user is a business, ensuring that they are a successful business of their own can help ensure that they remain active on your product.
+The ultimate goal is to have a successful user using our product. If your user is a business, ensuring that they are a successful business of their own can help ensure that they remain active on your product.
 
 <%= slide_image 'sins', 131 %>
 
@@ -432,7 +432,7 @@ That would mean that those issues will have caused more than 12 years of reduced
 
 <%= slide_image 'sins', 136 %>
 
-I personally had this problem with Ember where thir documentation was on version 2.12, and they had implemented a nice feature where if you went to the 2.0 docs it would tell you that you were at old guides. 
+I personally had this problem with Ember where their documentation was on version 2.12, and they had implemented a nice feature where if you went to the 2.0 docs it would tell you that you were at old guides.
 
 <%= slide_image 'sins', 139 %>
 
@@ -450,21 +450,21 @@ It's so often that I see companies test their product's code, yet when it comes 
 
 ## #7 - Out of Control Tooling
 
-Many companies I deal with who do not own their own SDKs, and often they either have started the feel the pain of this, or are not aware of the problems it can cause.
+Many companies I deal with who do not own their own SDKs, and often they either have started the feel the pain of this or are not aware of the problems it can cause.
 
 <%= slide_image 'sins', 144 %>
 
-PayPal didnt use to own their own SDKs, and when I was there I was able to see the problems this caused first hand. 
+PayPal didn't use to own their own SDKs, and when I was there I was able to see the problems this caused first hand.
 
 <%= slide_image 'sins', 145 %>
 
-What PayPal ended up with, still today, is that the library at the top of the Ruby Gems search for "paypal" is a libary that is not the official PayPal one.
+What PayPal ended up with, still today, is that the library at the top of the Ruby Gems search for "paypal" is a library that is not the official PayPal one.
 
 <%= slide_image 'sins', 146 %>
 
-The official library (although it has more users) is listed below the unofficial one. They actually ended up with a lot of unofficial libariers because a lot of people developed their own when PayPal did not yet have their own libraries in place. 
+The official library (although it has more users) is listed below the unofficial one. They actually ended up with a lot of unofficial libraries because a lot of people developed their own when PayPal did not yet have their own libraries in place.
 
-It's even worse when you search for "PayPal Express Checkout" in RubyGems
+It's even worse when you search for "PayPal Express Checkout" in RubyGems.
 
 <%= slide_image 'sins', 149 %>
 
@@ -476,11 +476,11 @@ When you go to GitHub, you will find over 4000 PayPal related repositories, of w
 
 <%= slide_image 'sins', 152 %>
 
-Whhen you search for "Twitter" on GitHub you can see that for them (they also don't own their own SDKs) the problem is even worse.
+When you search for "Twitter" on GitHub you can see that for them (they also don't own their own SDKs) the problem is even worse.
 
 <%= slide_image 'sins', 153 %>
 
-It was Trystan Sokol from Square who eloquently put this problem into perspective at DevXCon SF earlier this year.
+It was Tristan Sokol from Square who eloquently put this problem into perspective at [DevXCon SF](https://2017.devxcon.com/tristan-sokol/) earlier this year.
 
 > "...in reality, whatever people can pull down from their favourite package manager is their developer experience..."
 
@@ -492,13 +492,13 @@ This is exactly the reason why the companies with some of the best Developer Exp
 
 ## Final Thoughts
 
-We might have bad days where we really want to use doors, yet fail every time we try. The doors are designed well, yet we still have trouble with them. And those are the days when we need those little bits of help, that well designed UI. 
+We might have bad days where we really want to use doors, yet fail every time we try. The doors are designed well, yet we still have trouble with them. And those are the days when we need those little bits of help, that well-designed UI. 
 
 <%= slide_image 'sins', 158 %>
 
-UX is hard, but DX is harder, way harder. We have some great tools at out dispossal though to create easy to use experiences.
+UX is hard, but DX is harder, way harder. We have some great tools at out disposal though to create easy to use experiences.
 
-The following 7 steps are my tools in creating great Developer Experiences.
+The following 7 tricks are my tools for creating great Developer Experiences.
 
 <%= slide_image 'sins', 160 %>
 
@@ -550,7 +550,7 @@ The UX bible by Don Norman, with a lot of content on doors. Don basically doesn'
 
 ### [Envisioning Information](http://amzn.to/2jfGOBM)
 
-A great book ok how to show compex information. Old but still a great book to flip through once in a while.
+A great book ok how to show complex information. Old but still a great book to flip through once in a while.
 
 <%= slide_image 'sins', 173 %>
 
