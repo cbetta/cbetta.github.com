@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title><%= title if title %><%= data.site.site_title %></title>
+    <title><%= "#{title} &raquo; " unless title.blank? %><%= data.site.site_title %></title>
     <meta name="description" content="<%= truncate(description, length: 140) %>">
     <meta name="keywords" content="<%= current_page.data.tags + ", " if current_page.data.tags %>cristiano, betta, paypal, braintree, ruby, rails, payments, developer, advocate">
 

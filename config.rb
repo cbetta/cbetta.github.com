@@ -73,9 +73,9 @@ helpers do
   end
 
   def title
-    return (current_page.data.title + " - ") if current_page.data.title
+    return (current_page.data.title) if current_page.data.title
     title = ""
-    title += (current_article.title + " - ") unless current_article.nil?
+    title += (current_article.title) unless current_article.nil?
     title
   end
 
@@ -123,7 +123,7 @@ end
 activate :search do |search|
 
   search.resources = ['blog/', 'galleries', 'talks']
-  
+
   search.fields = {
     title:   {boost: 200, store: true, required: true},
     tags:    {boost: 100, store: true, required: true},
@@ -140,10 +140,9 @@ set :layout, 'default'
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  activate :asset_hash, 
+  activate :asset_hash,
     exts: [".css", ".png", ".jpg", ".jpeg", ".webp", ".svg", ".svgz", ".js", ".gif", ".ttf", ".otf", ".woff", ".woff2", ".eot", ".map", ".json"],
     ignore: ['manifest.json']
   activate :minify_html
   activate :asset_host, host: '//d2vxwsh43haze0.cloudfront.net'
 end
-
