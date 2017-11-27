@@ -83,6 +83,6 @@ Even though this is just a first draft, I think works out quite well. As [Martin
 
 I want to reiterate that this maturity model is not something that should be used to judge documentation, rather more interestingly I think it can be used to provide a clear path for improvements. As each level builds on top of the strengths of the previous ones it can be used as a guide on how to incrementaly improve any documentation.
 
-## Hire me?
 
-I am a [freelance Developer Experience designer](https://work.betta.io). If you want to know more about my work have a look at my [portfolio](https://work.betta.io) and if you'd like for me to help improve your company's Developer Experience then most definitely reach out to me via [Twitter](https://twitter.com/cbetta) or [email](mailto:work@betta.io)!
+
+

@@ -271,6 +271,6 @@ if [ "$(date +%d)" = 01 ]; then rake letsencrypt:renew; fi
 
 That's it. although this tutorial is relatively long the code is actually really simple. The full code for this demo is on [Github](https://github.com/cbetta/sinatra-lets-encrypt-heroku-demo). There is both a `before` and `after` branch with the code before and after I added SSL respectively.
 
-## Hire me?
 
-I am a [freelance Developer Experience designer](https://work.betta.io). If you want to know more about my work have a look at my [portfolio](https://work.betta.io) and if you'd like for me to help improve your company's Developer Experience then most definitely reach out to me via [Twitter](https://twitter.com/cbetta) or [email](mailto:work@betta.io)!
+
+

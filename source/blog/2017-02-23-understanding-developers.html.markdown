@@ -137,6 +137,6 @@ Sounds tough, right? Well the good thing is that I've never heard a developer sa
 
 In my next post I will go over the different documentation types and how they can help you target these different types of developers. Meanwhile, remember that different developers have different needs, and providing documentation for developers at each level is essential.
 
-## Hire me?
+
 
 I am a [freelance Developer Experience consultant](https://work.betta.io). If you want to know more about my work have a look at my [portfolio](https://work.betta.io) and if you'd like for me to help improve your company's Developer Experience then most definitely reach out to me via [Twitter](https://twitter.com/cbetta) or [email](mailto:cristiano@betta.io)!
