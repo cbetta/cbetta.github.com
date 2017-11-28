@@ -5,15 +5,15 @@ tags: information, developer experience
 icon: newspaper
 ---
 
-I've been in Developer Relations for a few years now, initially while I was at PayPal and more recently through my own company, [Work Betta](https://betta.io). One of the main things I've learned about this industry is that it takes a team to do it well, and the number of different fields of expertise required are pretty mind-boggling.
+I've been in Developer Relations for a few years now, initially while I was at PayPal and more recently through my own company, [Work Betta](https://betta.io). One of the main things I've learned about this industry is that it takes a team to do it well, and the number of different fields of expertise required is pretty mind-boggling.
 
-Although I've personally been highly focussed on helping to define the field of Developer Experience, there are some amazing people out there focussing on Developer Marketing, Community, Events, and even overall Developer Relations Strategy. Many of these people come together at events like [DevRelCon and DevXCon](https://devrelcon.net/) each year, and to some extend I feel like they are my closest colleagues.
+Although I've personally been highly focussed on helping to define the field of Developer Experience, there are some amazing people out there focussing on Developer Marketing, Community, Events, and even overall Developer Relations Strategy. Many of these people come together at events like [DevRelCon and DevXCon](https://devrelcon.net/) each year, and to some extent I feel like they are my closest colleagues.
 
 [![Hoopy](/images/blog/2017/joining-hoopy/logo.jpg){:.ui.image.fluid.bordered}](https://hoopy.io)
 
 ## Joining forces
 
-As a result, over the past year I've been working very closely with [Matthew Revell](https://twitter.com/matthewrevell?lang=en) at [Hoopy](https://hoopy.io), working for [clients](https://hoopy.io) together, delivering [training](https://london-2017.devrel.net/#training) together, and just generally using each other to bounce ideas and opinions off. Matthew has over 15 years of experience in developer relations, and together we've been pushing the boundaries of what we are able to deliver to our clients.
+As a result, over the past year, I've been working very closely with [Matthew Revell](https://twitter.com/matthewrevell?lang=en) at [Hoopy](https://hoopy.io), working for [clients](https://hoopy.io) together, delivering [training](https://london-2017.devrel.net/#training) together, and just generally using each other to bounce ideas and opinions off. Matthew has over 15 years of experience in developer relations, and together we've been pushing the boundaries of what we are able to deliver to our clients.
 
 Today, we’re excited to announce that I, and Work Betta, will be fully joining forces with Hoopy. Together, we’ll provide a full end-to-end developer experience, developer relations and developer marketing consultancy to our existing and new clients.
 

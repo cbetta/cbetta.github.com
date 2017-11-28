@@ -1,6 +1,8 @@
 <% wrap_layout :default do %>
   <%= partial 'partials/article-title', locals: { article: current_page } %>
-  <%= yield %>
+  <div class="article-body">
+    <%= yield %>
+  </div>
   <%= partial 'partials/hoopy' %>
   <%= partial 'partials/newsletter' %>
   <%= partial 'partials/article-related', locals: { current_page: current_page } %>
