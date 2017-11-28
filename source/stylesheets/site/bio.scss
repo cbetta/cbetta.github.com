@@ -1,0 +1,21 @@
+#bio {
+  margin-bottom: 3em !important;
+}
+
+.newsletter {
+  margin: 5em 0 !important;
+}
+
+@media (min-width: 661px) {
+  #bio {
+    .name {
+      display: none;
+    }
+
+    .description {
+      font-size: 1.2em;
+      line-height: 1.6em;
+      padding-top: 2.5em;
+    }
+  }
+}

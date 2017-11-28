@@ -21,6 +21,17 @@
   }
 }
 
+@media(min-width: 768px) {
+  #desktop-menu {
+    margin-left: 0em !important;
+
+    .container {
+      width: 740px;
+      max-width: 740px !important;
+    }
+  }
+}
+
 @media (max-width: 660px) {
   #desktop-menu {
     .item, .menu {
