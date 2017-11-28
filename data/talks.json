@@ -1,14 +1,6 @@
 {
   "future" : [
     {
-      "title" : "Track MC",
-      "date" : "October 20, 2017",
-      "conference" : "Hackference, Birmingham",
-      "conference_url" : "https://2017.hackference.co.uk/",
-      "icon" : "comment outline",
-      "country" : "gb"
-    },
-    {
       "title" : "The Seven Deadly Sins of Developer Onboarding",
       "date" : "December 4, 2017",
       "conference" : "API The Docs, Amsterdam",
@@ -43,6 +35,14 @@
     }
   ],
   "past" : [
+    {
+      "title" : "Track MC",
+      "date" : "October 20, 2017",
+      "conference" : "Hackference, Birmingham",
+      "conference_url" : "https://2017.hackference.co.uk/",
+      "icon" : "comment outline",
+      "country" : "gb"
+    },
     {
       "title" : "The Seven Deadly Sins of Developer Onboarding",
       "date" : "July 29, 2017",
