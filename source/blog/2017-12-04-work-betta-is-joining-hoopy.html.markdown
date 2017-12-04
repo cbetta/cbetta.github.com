@@ -1,6 +1,6 @@
 ---
 title: Work Betta is joining Hoopy!
-date: 2017-11-27 17:00 GMT
+date: 2017-12-04 11:00 GMT
 tags: information, developer experience
 icon: newspaper
 ---
