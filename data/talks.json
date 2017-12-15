@@ -1,14 +1,15 @@
 {
   "future" : [
     {
-      "title" : "The Seven Deadly Sins of Developer Onboarding",
-      "date" : "December 4, 2017",
-      "conference" : "API The Docs, Amsterdam",
-      "conference_url" : "http://apithedocs.org/",
-      "icon" : "university",
-      "country" : "nl",
-      "url" : "https://speakerdeck.com/cbetta/the-7-deadly-sins-of-developer-experience-devrelcon-tokyo"
-    },
+      "title" : "TBA",
+      "date" : "May 8-9, 2018",
+      "conference" : "Codemotion, Amsterdam",
+      "conference_url" : "https://amsterdam2018.codemotionworld.com/",
+      "icon" : "comments outline",
+      "country" : "nl"
+    }
+  ],
+  "past" : [
     {
       "title" : "A Live API Teardown",
       "date" : "December 6, 2017",
@@ -32,9 +33,16 @@
       "conference_url" : "https://london-2017.devrel.net/",
       "icon" : "comments outline",
       "country" : "gb"
-    }
-  ],
-  "past" : [
+    },
+    {
+      "title" : "The Seven Deadly Sins of Developer Onboarding",
+      "date" : "December 4, 2017",
+      "conference" : "API The Docs, Amsterdam",
+      "conference_url" : "http://apithedocs.org/",
+      "icon" : "university",
+      "country" : "nl",
+      "url" : "https://betta.io/blog/2017/11/10/the-seven-sins-of-developer-experience/"
+    },
     {
       "title" : "Track MC",
       "date" : "October 20, 2017",
