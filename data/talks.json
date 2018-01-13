@@ -1,6 +1,14 @@
 {
   "future" : [
     {
+      "title" : "The Seven Deadly Sins of Developer Onboarding",
+      "date" : "January 30-31, 2018",
+      "conference" : "APIDays, Paris",
+      "conference_url" : "http://www.apidays.io/events/paris-2017"
+      "icon" : "university",
+      "country" : "fr"
+    },
+    {
       "title" : "TBA",
       "date" : "May 8-9, 2018",
       "conference" : "Codemotion, Amsterdam",
@@ -16,7 +24,8 @@
       "conference" : "DevRelCon, London",
       "conference_url" : "https://london-2017.devrel.net/",
       "icon" : "tv",
-      "country" : "gb"
+      "country" : "gb",
+      "url" : "https://london-2017.devrel.net/"
     },
     {
       "title" : "Track MC",
@@ -24,7 +33,8 @@
       "conference" : "DevRelCon, London",
       "conference_url" : "https://london-2017.devrel.net/",
       "icon" : "comment outline",
-      "country" : "gb"
+      "country" : "gb",
+      "url" : "https://london-2017.devrel.net/"
     },
     {
       "title" : "Developer Experience & Event Workshop",
@@ -32,7 +42,8 @@
       "conference" : "DevRelCon, London",
       "conference_url" : "https://london-2017.devrel.net/",
       "icon" : "comments outline",
-      "country" : "gb"
+      "country" : "gb",
+      "url" : "https://london-2017.devrel.net/"
     },
     {
       "title" : "The Seven Deadly Sins of Developer Onboarding",
@@ -49,7 +60,8 @@
       "conference" : "Hackference, Birmingham",
       "conference_url" : "https://2017.hackference.co.uk/",
       "icon" : "comment outline",
-      "country" : "gb"
+      "country" : "gb",
+      "url" : "https://2017.hackference.co.uk/"
     },
     {
       "title" : "The Seven Deadly Sins of Developer Onboarding",
@@ -127,7 +139,7 @@
       "title" : "Developer Experience: The LEGO Way",
       "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
       "date" : "February 28-March 1, 2017",
-      "conference" : "APIdays, Sydney",
+      "conference" : "APIDays, Sydney",
       "conference_url" : "http://au.apidays.io/",
       "icon" : "space shuttle",
       "country" : "au"
@@ -136,7 +148,7 @@
       "title" : "Developer Experience: The LEGO Way",
       "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
       "date" : "December 13, 2016",
-      "conference" : "APIDays Paris, London",
+      "conference" : "APIDays, Paris",
       "conference_url" : "http://www.apidays.io/events/paris-2016",
       "icon" : "space shuttle",
       "country" : "gb"
@@ -325,7 +337,7 @@
       "title" : "Hackathons: Best Practices From experience",
       "url" : "http://www.slideshare.net/cbetta/hackathons-best-practices-from-experience",
       "date" : "May 5-6, 2014",
-      "conference" : "API Days, Berlin",
+      "conference" : "APIDays, Berlin",
       "conference_url" : "http://www.wipfactory.com/",
       "icon" : "lab",
       "country" : "de"
