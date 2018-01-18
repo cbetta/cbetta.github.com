@@ -9,7 +9,23 @@
       "country" : "fr"
     },
     {
-      "title" : "TBA",
+      "title" : "A Live API Teardown",
+      "date" : "January 30-31, 2018",
+      "conference" : "APIDays, Paris",
+      "conference_url" : "http://www.apidays.io/events/paris-2017",
+      "icon" : "university",
+      "country" : "fr"
+    },
+    {
+      "title" : "Attendee",
+      "date" : "February 3-4, 2018",
+      "conference" : "FOSDEM, Brussels",
+      "conference_url" : "https://fosdem.org/2018/",
+      "icon" : "gear",
+      "country" : "be"
+    },
+    {
+      "title" : "The Seven Deadly Sins of Developer Onboarding",
       "date" : "May 8-9, 2018",
       "conference" : "Codemotion, Amsterdam",
       "conference_url" : "https://amsterdam2018.codemotionworld.com/",
