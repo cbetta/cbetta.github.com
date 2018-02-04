@@ -42,4 +42,12 @@ h1 {
     width: 120% !important;
     max-width: 120% !important;
   }
+
+  .ui.segment > p > .ui.fluid.image {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  } 
 }
