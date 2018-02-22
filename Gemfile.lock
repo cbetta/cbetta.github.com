@@ -20,7 +20,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     ansi (1.5.0)
     awesome_print (1.8.0)
-    backports (3.11.0)
+    backports (3.11.1)
     builder (3.2.3)
     coffee-script (2.4.1)
       coffee-script-source
@@ -40,7 +40,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.1)
-    ffi (1.9.18)
+    ffi (1.9.21)
     fog-aws (2.0.0)
       fog-core (~> 1.38)
       fog-json (~> 1.0)
@@ -151,9 +151,9 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.3.0)
-    minitest (5.11.1)
+    minitest (5.11.3)
     multi_json (1.13.1)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
@@ -162,11 +162,11 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.12.1)
-    public_suffix (3.0.1)
-    rack (2.0.3)
+    public_suffix (3.0.2)
+    rack (2.0.4)
     rack-livereload (0.3.16)
       rack
-    rails-assets-jquery (3.2.1)
+    rails-assets-jquery (3.3.1)
     rails-assets-lightbox2 (2.10.0)
       rails-assets-jquery (> 2)
     rails-assets-semantic (2.2.13)
@@ -193,13 +193,13 @@ GEM
     turbolinks (5.1.0)
       turbolinks-source (~> 5.1)
     turbolinks-source (5.1.0)
-    tzinfo (1.2.4)
+    tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.4)
+    unf_ext (0.0.7.5)
 
 PLATFORMS
   ruby
@@ -208,7 +208,7 @@ DEPENDENCIES
   awesome_print
   builder
   kramdown
-  middleman (= 4.2.1)
+  middleman
   middleman-blog
   middleman-cloudfront!
   middleman-disqus
@@ -228,7 +228,7 @@ DEPENDENCIES
   turbolinks
 
 RUBY VERSION
-   ruby 2.4.2p198
+   ruby 2.5.0p0
 
 BUNDLED WITH
-   1.16.0
+   1.16.1

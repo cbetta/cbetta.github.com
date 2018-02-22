@@ -7,6 +7,32 @@
       "conference_url" : "https://amsterdam2018.codemotionworld.com/",
       "icon" : "comments outline",
       "country" : "nl"
+    },
+    {
+      "title" : "Developer Experience: The LEGO Way",
+      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
+      "date" : "April 22, 2018",
+      "conference" : "DevRelCon China, Shanghai",
+      "conference_url" : "https://devrelcon.net/china/",
+      "icon" : "space shuttle",
+      "country" : "cn"
+    },
+    {
+      "title" : "Talk TBD",
+      "date" : "June 4-5, 2017",
+      "conference" : "DevXcon, San Francisco",
+      "conference_url" : "https://2018.devxcon.com/",
+      "icon" : "code",
+      "country" : "us"
+    },
+    {
+      "title" : "Workshop TBD",
+      "date" : "June 6, 2018",
+      "conference" : "DevXcon, San Francisco",
+      "conference_url" : "https://2018.devxcon.com/",
+      "icon" : "comments outline",
+      "country" : "us",
+      "url" : "https://2018.devxcon.com/"
     }
   ],
   "past" : [

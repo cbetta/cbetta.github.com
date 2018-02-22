@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
-ruby '2.4.2'
+ruby '2.5.0'
 
 gem "builder"
-gem "middleman", '4.2.1'
+gem "middleman"
 gem "middleman-blog"
 gem "middleman-cloudfront", github: 'andrusha/middleman-cloudfront'
 gem "middleman-disqus"
