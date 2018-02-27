@@ -6,9 +6,9 @@
     .header
       Subscribe to new articles
     %p
-      No more than 2 updates a month
+      No more than 1 update a month. Most likely way fewer.
 .ui.attached.segment
-  %form.ui.mini.form{:action => "https://tinyletter.com/bettaio", :method => "post", :onsubmit => "window.open('https://tinyletter.com/bettaio', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true", :target => "popupwindow"}
+  %form.ui.mini.form{:action => "http://dx.betta.io/email_subscribers", :method => "post", :onsubmit => "window.open('http://dx.betta.io/email_subscribers, 'popupwindow', 'scrollbars=yes,width=800,height=600');return true", :target => "popupwindow"}
     .field
       .ui.action.input
         %input#tlemail{:placeholder => "Email Address", :name => "email", :type => "text"}
