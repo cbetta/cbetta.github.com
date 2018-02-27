@@ -15,6 +15,9 @@
       },
       "GitHub" : {
         "image" : "/images/dx/github/github-5.png"
+      },
+      "Heroku" : {
+        "image" : "/images/dx/heroku/heroku-26.png"
       }
     }
   },
@@ -31,6 +34,12 @@
       },
       "Stripe" : {
         "image" : "/images/dx/stripe/stripe-3.gif"
+      },
+      "Heroku / 1" : {
+        "image" : "/images/dx/heroku/heroku-2.gif"
+      },
+      "Heroku / 2" : {
+        "image" : "/images/dx/heroku/heroku-3.gif"
       }
     }
   },
@@ -83,6 +92,18 @@
       },
       "Twilio / 11" : {
         "image" : "/images/dx/twilio/twilio-21.png"
+      },
+      "Heroku / 1" : {
+        "image" : "/images/dx/heroku/heroku-8.png"
+      },
+      "Heroku / 2" : {
+        "image" : "/images/dx/heroku/heroku-10.png"
+      },
+      "Heroku / 3" : {
+        "image" : "/images/dx/heroku/heroku-11.png"
+      },
+      "Heroku / 4" : {
+        "image" : "/images/dx/heroku/heroku-12.png"
       }
     }
   },
@@ -99,6 +120,12 @@
       },
       "Twilio" : {
         "image" : "/images/dx/twilio/twilio-28.png"
+      },
+      "Heroku / 1" : {
+        "image" : "/images/dx/heroku/heroku-27.png"
+      },
+      "Heroku / 2" : {
+        "image" : "/images/dx/heroku/heroku-28.png"
       }
     }
   },
@@ -118,6 +145,9 @@
       },
       "GitHub" : {
         "image" : "/images/dx/github/github-47.png"
+      },
+      "Heroku" : {
+        "image" : "/images/dx/heroku/heroku-22.png"
       }
     }
   },
@@ -137,6 +167,15 @@
       },
       "Twilio" : {
         "image" : "/images/dx/twilio/twilio-32.png"
+      },
+      "Heroku / 1" : {
+        "image" : "/images/dx/heroku/heroku-23.png"
+      },
+      "Heroku / 2" : {
+        "image" : "/images/dx/heroku/heroku-24.png"
+      },
+      "Heroku / 3" : {
+        "image" : "/images/dx/heroku/heroku-25.png"
       }
     }
   },
@@ -159,6 +198,9 @@
       },
       "GitHub" : {
         "image" : "/images/dx/github/github-1.png"
+      },
+      "Heroku" : {
+        "image" : "/images/dx/heroku/heroku-26.png"
       }
     }
   },
@@ -186,6 +228,9 @@
       "GitHub" : {
         "image" : "/images/dx/github/github-50.png",
         "preview" : true
+      },
+      "Heroku" : {
+        "image" : "/images/dx/heroku/heroku-29.png"
       }
     }
   }
