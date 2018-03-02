@@ -102,6 +102,9 @@ Heroku's Dev Center oddly also requires me to authorize access to my Heroku (isn
 
 This page could really do with an automatic, explicit flow, or at least a more clear message as to what is happening here.
 
+I've been informed by Heroku that this was indeed supposed to be a implicit authorization, and the issue has been resolved. Apparently I caught a regression, and tests have been put in place to stop this from happening again.
+{:.ui.warning.message}
+
 For now though, I just dig in and follow the purple button road to see the Wizard.
 
 <%= dx_image 'heroku', 12, 'Getting started with Heroku with Node.js' %>
@@ -202,7 +205,7 @@ The reference documentation was a bit hard to find, and sparse, though interesti
 * __Exploration:__ The top of the homepage is very generic, featuring a carousel of loosely connected content. Clearly, this is a battle for the "above the fold" by various stakeholders, with little understanding about the users landing on these pages.
 * __Onboarding:__ There are quite a few questions in the first signup form that could have been moved to a second step. These questions are potentially blocking, only used for marketing purposes, provided without much context, and not used in next steps to improve the onboarding experience. After signup the user has not logged in automatically, instead requiring the user to verify their email address before continuing.
 * __First use experience:__ After signup, the user is not automatically directed to a Get Started Guide in their programming language of choice. Instead, they are provided with the choice of languages again, as well as a very prominent button that will take them away from the Get Started Guides.
-* __Developer portal:__ When a developer decided to proceed to a Get Started Guide they are provided with an OAuth flow to allow the developer documentation access to their Heroku account. This is done for good reasons, though poorly explained, leaving the user with little context.
+* <del>__Developer portal__: When a developer decided to proceed to a Get Started Guide they are provided with an OAuth flow to allow the developer documentation access to their Heroku account. This is done for good reasons, though poorly explained, leaving the user with little context.</del>
 * __Reference:__ Although the reference documentation exists, it's relatively hard to find and sparse in places. The CLI reference is not much more than can be found by running the `--help` flag on the CLI tool, and most of the parameters are not given much detail. A user would have to find the corresponding Platform API reference for more detail on the parameters.
 * __Samples:__ Although the CLI has been engineered to allow for cURL commands to be made without authentication, most cURL commands still don't run as-is without any modifications. This is disappointing, as the developer portal is clearly a dynamically generated document, and as such ensuring that these API calls were runnable by simple copy-paste should be achievable.
 
