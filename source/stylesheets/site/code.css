@@ -1,15 +1,18 @@
-.highlight {
-  margin: 2em 0;
-  overflow: scroll;
-}
-
 .highlight code {
   line-height: 1.5em;
   font-size: 14px;
 }
 
-code {
+p > code {
   background-color: #f0f0f0;
   padding: 0 0.3em;
   display: inline-block;
+}
+
+.highlight pre.highlight {
+  overflow-x: auto;
+}
+
+.highlight pre.highlight code {
+  margin-bottom: -1em;
 }
