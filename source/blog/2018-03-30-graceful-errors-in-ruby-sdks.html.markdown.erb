@@ -45,12 +45,10 @@ response = sendgrid.client.alerts.get()
 #     "updated_at":1472221122}]
 
 # Finally, let's grab the ID for the first alert
-JSON.parse(response.body)[0]['id']
+response.parsed_body[0]['id']
 ~~~
 
-The fact that the SendGrid SDK doesn't return parsed JSON is already a big
-red flag, but even at this point the `.body` attribute returns valid JSON, so
-the command only fails when trying to fetch the ID.
+When we run this, we might be surprised to see the following surprising result.
 
 ~~~sh
 Traceback (most recent call last):
