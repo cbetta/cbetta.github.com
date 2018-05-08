@@ -1,15 +1,6 @@
 {
   "future" : [
     {
-      "title" : "Developer Experience: The LEGO Way",
-      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
-      "date" : "April 22, 2018",
-      "conference" : "DevRelCon China, Shanghai",
-      "conference_url" : "https://devrelcon.net/china/",
-      "icon" : "space shuttle",
-      "country" : "cn"
-    },
-    {
       "title" : "Developer Experience and Your Library: The LEGO Way",
       "date" : "May 8-9, 2018",
       "conference" : "Codemotion, Amsterdam",
@@ -18,15 +9,7 @@
       "country" : "nl"
     },
     {
-      "title" : "Talk TBD",
-      "date" : "June 4-5, 2017",
-      "conference" : "DevXcon, San Francisco",
-      "conference_url" : "https://2018.devxcon.com/",
-      "icon" : "code",
-      "country" : "us"
-    },
-    {
-      "title" : "Workshop TBD",
+      "title" : "DX & Events Workshop",
       "date" : "June 6, 2018",
       "conference" : "DevXcon, San Francisco",
       "conference_url" : "https://2018.devxcon.com/",
@@ -36,6 +19,15 @@
     }
   ],
   "past" : [
+    {
+      "title" : "Developer Experience: The LEGO Way",
+      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
+      "date" : "April 22, 2018",
+      "conference" : "DevRelCon China, Shanghai",
+      "conference_url" : "https://devrelcon.net/china/",
+      "icon" : "space shuttle",
+      "country" : "cn"
+    },
     {
       "title": "The Seven Deadly Sins of Developer Onboarding",
       "date": "January 30-31, 2018",
