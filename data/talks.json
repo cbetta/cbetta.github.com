@@ -1,14 +1,6 @@
 {
   "future" : [
     {
-      "title" : "Developer Experience and Your Library: The LEGO Way",
-      "date" : "May 8-9, 2018",
-      "conference" : "Codemotion, Amsterdam",
-      "conference_url" : "https://amsterdam2018.codemotionworld.com/",
-      "icon" : "comments outline",
-      "country" : "nl"
-    },
-    {
       "title" : "DX & Events Workshop",
       "date" : "June 6, 2018",
       "conference" : "DevXcon, San Francisco",
@@ -16,9 +8,27 @@
       "icon" : "comments outline",
       "country" : "us",
       "url" : "https://2018.devxcon.com/"
-    }
+    },
+    {
+      "title" : "Developer Experience and Your Library: The LEGO Way",
+      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
+      "date" : "July 16, 2018",
+      "conference" : "London Web Standards, London",
+      "conference_url" : "http://londonwebstandards.org/",
+      "icon" : "space shuttle",
+      "country" : "gb"
+    },
   ],
   "past" : [
+    {
+      "title" : "Developer Experience and Your Library: The LEGO Way",
+      "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
+      "date" : "May 8-9, 2018",
+      "conference" : "Codemotion, Amsterdam",
+      "conference_url" : "https://amsterdam2018.codemotionworld.com/",
+      "icon" : "space shuttle",
+      "country" : "nl"
+    },
     {
       "title" : "Developer Experience: The LEGO Way",
       "url" : "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
