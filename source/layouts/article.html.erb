@@ -3,8 +3,6 @@
   <div class="article-body">
     <%= yield %>
   </div>
-  <%= partial 'partials/hoopy' %>
-  <%= partial 'partials/newsletter' %>
   <%= partial 'partials/article-related', locals: { current_page: current_page } %>
   <%= disqus %>
 <% end %>

@@ -51,11 +51,6 @@ description: >
         = link_to article.title, article, class: 'header'
         .description= article.date.strftime('%A %B %e, %Y')
 
-.ui.center.aligned.grid.newsletter
-  %a.ui.secondary.labeled.icon.basic.button{ href: '/blog/' }
-    %i.icon.inbox
-    Subscribe to Articles
-
 - if data.talks.future.count > 0
   %h2.ui.horizontal.divider
     %a{href: '/talks'} Upcoming Events
