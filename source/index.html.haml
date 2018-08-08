@@ -1,15 +1,8 @@
 ---
 description: >
-  I'm a Developer Experience consultant and designer. I help companies to
-  improve their developer onboarding, documentation, and tooling. I provide
-  strategy, audits, training, and design for companies with developer products who feel
-  the passion to deliver their developers the best experience possible.
-
-  I currently work at Work Betta and Hoopy - the developer relations and
-  experience consultancy, Previously I've worked at PayPal/Braintree and various
-  startups. If you're interested in improving your Developer Experience,
-  Marketing, or overal Developer Relations strategy, then drop me an email
-  today for a free initial consultation.
+  I'm a Senior Developer Advocate at Box, and a Developer Experience enthousiast. 
+  In the past I've helped companies to improve their developer onboarding, documentation, 
+  and tooling. My current role is to help grow the Box Platform into international markets.
 ---
 
 #bio.ui.grid
@@ -21,24 +14,19 @@ description: >
 
   .ui.sixteen.wide.mobile.column.eleven.wide.tablet.column.eleven.wide.computer.column
     %p.description
-      Developer Experience designer
+      Senior Developer Advocate at 
+      %a{ href: 'https://developer.box.com' } Box
       %i.small.star.icon
-      Onboarding, documentation, and tooling
+      Developer Experience enthousiast focussing on developer onboarding, documentation, and tooling
       %i.small.star.icon
-      Contractor through
-      %a{href: "https://work.betta.io"} Work Betta
-      = "- a"
+      Associate Consultant at
       %a{href: "https://hoopy.io"} Hoopy
-      partner company
       %i.small.star.icon
       %a{href: "https://hoopy.io"} The Developer Relations Consultancy
       %i.small.star.icon
-      Strategy, audits, and training
+      Previously at PayPal, Braintree, and Work Betta
       %i.small.star.icon
-      Previously at PayPal/Braintree
-      %i.small.star.icon
-      Get a
-      %a{ href: "mailto:cristiano@hoopy.io" } free initial consultation
+      Fan of Javascript and Ruby
 
 %h2.ui.horizontal.divider
   %a{href: '/blog'} Highlights from the blog
@@ -67,5 +55,21 @@ description: >
               = talk.conference
           .description= talk.date
 
+
 %h2.ui.horizontal.divider
   %a{href: '/talks'}  Past events
+
+.ui.relaxed.divided.list
+  - data.talks.past.first(5).each_with_index do |talk, i|
+    .item
+      %i.large.middle.aligned.icon.icon-fixed-width{class: talk.icon }
+      .content
+        = link_to talk.title, talk.url, class: 'header'
+        %small
+          = link_to talk.conference_url do
+            %i.flag{ class: talk.country }
+            = talk.conference
+        .description= talk.date
+
+  %h2.ui.horizontal.divider
+    %a{href: '/talks'}  More past events

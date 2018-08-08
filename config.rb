@@ -83,7 +83,7 @@ helpers do
     if current_page.data.image
       data.site.root+image_path(current_page.data.image)
     else
-      data.site.root+image_path('cbetta.jpg')
+      data.site.root+image_path('cbetta-letters.jpg')
     end
   end
 end
