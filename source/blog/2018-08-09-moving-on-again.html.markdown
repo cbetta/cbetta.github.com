@@ -1,6 +1,6 @@
 ---
 title: "Moving on... again"
-date: 2018-08-07 12:00 BST
+date: 2018-08-09 12:00 BST
 tags: personal
 icon: comment outline
 ---
