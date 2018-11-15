@@ -1,5 +1,42 @@
 {
-  "future" : [
+  "future" : [],
+  "past" : [
+    {
+      "title": "A Live API Teardown",
+      "date": "Nov 9, 2018",
+      "conference": "API The Docs, London",
+      "conference_url": "https://apithedocs.org/london2018",
+      "icon": "university",
+      "country": "gb",
+      "url": "https://apithedocs.org/london2018"
+    },
+    {
+      "title": "Track MC",
+      "date": "Nov 8, 2018",
+      "conference": "DevRelCon, London",
+      "conference_url": "https://london-2018.devrel.net/",
+      "icon" : "comment outline",
+      "country": "gb",
+      "url": "https://london-2018.devrel.net/"
+    },
+    {
+      "title": "DX & Events Workshop",
+      "date": "Nov 6, 2018",
+      "conference": "DevRelCon, London",
+      "conference_url": "https://london-2018.devrel.net/",
+      "icon": "comments outline",
+      "country": "gb",
+      "url": "https://london-2018.devrel.net/"
+    },
+    {
+      "title": "A Live API Teardown",
+      "date": "Sept 24-26, 2018",
+      "conference": "API Strategy & Practice, Nashville",
+      "conference_url": "https://events.linuxfoundation.org/events/apistrat-2018/program/schedule/",
+      "icon": "university",
+      "country": "us",
+      "url": "https://events.linuxfoundation.org/events/apistrat-2018/program/keynote_speakers/"
+    },
     {
       "title": "The Seven Deadly Sins of Developer Onboarding",
       "date": "September 3-4, 2018",
@@ -18,8 +55,6 @@
       "country": "us",
       "url": "https://events.linuxfoundation.org/events/apistrat-2018/program/keynote_speakers/"
     }
-  ],
-  "past" : [
     {
       "title": "Developer Experience and Your Library: The LEGO Way",
       "url": "/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
