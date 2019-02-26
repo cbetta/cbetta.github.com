@@ -1,5 +1,15 @@
 {
-  "future" : [],
+  "future" : [
+    {
+      "title": "A Live API Teardown",
+      "date": "Mar 9, 2019",
+      "conference": "Public Relations 101 for Developer Advocates",
+      "conference_url": "https://tokyo-2019.devrel.net/",
+      "icon": "bullhorn",
+      "country": "jp",
+      "url": "https://tokyo-2019.devrel.net/"
+    }
+  ],
   "past" : [
     {
       "title": "A Live API Teardown",
