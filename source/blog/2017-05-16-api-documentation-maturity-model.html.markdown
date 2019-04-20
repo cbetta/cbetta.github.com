@@ -33,7 +33,7 @@ At the next level the documentation is fleshed out into separate documentation t
 </div>
 
 
-By providing a better information architecture in the documentation it becomes easier for developers to find the right documentation for them. As I pointed out [in a previous post](http://localhost:4567/blog/2017/05/15/api-documentation-maturity-model/), the developer journey consists of a few different steps and allowing developers to find the right step for them is essential to a great experience.
+By providing a better information architecture in the documentation it becomes easier for developers to find the right documentation for them. As I pointed out [in a previous post](/blog/2017/05/15/api-documentation-maturity-model/), the developer journey consists of a few different steps and allowing developers to find the right step for them is essential to a great experience.
 
 In essence, level 1 documentation __reduces complexity__ by dividing the documentation into various documentation types. With this in place each documentation type can __own the educational goals__ of that part of the developer experience.
 
